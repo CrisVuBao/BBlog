@@ -6,6 +6,7 @@ namespace BBlogApi.DTOs
 {
 	public class PostDto
 	{
+		public int PostId { get; set; }
 		public string Title { get; set; }
 		public string BriefContent { get; set; } // mô tả ngắn
 		public string Content { get; set; }
@@ -17,7 +18,7 @@ namespace BBlogApi.DTOs
 
 		[ForeignKey("TopicDetailId")]
 		public int CategoryId { get; set; }
-		public int UserId { get; set; }
-		//public Account AccountUser { get; set; }
+		//public string? UserId { get; set; }
+		public Account AccountUser { get; set; }
 	}
 }
