@@ -19,7 +19,7 @@ namespace BBlogApi.Models
 
         [ForeignKey("TopicDetailId")]
         public int CategoryId { get; set; }
-		public int UserId { get; set; }
+		public string? UserId { get; set; }
         //public Account AccountUser { get; set; }
 	}
 }

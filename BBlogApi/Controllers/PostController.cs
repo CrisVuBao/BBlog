@@ -27,7 +27,7 @@ namespace BBlogApi.Controllers
 		}
 
 		// Get
-		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Member")]
 		[HttpGet("GetAllPost")]
         public async Task<ActionResult> GetAllPost()
         {
@@ -71,9 +71,9 @@ namespace BBlogApi.Controllers
             } catch { return BadRequest(); }
         }
 
-        // Add
-        [Authorize]
-        [HttpPost("AddPost")]
+		// Add
+		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+		[HttpPost("AddPost")]
         public async Task<ActionResult<Post>> AddPost(PostDto postDto)
         {
             try
@@ -87,7 +87,8 @@ namespace BBlogApi.Controllers
            
         }
 
-        [HttpPut]
+		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+		[HttpPut]
         public async Task<ActionResult<Post>> UpdatePost(Post post)
         {
             try
@@ -100,8 +101,9 @@ namespace BBlogApi.Controllers
 
         }
 
-        // Delete
-        [HttpDelete("{id}")]
+		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+		// Delete
+		[HttpDelete("{id}")]
         public async Task<ActionResult> DeletePost(int id)
         {
             try

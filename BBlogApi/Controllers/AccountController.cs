@@ -1,14 +1,19 @@
 ﻿using AutoMapper;
 using BBlogApi.Data;
 using BBlogApi.DTOs;
+using BBlogApi.Extensions;
 using BBlogApi.Helpers;
 using BBlogApi.Models;
 using BBlogApi.Repository.IRepository;
 using BBlogApi.Services;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace BBlogApi.Controllers
 {
@@ -19,19 +24,44 @@ namespace BBlogApi.Controllers
 		private readonly UserManager<Account> _userManager;
 		private readonly IMapper _mapper;
 		private readonly TokenService _tokenService;
+		private readonly IHttpContextAccessor _httpContextAccessor;
+		private readonly BlogContext _blogContext;
 
-		public AccountController(UserManager<Account> userManager, IMapper mapper, TokenService tokenService)
+		public AccountController(UserManager<Account> userManager, IMapper mapper, TokenService tokenService, IHttpContextAccessor httpContextAccessor, BlogContext blogContext)
 		{
 			_userManager = userManager;
 			_mapper = mapper;
 			_tokenService = tokenService;
+			_httpContextAccessor = httpContextAccessor;
+			_blogContext = blogContext;
 		}
 
-		[HttpGet("CurrentUser")]
-		public async Task<ActionResult> CurrentUser()
+		[HttpGet("GetAllUser")]
+		public async Task<ActionResult> GetAllUser()
 		{
 			var user = await _userManager.Users.ToListAsync();
 			return Ok(user);
+		}
+
+		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Member")]
+		[HttpGet("CurrentUser")]
+		public async Task<ActionResult> CurrentUser()
+		{
+			try
+			{
+				System.Security.Claims.ClaimsPrincipal currentUser = this.User;
+				bool isAdmin = currentUser.IsInRole("Member");
+				string? userId = _userManager.GetUserId(User); // Get user id:
+													   //var user = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+				//var userId = Convert.ToInt32(HttpContext.User.FindFirstValue("id"));
+				if (userId == null) return Unauthorized();
+
+				return Ok(userId);
+			} catch
+			{
+				return BadRequest();
+			}
 		}
 
 		[HttpPost("Register")]
@@ -39,14 +69,14 @@ namespace BBlogApi.Controllers
 		{
 			try
 			{
-				var userExists = await _userManager.FindByNameAsync(registerDto.Email);
+				var userExists = await _userManager.FindByEmailAsync(registerDto.Email);
 				if (userExists != null)
 					return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User already exists!" });
 
 				var user = new Account
 				{
-					Email = registerDto.Email,
 					UserName = registerDto.Email,
+					Email = registerDto.Email,
 					MemberName = registerDto.MemberName
 				};
 
@@ -78,7 +108,7 @@ namespace BBlogApi.Controllers
 
 				return new AccountDto
 				{
-					UserName = user.Email,
+					UserName = user.UserName,
 					Email = user.Email,
 					Token = await _tokenService.GenerateToken(user)
 				};

@@ -11,22 +11,22 @@ namespace BBlogApi.Data
             {
                 var admin = new Account
                 {
-                    UserName = "admin@gmail.com",
+                    UserName = "admin",
                     Email = "admin@gmail.com",
                     MemberName = "Người quản trị",
                     InforUser = "Admin",
-                    Avatar = "/images/avatar/admin.webp"
+                    Avatar = "/images/avatar/admin.webp",
                 };
                 await userManager.CreateAsync(admin, "Pa$$w0d");
                 await userManager.AddToRolesAsync(admin, new[] { "Member", "Admin" });
 
                 var member = new Account
                 {
-                    UserName = "test@gmail.com",
+                    UserName = "test",
                     Email = "test@gmail.com",
                     MemberName = "Người dùng",
                     InforUser = "Người dùng web",
-                    Avatar = "/images/avatar/test.png"
+                    Avatar = "/images/avatar/test.png",
                 };
                 await userManager.CreateAsync(member, "Pa$$w0d");
                 await userManager.AddToRoleAsync(member, "Member");

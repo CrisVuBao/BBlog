@@ -15,12 +15,14 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Net;
 using System.Text;
+using Microsoft.AspNetCore.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddHttpContextAccessor();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -84,13 +86,13 @@ builder.Services.AddAuthentication(options =>
                                         {
                                             ValidateIssuer = false,
                                             ValidateAudience = false,
-                                            ValidateLifetime = true,
                                             ValidateIssuerSigningKey = true,
-                                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecretKey"]))
+											IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecretKey"]))
                                         };
 });
 
 builder.Services.AddAuthorization();
+
 builder.Services.AddScoped<TokenService>();
 
 // đk automapper để sử dụng

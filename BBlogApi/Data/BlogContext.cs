@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BBlogApi.Data
 {
@@ -384,7 +385,7 @@ namespace BBlogApi.Data
                     new Role { Id = 1, Name = "Admin", NormalizedName = "ADMIN" },
                     new Role { Id = 2, Name = "Member", NormalizedName = "MEMBER" }
                 );
-        }
+		}
 
 	}
 }

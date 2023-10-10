@@ -23,7 +23,7 @@ namespace BBlogApi.Services
 			var claims = new List<Claim>
 			{
 				  new Claim(ClaimTypes.Email, account.Email),
-				  new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+				  new Claim(ClaimTypes.NameIdentifier, account.Email)
 			};
 
 			var roles = await _userManager.GetRolesAsync(account);
@@ -33,18 +33,16 @@ namespace BBlogApi.Services
 			}
 
 			var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JWT:SecretKey"]));
-			var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
+			var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-			var token = new JwtSecurityToken(
+			var tokenOptions = new JwtSecurityToken(
 				issuer: null,
 				audience: null,
 				claims: claims,
 				expires: DateTime.UtcNow.AddDays(7),
 				signingCredentials: creds
-				);
-
-			
-			return new JwtSecurityTokenHandler().WriteToken(token); // viết token này ra
+			);
+			return new JwtSecurityTokenHandler().WriteToken(tokenOptions); // viết token này ra
 		}
     }
 }
