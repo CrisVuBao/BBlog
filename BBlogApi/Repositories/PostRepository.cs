@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using BBlogApi.Data;
 using BBlogApi.DTOs;
+using BBlogApi.Helpers;
 using BBlogApi.Models;
 using BBlogApi.Repository.IRepository;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Immutable;
 using System.Security.Claims;
@@ -26,7 +28,7 @@ namespace BBlogApi.Repository
 		// Get All
 		public async Task<List<Post>> GetAll()
 		{
-			var post = await _db.PostZ.ToListAsync();
+			var post = await _db.PostZ.OrderByDescending(o => o.PostId).ToListAsync();
 			return post;
 		}
 
@@ -34,6 +36,10 @@ namespace BBlogApi.Repository
 		public async Task<Post> GetPostById(int id)
 		{
 			var getPostId = await _db.PostZ.FindAsync(id);
+
+			// ++ số lượt xem
+			getPostId.ViewCount++;
+			await _db.SaveChangesAsync();
 			return getPostId;
 		}
 
@@ -78,6 +84,12 @@ namespace BBlogApi.Repository
 			await _db.SaveChangesAsync();
 
 			return deletePost;
+		}
+
+		public async Task<List<Post>> GetTopPost()
+		{
+			var topPost = await _db.PostZ.OrderByDescending(p => p.ViewCount).Take(5).ToListAsync();
+			return topPost;
 		}
 	}
 }

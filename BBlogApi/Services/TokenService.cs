@@ -22,6 +22,7 @@ namespace BBlogApi.Services
 		{
 			var claims = new List<Claim>
 			{
+				  new Claim(ClaimTypes.Email, account.Id.ToString()), // Thêm ClaimTypes này để lấy id user với Email
 				  new Claim(ClaimTypes.Email, account.Email),
 				  new Claim(ClaimTypes.NameIdentifier, account.Email)
 			};

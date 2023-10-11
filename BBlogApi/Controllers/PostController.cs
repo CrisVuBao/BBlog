@@ -26,8 +26,7 @@ namespace BBlogApi.Controllers
 			_userManager = userManager;
 		}
 
-		// Get
-		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Member")]
+		// Get all post
 		[HttpGet("GetAllPost")]
         public async Task<ActionResult> GetAllPost()
         {
@@ -55,6 +54,13 @@ namespace BBlogApi.Controllers
                 return BadRequest();
             }
 
+        }
+
+        [HttpGet("GetTopPost")]
+        public async Task<ActionResult> GetTopPost()
+        {
+            var topPost = await _postRepo.GetTopPost();
+            return Ok(topPost);
         }
 
         // Get bài viết theo chủ đề

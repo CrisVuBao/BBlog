@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using BBlogApi.Data;
 using BBlogApi.DTOs;
-using BBlogApi.Extensions;
 using BBlogApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -19,14 +18,12 @@ namespace BBlogApi.Controllers
 	{
 		private readonly BlogContext _db;
 		private readonly UserManager<Account> _userManager;
-		private readonly IHttpContextAccessor _httpContextAccessor;
 		private readonly IMapper _mapper;
 
-		public PostForUserController(BlogContext db, UserManager<Account> userManager, IHttpContextAccessor httpContextAccessor, IMapper mapper)
+		public PostForUserController(BlogContext db, UserManager<Account> userManager, IMapper mapper)
         {
 			_db = db;
 			_userManager = userManager;
-			_httpContextAccessor = httpContextAccessor;
 			_mapper = mapper;
 		}
 
@@ -34,7 +31,7 @@ namespace BBlogApi.Controllers
 		[HttpPost("AddPostWithUser")]
 		public async Task<ActionResult<Post>> AddPostForAccount(PostDto postDto)
 		{
-			string? userId = _userManager.GetUserId(User);
+			string? userId = User.FindFirstValue(ClaimTypes.Email);
 			if (userId == null) return Unauthorized();
 
 			var newPost = new Post
@@ -60,7 +57,7 @@ namespace BBlogApi.Controllers
 		[HttpGet("GetPostForUser")]
 		public async Task<ActionResult> GetPostForUser()
 		{
-			string? userId = _userManager.GetUserId(User);
+			string? userId = User.FindFirstValue(ClaimTypes.Email);
 			if (userId == null) return Unauthorized();
 
 			var getPost =  await _db.PostZ.Where(w => w.UserId == userId).ToListAsync();
@@ -71,7 +68,7 @@ namespace BBlogApi.Controllers
 		[HttpPut("UpdatePostForUser/{postId}")]
 		public async Task<ActionResult<Post>> UpdatePostForUser(int postId, PostDto postDto)
 		{
-			string? userId = _userManager.GetUserId(User);
+			string? userId = User.FindFirstValue(ClaimTypes.Email);
 			if (userId == null) return Unauthorized();
 
 			// lấy id bài viết muốn sửa
@@ -99,7 +96,7 @@ namespace BBlogApi.Controllers
 		[HttpDelete("DeletePostForUser/{postId}")]
 		public async Task<ActionResult> DeletePostForUser(int postId)
 		{
-			var userId = _userManager.GetUserId(User);
+			var userId = User.FindFirstValue(ClaimTypes.Email);
 			if (userId == null) return Unauthorized();
 
 			var post = await _db.PostZ.FindAsync(postId);
