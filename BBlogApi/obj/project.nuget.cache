@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8EjEjV9E+sVGiy9Fi9KbS8C3hzvWa7daitjCf04Nd+IV/K3o932o5jE2+kbkkqTQH+30K1INOC9GiurtlGQW2g==",
+  "dgSpecHash": "zzLR8rvJWYp27wcf/Shc8vt9V9JOQkC/tT9XpPNpKGyOODrGg2RV9V7wlFx+mvzIxVqztxZWgb988qzl9ueLdQ==",
   "success": true,
-  "projectFilePath": "D:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlogApi\\BBlogApi\\BBlogApi.csproj",
+  "projectFilePath": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlogApi\\BBlogApi\\BBlogApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mobil\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

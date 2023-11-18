@@ -15,7 +15,7 @@ namespace BBlogApi.Models
         public int OrderNo { get; set; } // thứ tự bài viết, để sắp xếp
         public string TagSearch { get; set; } // từ khóa tìm kiếm, thẻ tag  
         public string PostStatus { get; set; } // trạng thái (bài viết mới tạo, bài viết đang chờ, bài viết bị hủy,...)
-        public DateTime CreateDate { get; set; }
+        public DateTime CreateDate { get; set; } = DateTime.Now;
         public int ViewCount { get; set; }
 
         [ForeignKey("TopicDetailId")]

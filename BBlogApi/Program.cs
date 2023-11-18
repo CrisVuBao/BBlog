@@ -21,7 +21,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+//builder.Services.AddControllers();
+builder.Services.AddControllersWithViews();
 builder.Services.AddHttpContextAccessor();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -60,7 +61,16 @@ builder.Services.AddDbContext<BlogContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddCors();
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("CorsPolicy",
+        builder => builder
+        .SetIsOriginAllowed(host => true)
+        .AllowAnyMethod()
+        .AllowAnyHeader()
+        .AllowCredentials()
+        );
+});
 
 // Cấu hình Role Identity
 
@@ -112,8 +122,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors(opt =>
 {
-	opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000");
+    opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000");
 });
+
+app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();
 

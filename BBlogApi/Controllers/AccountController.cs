@@ -132,5 +132,21 @@ namespace BBlogApi.Controllers
 			if (result.Succeeded) return Ok("Thông tin tài khoản đã được cập nhật.");
 			return BadRequest("Lỗi khi cập nhật thông tin tài khoản.");
 		}
+
+		[Authorize(Roles = "Admin")]
+		[HttpDelete("DeleteAccount")]
+		public async Task<ActionResult> DeleteAccount(int userId)
+		{
+			try
+			{
+				var getUser = await _userManager.Users.FirstOrDefaultAsync(find => find.Id == userId);
+				if (getUser != null) _userManager.DeleteAsync(getUser);
+				
+				return Ok("Đã xóa tk : " + getUser);
+			} catch
+			{
+				return BadRequest("Không xóa được!");
+			}
+		}
     }
 }

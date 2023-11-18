@@ -1,0 +1,24 @@
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\bin\Debug\net8.0\BBlog.Models.deps.json
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\bin\Debug\net8.0\BBlog.Models.dll
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\bin\Debug\net8.0\BBlog.Models.pdb
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.AssemblyInfoInputs.cache
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.AssemblyInfo.cs
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.csproj.CoreCompileInputs.cache
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.sourcelink.json
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.dll
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\refint\BBlog.Models.dll
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.pdb
+F:\Hoc Tap\C_Shape\WEB API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\ref\BBlog.Models.dll
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\bin\Debug\net8.0\BBlog.Models.deps.json
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\bin\Debug\net8.0\BBlog.Models.dll
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\bin\Debug\net8.0\BBlog.Models.pdb
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.AssemblyInfoInputs.cache
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.AssemblyInfo.cs
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.csproj.CoreCompileInputs.cache
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.sourcelink.json
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.dll
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\refint\BBlog.Models.dll
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\BBlog.Models.pdb
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlogApi\BBlog.Models\obj\Debug\net8.0\ref\BBlog.Models.dll
