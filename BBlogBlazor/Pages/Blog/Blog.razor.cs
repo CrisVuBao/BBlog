@@ -8,14 +8,12 @@ namespace BBlogBlazor.Pages.Blog
     {
         [Inject] public IPostClient PostClient { get; set; }
 
-        public int Id { get; set; }
         private List<PostDto> Posts;
 
         protected override async Task OnInitializedAsync()
         {
             Posts = await PostClient.GetPostAll();
         }
-
 
     }
 }

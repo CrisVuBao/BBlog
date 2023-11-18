@@ -1,10 +1,11 @@
 ﻿@page "/blog"
+@using BBlogBlazor.Component
 
 <h3>Blog</h3>
 
 @if (Posts == null)
 {
-    <h1>Loading...</h1>
+    <LoadingBar></LoadingBar>
 }
 else
 {
@@ -18,7 +19,7 @@ else
                     <div class="mb-3 d-flex justify-content-between">
                         <div class="pr-3">
                             <h2 class="mb-1 h4 font-weight-bold">
-                                <a class="text-dark" href="blogDetail">@item.Title</a>
+                                <a class="text-dark" href="blogDetail/@item.PostId">@item.Title</a>
                             </h2>
                             <p>
                                 @item.BriefContent

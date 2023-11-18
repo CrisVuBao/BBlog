@@ -9,13 +9,13 @@ namespace BBlogBlazor.Pages.Blog
         [Inject] public IPostClient PostClient { get; set; }
 
         [Parameter]
-        public int Id { get; set; }
+        public string PostId { get; set; }
 
-        private PostDto PostIds;
+        private PostDto PostDetail { get; set; }
 
-        protected override async Task OnParametersSetAsync()
+        protected async override Task OnInitializedAsync()
         {
-            PostIds = await PostClient.GetPostId(Id);
+            PostDetail = await PostClient.GetPostDetail(PostId);
         }
     }
 }

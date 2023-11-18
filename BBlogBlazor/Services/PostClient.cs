@@ -26,12 +26,12 @@ namespace BBlogBlazor.Services
 
         }
 
-        public async Task<PostDto> GetPostId(int id)
+        public async Task<PostDto> GetPostDetail(string id)
         {
             try
             {
-                var postId = await _httpClient.GetFromJsonAsync<PostDto>("api/Post/{id}");
-                return postId;
+                var postDetail = await _httpClient.GetFromJsonAsync<PostDto>($"api/Post/{id}");
+                return postDetail;
             }catch
             {
                 throw;

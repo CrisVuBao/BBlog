@@ -28,7 +28,7 @@ namespace BBlogApi.Repository
 		// Get All
 		public async Task<List<Post>> GetAll()
 		{
-			var post = await _db.PostZ.OrderBy(o => o.PostId).ToListAsync();
+			var post = await _db.PostZ.OrderByDescending(o => o.PostId).ToListAsync();
 			return post;
 		}
 
