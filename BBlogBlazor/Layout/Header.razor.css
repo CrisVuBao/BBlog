@@ -1,0 +1,13 @@
+﻿.nav-test {
+    border: 1px solid #ff0000
+}
+
+.input-search {
+    padding: 3px 3px 3px 3px;
+    width: 280px;
+    height: 50%;
+    font-size: 15px;
+    background-color: #E5E6ED;
+    border-radius: 50px;
+    border: none;
+}
