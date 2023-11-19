@@ -1,5 +1,71 @@
 ﻿.test {
-    border: 1px solid #ff0000;
+    /*border: 1px solid #ff00dc;*/
     width: 100%;
     height: 1500px;
+}
+
+.body-home {
+    box-sizing: border-box;
+}
+
+/*Phần tin chính*/
+.title-news {
+    
+}
+
+.news-popular {
+    /*border: 1px solid #ff0000;*/
+    width:100%;
+    height: 200px;
+    
+}
+
+.news-big{
+    /*border: 1px solid #000000;*/ /*đen*/
+    width: 100%;
+    height: 200px;
+}
+
+.news-main {
+    /*border: 1px solid #808080;*/ /*xám*/ 
+    width: 65%;
+    height: 400px;
+}
+
+.news-main-secondary {
+    /*border: 1px solid #ff6a00;*/ /*cam*/
+    width: 35%;
+    height: 450px;
+}
+
+.news-main-bottom {
+    /*border: 1px solid #4800ff;*/ /*xanh dương*/
+    height: 280px;
+}
+
+.news-bottom-one {
+    /*border: 1px solid #4800ff;*/ /*xanh dương*/
+    width: 33%;
+    height: 100%;
+}
+.news-bottom-two {
+    /*border: 1px solid #4800ff;*/ /*xanh dương*/
+    width: 32%;
+    height: 100%;
+}
+.news-bottom-three {
+    /*border: 1px solid #4800ff;*/ /*xanh dương*/
+    width: 35%;
+    height: 100%;
+}
+
+/*Xem nhanh*/
+.news-small {
+    /*border: 1px solid #b6ff00;*/ /*xanh lá*/
+    width: 30%;
+    height: 750px;
+}
+
+.img-flash {
+    max-width: 100%;
 }

@@ -6,5 +6,6 @@ namespace BBlogBlazor.Services.IRepository
     {
         Task<List<PostDto>> GetPostAll();
         Task<PostDto> GetPostDetail(string id);
+        Task<List<PostDto>> GetTopPost();
     }
 }

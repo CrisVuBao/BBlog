@@ -37,5 +37,18 @@ namespace BBlogBlazor.Services
                 throw;
             }
         }
+
+        public async Task<List<PostDto>> GetTopPost()
+        {
+            try
+            {
+                var result = await _httpClient.GetFromJsonAsync<List<PostDto>>("api/Post/GetTopPost");
+                return result;
+            }
+            catch
+            {
+                throw;
+            }
+        }
     }
 }

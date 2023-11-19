@@ -33,3 +33,4 @@ F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlog.Models\obj\D
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlog.Models\obj\Debug\net8.0\refint\BBlog.Models.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlog.Models\obj\Debug\net8.0\BBlog.Models.pdb
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlog.Models\obj\Debug\net8.0\ref\BBlog.Models.dll
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlog.Models\obj\Debug\net8.0\BBlog.Models.sourcelink.json

@@ -1,10 +1,115 @@
 ﻿@page "/"
 
-<pagetitle>home</pagetitle>
+@if (NewsMain == null)
+{
+    <BBlogBlazor.Component.LoadingBar></BBlogBlazor.Component.LoadingBar>
+}
+else
+{
+    <div class="body-home test mt-2">
+        <h5 class="title-news">Tin Nổi Bật</h5>
+        <div class="news-popular d-flex">
+            <div class="news-big flex-column">
+                <div class="news-big-top d-flex justify-content-between">
+                    <!--Card news-main-->
+                    <div class="news-main d-flex justify-content-start">
+                        <div class=" me-4" style="width: 100%;">
+                            <a class="text-decoration-none" href="blogDetail/@NewsMain.PostId">
+                                <img src="@NewsMain.PicturePostUrl" class="card-img-top" style="border-radius: 10px;" alt="...">
+                                <div class="mt-2">
+                                    <p class="card-text fw-bold text-black" style="font-size: 20px;">@NewsMain.Title</p>
+                                </div>
+                                <div class="status mt-1">
+                                    <span class="text-black">Trạng thái: @NewsMain.PostStatus</span>
+                                    <span class="text-black float-end">Vào lúc: @NewsMain.CreateDate</span>
+                                    <p class="text-black">Số lượt xem: @NewsMain.ViewCount</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Card news-main end-->
+                    <div class="news-main-secondary d-flex justify-content-end">
+                        <!--Card news-main-secondary-->
+                        <div class=" d-flex justify-content-start me-2">
+                            <div class="" style="width: 95%;background-color: #F0F1F4">
+                                <a class="text-decoration-none" href="blogDetail/@NewsMainSecon.PostId">
+                                    <img src="@NewsMainSecon.PicturePostUrl" class="card-img-top" style="border-radius: 10px 10px 0px 0px;" alt="...">
+                                    <div class="mt-2">
+                                        <p class="card-text fw-bold text-black" style="font-size: 17px;">@NewsMainSecon.Title</p>
+                                    </div>
+                                    <p class="card-tex text-black mt-2" style="font-size: 16px;">@NewsMainSecon.BriefContent</p>
 
-<h1>hello, world!</h1>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card news-main-secondary end-->
+                    </div>
+                </div>
+                <div class="news-big-bottom">
+                    <div class="d-flex news-main-bottom">
+                        <div class="news-bottom-one">
+                            <!--Card news-bottom-one-->
+                            <div class=" d-flex justify-content-start">
+                                <div class="" style="width: 95%;">
+                                    <a class="text-decoration-none" href="blogDetail/@NewsBottomOne.PostId">
+                                        <img src="@NewsBottomOne.PicturePostUrl" class="img-bottom card-img-top img-fluid" style="border-radius: 10px;" alt="...">
+                                        <div class="mt-2">
+                                            <p class="card-text text-black" style="font-size: 16px;">@NewsBottomOne.Title</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--Card news-bottom-one end-->
+                        </div>
+                        <div class="news-bottom-two">
+                            <!--Card news-bottom-one-->
+                            <div class=" d-flex justify-content-start">
+                                <div class="" style="width: 95%;">
+                                    <a class="text-decoration-none" href="blogDetail/@NewsBottomTwo.PostId">
+                                        <img src="@NewsBottomTwo.PicturePostUrl" class="img-bottom card-img-top img-fluid" style="border-radius: 10px" alt="...">
+                                        <div class="mt-2">
+                                            <p class="card-text text-black" style="font-size: 16px;">@NewsBottomTwo.Title</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--Card news-bottom-one end-->
+                        </div>
+                        <div class="news-bottom-three">
+                            <!--Card news-bottom-one-->
+                            <div class=" d-flex justify-content-start me-2">
+                                <div class="" style="width: 95%;">
+                                    <a class="text-decoration-none" href="blogDetail/@NewsBottomThree.PostId">
+                                        <img src="@NewsBottomThree.PicturePostUrl" class="img-bottom card-img-top img-fluid" style="border-radius: 10px;" alt="...">
+                                        <div class="mt-2">
+                                            <p class="card-text text-black" style="font-size: 16px;">@NewsBottomThree.Title</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--Card news-bottom-one end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-small">
+                <h5 class="title-news mt-2">Xem Nhanh</h5>
 
-welcome to your new app.
-<div class="test">
+                @foreach (var watchFlash in GetTopPost)
+                {
+                    <div class="watch-flash d-flex m-1">
+                        <a class="text-decoration-none d-flex" href="blogDetail/@watchFlash.PostId">
+                            <div class="title-flash">
+                                <p class="text-black" style="font-size: 14px;">@watchFlash.Title</p>
+                            </div>
+                            <div class="" style="max-width: 150px; max-height: 80px; overflow: hidden;">
+                                <img src="@watchFlash.PicturePostUrl" class="img-flash m-1" />
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
 
-</div>
