@@ -3122,3 +3122,5 @@ F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\De
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\ref\BBlogBlazor.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Component\LoadingBar.razor.rz.scp.css
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Layout\Header.razor.rz.scp.css
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\BBlogBlazor.sourcelink.json
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Home.razor.rz.scp.css

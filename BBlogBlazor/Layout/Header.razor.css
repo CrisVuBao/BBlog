@@ -1,13 +1,84 @@
 ﻿.nav-test {
-    border: 1px solid #ff0000
+    /*  border: 1px solid #ff0000;*/
+    background-color: #FFFFFF;
+}
+
+/*Color*/
+.blue {
+    background-color: #1570EF;
+}
+
+.red {
+    background-color: #ff0000;
 }
 
 .input-search {
-    padding: 3px 3px 3px 3px;
-    width: 280px;
-    height: 50%;
+    padding: 5px 5px 5px 10px;
+    width: 382px;
+    height: 33px;
     font-size: 15px;
     background-color: #E5E6ED;
     border-radius: 50px;
     border: none;
+    outline: none;
 }
+
+#img-logo {
+    width: 42px;
+    height: 37px;
+}
+
+.logo-text a {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Agbalumo;
+    color: #3D3C42;
+    text-decoration: none;
+}
+
+.menu-link {
+    margin-top: 63px;
+    margin-left: 75px;
+}
+
+    .menu-link a {
+        color: black;
+        font-family: REM;
+    }
+
+/*Btn*/
+.btn-write {
+    font-size: 14px;
+    padding: 8.5px 12px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #1570EF;
+}
+
+.color-btn {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    background: linear-gradient(to right, #FF5733, #33FF57, #5733FF, #FF5733, #33FF57, #5733FF, #FF5733);
+    background-size: 1400% 100%; /* Đặt kích thước lớn hơn để có chỗ di chuyển */
+}
+
+    .color-btn:hover {
+        background-position: 100% 0;
+        transition: background-position 1s ease;
+        animation: colorChange 3s infinite; /* Thêm animation cho hiệu ứng liên tục */
+    }
+
+@keyframes colorChange {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/*icon*/
