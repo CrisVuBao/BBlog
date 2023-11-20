@@ -20,6 +20,10 @@
         transform: rotate(360deg)
     }
 }
+/* /Layout/Footer.razor.rz.scp.css */
+.footer[b-b1ioa2uj92] {
+    bottom: 0;
+}
 /* /Layout/Header.razor.rz.scp.css */
 .nav-test[b-5swpb2a07p] {
     /*  border: 1px solid #ff0000;*/
@@ -279,26 +283,37 @@ main[b-687od6cswe] {
     height: 1500px;
 }
 
-.body-home[b-exiwmkvlsc] {
-    box-sizing: border-box;
+a:hover[b-exiwmkvlsc] {
+    color: #00A9FF !important;
+}
+no-margin[b-exiwmkvlsc] {
+    margin-bottom: 0rem;
 }
 
 /*Phần tin chính*/
 .title-news[b-exiwmkvlsc] {
-    
+    position: relative;
+}
+
+.title-news [b-exiwmkvlsc]::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    color: #000000;
 }
 
 .news-popular[b-exiwmkvlsc] {
     /*border: 1px solid #ff0000;*/
     width:100%;
-    height: 200px;
+    height: 750px;
     
 }
 
-.news-big[b-exiwmkvlsc]{
-    /*border: 1px solid #000000;*/ /*đen*/
-    width: 100%;
-    height: 200px;
+.news-big[b-exiwmkvlsc] {
+    /*border: 1px solid #000000;*/ 
+    width: 70%;
+    height: 750px;
 }
 
 .news-main[b-exiwmkvlsc] {
@@ -308,8 +323,8 @@ main[b-687od6cswe] {
 }
 
 .news-main-secondary[b-exiwmkvlsc] {
-    /*border: 1px solid #ff6a00;*/ /*cam*/
-    width: 35%;
+    /*border: 1px solid #ff6a00;*/
+    width: 33.3%;
     height: 450px;
 }
 
@@ -330,9 +345,24 @@ main[b-687od6cswe] {
 }
 .news-bottom-three[b-exiwmkvlsc] {
     /*border: 1px solid #4800ff;*/ /*xanh dương*/
-    width: 35%;
+    width: 35.3%;
     height: 100%;
 }
+
+.layout-img-news-bottom[b-exiwmkvlsc] {
+    max-width: 300px;
+    max-height: 170px;
+    overflow: hidden;
+}
+
+.img-bottom[b-exiwmkvlsc] {
+    height: 170px;
+}
+
+
+
+
+
 
 /*Xem nhanh*/
 .news-small[b-exiwmkvlsc] {
@@ -341,6 +371,42 @@ main[b-687od6cswe] {
     height: 750px;
 }
 
+.layout-img-flash[b-exiwmkvlsc] {
+    max-width: 300px;
+    max-height: 100px;
+    overflow: hidden;
+}
+
 .img-flash[b-exiwmkvlsc] {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.title-flash[b-exiwmkvlsc] {
+    overflow: hidden;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    margin-top: 2px;
+}
+
+
+
+/*Danh sách tin tức và bài viết*/
+.list-news[b-exiwmkvlsc] {
+    /*border: 1px solid #ff00dc;*/
+    width: 75%;
+    height: 500px;
+}
+
+.layout-list-news[b-exiwmkvlsc] {
+    max-width: 260px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.img-list-news[b-exiwmkvlsc] {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
 }

@@ -7,7 +7,9 @@ namespace BBlogBlazor.Pages
     public partial class Home
     {
         [Inject] public IPostClient PostClient { get; set; }
+        [Inject] public ICategoryClient CategoryClient { get; set; }
 
+        private List<PostDto> PostAll { get; set; }
         private PostDto NewsMain { get; set; }
         private PostDto NewsMainSecon { get; set; }
         private PostDto NewsBottomOne { get; set; }
@@ -17,7 +19,8 @@ namespace BBlogBlazor.Pages
 
         protected async override Task OnInitializedAsync()
         {
-            NewsMain = await PostClient.GetPostDetail("7");
+            PostAll = await PostClient.GetPostAll();
+            NewsMain = await PostClient.GetPostDetail("12");
             NewsMainSecon = await PostClient.GetPostDetail("8");
             NewsBottomOne = await PostClient.GetPostDetail("9");
             NewsBottomTwo = await PostClient.GetPostDetail("3");

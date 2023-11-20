@@ -50,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XExvYWRpbmdCYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0z84csx8x2
 
+[F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-b1ioa2uj92
+
 [F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-5swpb2a07p

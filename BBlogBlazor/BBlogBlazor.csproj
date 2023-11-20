@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Layout\Footer.razor.css" />
     <None Remove="Layout\Header.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Layout\Footer.razor.css" />
     <Content Include="Layout\Header.razor.css" />
   </ItemGroup>
 
