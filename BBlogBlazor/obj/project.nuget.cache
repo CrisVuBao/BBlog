@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cn7T4h84lrDsMmZ253+JF00x5ofhy/TaJCaNyjTvcar1EWMLTFRQdvRABQY3LGeGIBTEgsiK4bCoyLpCQT6f/Q==",
+  "dgSpecHash": "D8i0ucAXZLTFZM7hG1sFDqFt8nfODojilv5FqaFHxBEF41gUm5jLzxpIm6Ps4JmaE9nfzwsftIxzNT/ThklJ3g==",
   "success": true,
   "projectFilePath": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\BBlogBlazor.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\mobil\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\mobil\\.nuget\\packages\\wysiwygtexteditor\\1.0.1\\wysiwygtexteditor.1.0.1.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.0.nupkg.sha512"
   ],
   "logs": []

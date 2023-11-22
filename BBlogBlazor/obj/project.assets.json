@@ -492,6 +492,25 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "WYSIWYGTextEditor/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.0",
+          "Microsoft.AspNetCore.Components.Web": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/WYSIWYGTextEditor.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WYSIWYGTextEditor.dll": {}
+        },
+        "build": {
+          "buildTransitive/WYSIWYGTextEditor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/WYSIWYGTextEditor.props": {}
+        }
+      },
       "BBlog.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -986,6 +1005,25 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "WYSIWYGTextEditor/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.0",
+          "Microsoft.AspNetCore.Components.Web": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/WYSIWYGTextEditor.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WYSIWYGTextEditor.dll": {}
+        },
+        "build": {
+          "buildTransitive/WYSIWYGTextEditor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/WYSIWYGTextEditor.props": {}
         }
       },
       "BBlog.Models/1.0.0": {
@@ -2067,6 +2105,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "WYSIWYGTextEditor/1.0.1": {
+      "sha512": "WwTSBMljlvEBTSzFzwKsVlILaELso4Qz+B+7RAW95bSu6W6TsGB0i2m33sQ5z0zLIxqHELKmE8/2MRSIhbodHQ==",
+      "type": "package",
+      "path": "wysiwygtexteditor/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/WYSIWYGTextEditor.props",
+        "buildMultiTargeting/WYSIWYGTextEditor.props",
+        "buildTransitive/WYSIWYGTextEditor.props",
+        "lib/netstandard2.0/WYSIWYGTextEditor.dll",
+        "staticwebassets/BlazorQuill.js",
+        "staticwebassets/QuillLogo.png",
+        "staticwebassets/quill-blot-formatter.min.js",
+        "wysiwygtexteditor.1.0.1.nupkg.sha512",
+        "wysiwygtexteditor.nuspec"
+      ]
+    },
     "BBlog.Models/1.0.0": {
       "type": "project",
       "path": "../BBlog.Models/BBlog.Models.csproj",
@@ -2079,7 +2136,8 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.0",
       "Microsoft.NET.ILLink.Tasks >= 8.0.0",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.0"
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.0",
+      "WYSIWYGTextEditor >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -2151,6 +2209,10 @@
             "target": "Package",
             "version": "[8.0.0, )",
             "autoReferenced": true
+          },
+          "WYSIWYGTextEditor": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [

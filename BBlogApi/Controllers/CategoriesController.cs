@@ -10,24 +10,25 @@ namespace BBlogApi.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private readonly BlogContext _blogContext;
+        private readonly BlogContext _db;
 
         public CategoriesController(BlogContext blogContext)
         {
-            _blogContext = blogContext;
+            _db= blogContext;
         }
 
         [HttpGet("GetAllCategories")]
         public async Task<ActionResult> GetCategories()
         {
-            var topic = await _blogContext.CategorieZ.ToListAsync();
+            var topic = await _db.CategorieZ.ToListAsync();
             return Ok(topic);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult> GetCateId(int id)
         {
-            var getCateId = _blogContext.CategorieZ.FindAsync(id);
+            var getCateId = await _db.CategorieZ.FindAsync(id);
+            await _db.SaveChangesAsync();
             return Ok(getCateId);
         }
 
@@ -41,8 +42,8 @@ namespace BBlogApi.Controllers
                     CategoryName = categories.CategoryName
                 };
 
-                await _blogContext.AddAsync(addCate);
-                await _blogContext.SaveChangesAsync();
+                await _db.AddAsync(addCate);
+                await _db.SaveChangesAsync();
 
                 return Ok(addCate);
             } catch

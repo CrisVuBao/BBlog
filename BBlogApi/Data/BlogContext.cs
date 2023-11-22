@@ -10,42 +10,55 @@ namespace BBlogApi.Data
     {
         public BlogContext(DbContextOptions options) : base(options)
         {
-            
+
         }
 
-       public DbSet<Categories> CategorieZ { get; set; }
-       public DbSet<Post> PostZ { get; set; }
+        #region Dbset
+        public DbSet<Categories> CategorieZ { get; set; }
+        public DbSet<Post> PostZ { get; set; }
+        #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-			base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(modelBuilder);
             // seed data cho table Product
+
             modelBuilder.Entity<Categories>().HasData(
                 new Categories
                 {
                     CategoryId = 1,
                     CategoryName = "Thủ Thuật IT",
+                    
+                  
                 },
                 new Categories
                 {
                     CategoryId = 2,
                     CategoryName = "Phần Mềm IT",
+                    
+                  
                 },
                 new Categories
                 {
                     CategoryId = 3,
                     CategoryName = "Tin Công Nghệ",
+                    
+                  
                 },
                 new Categories
                 {
                     CategoryId = 4,
                     CategoryName = "Chia Sẻ Cá Nhân",
+                    
+                  
                 },
                 new Categories
                 {
                     CategoryId = 5,
                     CategoryName = "Động Lực Phát Triển",
+                    
+                  
                 }
                     );
 
@@ -62,7 +75,8 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
-                     
+                    UserId = "1"
+
                 },
                 new Post
                 {
@@ -76,7 +90,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -90,7 +104,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -104,7 +118,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -118,7 +132,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
-                     
+                    UserId = "1"
                 },
                 // 
                 new Post
@@ -133,7 +147,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 3,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -147,7 +161,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 3,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -161,7 +175,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -175,7 +189,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -189,7 +203,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
-                     
+                    UserId = "1"
                 },
 
                 //
@@ -205,7 +219,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -219,7 +233,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -233,7 +247,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -247,7 +261,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -261,7 +275,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
-                     
+                    UserId = "1"
                 },
 
                 //
@@ -277,7 +291,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -291,7 +305,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 5,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -305,7 +319,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -319,7 +333,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -333,7 +347,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 5,
-                     
+                    UserId = "1"
                 }
                 ,
                 new Post
@@ -348,7 +362,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 5,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -362,7 +376,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
-                     
+                    UserId = "1"
                 },
                 new Post
                 {
@@ -376,7 +390,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 5,
-                     
+                    UserId = "1"
                 }
                 );
 
@@ -385,7 +399,7 @@ namespace BBlogApi.Data
                     new Role { Id = 1, Name = "Admin", NormalizedName = "ADMIN" },
                     new Role { Id = 2, Name = "Member", NormalizedName = "MEMBER" }
                 );
-		}
+        }
 
-	}
+    }
 }

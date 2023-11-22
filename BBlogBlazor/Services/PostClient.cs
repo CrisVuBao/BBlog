@@ -38,6 +38,7 @@ namespace BBlogBlazor.Services
             }
         }
 
+
         public async Task<List<PostDto>> GetTopPost()
         {
             try
@@ -49,6 +50,12 @@ namespace BBlogBlazor.Services
             {
                 throw;
             }
+        }
+
+        public async Task<List<PostDto>> GetPostWithCateIT()
+        {
+            var getPost = await _httpClient.GetFromJsonAsync<List<PostDto>>("api/Post/GetPostWithCateIT");
+            return getPost;
         }
     }
 }

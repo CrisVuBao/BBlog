@@ -13,14 +13,6 @@
       "PackagePath": "staticwebassets\\BBlogBlazor.styles.css"
     },
     {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\4027554_logo.og.png",
-      "PackagePath": "staticwebassets\\4027554_logo.og.png"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\Google__G__Logo.svg.png",
-      "PackagePath": "staticwebassets\\Google__G__Logo.svg.png"
-    },
-    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
@@ -31,10 +23,6 @@
     {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
     },
     {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\fontawesome\\LICENSE.txt",
@@ -8493,10 +8481,6 @@
       "PackagePath": "staticwebassets\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\icon-192.png",
-      "PackagePath": "staticwebassets\\icon-192.png"
-    },
-    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\hero1.jpg",
       "PackagePath": "staticwebassets\\images\\hero1.jpg"
     },
@@ -8585,8 +8569,24 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo.svg",
-      "PackagePath": "staticwebassets\\logo.svg"
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\4027554_logo.og.png",
+      "PackagePath": "staticwebassets\\logo\\4027554_logo.og.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\Google__G__Logo.svg.png",
+      "PackagePath": "staticwebassets\\logo\\Google__G__Logo.svg.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\favicon.png",
+      "PackagePath": "staticwebassets\\logo\\favicon.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\icon-192.png",
+      "PackagePath": "staticwebassets\\logo\\icon-192.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\logo.svg",
+      "PackagePath": "staticwebassets\\logo\\logo.svg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BBlogBlazor.Microsoft.AspNetCore.StaticWebAssets.props",

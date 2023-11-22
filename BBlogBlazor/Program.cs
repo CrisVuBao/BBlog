@@ -15,5 +15,4 @@ builder.Services.AddScoped<ICategoryClient, CategoryClient>();
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5000/") });
 
-
 await builder.Build().RunAsync();

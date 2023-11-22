@@ -1,41 +1,52 @@
 ﻿@inject IJSRuntime JSRuntime
 
-<nav class="nav-test d-flex justify-content-between align-items-center mx-3 py-2 mb-1 fixed-top">
-    <div class="d-flex justify-content-start align-items-center">
-        <div class="me-3">
-            <a href="blog">
-                <img id="img-logo" src="./4027554_logo.og.png" alt="logo" />
-            </a>
+@if (GetAllCate == null)
+{
+    <h5>Is Loading...</h5>
+} else
+{
+    <div style="background-color: #FFFFFF">
+        <nav class="nav-test d-flex justify-content-between align-items-center mx-3 py-3 mb-1 fixed-top">
+            <div class="d-flex justify-content-start align-items-center">
+                <div class="me-3">
+                    <a href="blog">
+                        <img id="img-logo" src="./logo/4027554_logo.og.png" alt="logo" />
+                    </a>
+                </div>
+                <input class="input-search" type="text" placeholder="Tìm kiếm tin tức, bạn bè...">
+            </div>
+            <div class="logo-text d-flex align-items-center" style="margin-right: 164px;">
+                <a href="/">BBlog</a>
+            </div>
+            <div class="d-flex justify-content-end align-items-center">
+                <div class="me-3">
+                    <a href="box-text-editor"><button class="btn-write">Viết Bài Chia Sẻ</button></a>
+                </div>
+                <div class="ms-3">Thông Báo</div>
+                <div class="ms-3">Tài Khoản</div>
+            </div>
+        </nav>
+    </div>
+    <div class="menu-link d-flex container">
+        <div class="d-flex align-items-center">
+            <i class="icon pb-3 me-1 fa-regular fa-house"></i>
+            <a class="me-4 text-decoration-none" href="/"><p>Home</p></a>
         </div>
-        <input class="input-search" type="text" placeholder="Tìm kiếm tin tức, bạn bè...">
-    </div>
-    <div class="logo-text d-flex align-items-center" style="margin-right: 164px;">     
-            <a href="/">BBlog</a>    
-    </div>
-    <div class="d-flex justify-content-end align-items-center">
-        <div class="me-3">
-            <button class="btn-write">Viết Bài Chia Sẻ</button>
-        </div>
-        <div class="ms-3">Thông Báo</div>
-        <div class="ms-3">Tài Khoản</div>
-    </div>
-</nav>
-<div class="menu-link d-flex container">
-    <div class="d-flex align-items-center">
-        <i class="icon pb-3 me-1 fa-regular fa-house"></i>
-        <a class="me-4 text-decoration-none" href="/"><p>Home</p></a>
-    </div>
 
-    <div class="d-flex align-items-center">
-        <i class="icon pb-3 me-1 fa-regular fa-chalkboard"></i>
-        <a class="me-4 text-decoration-none" href="blog"><p>@GetCateId.CategoryName</p></a>
+        <div class="d-flex align-items-center">
+            <i class="icon pb-3 me-1 fa-regular fa-chalkboard"></i>
+            <a class="me-4 text-decoration-none" href="blog-it"><p>Công Nghệ</p></a>
+        </div>
+
+        <div class="d-flex align-items-center">
+            <i class="fa-regular pb-3 me-1 fa-blog"></i>
+            <a class="me-4 text-decoration-none" href="#"><p>Chia Sẻ Cá Nhân</p></a>
+        </div>
+        <div class="d-flex align-items-center mb-3">
+            <a class="me-4 text-decoration-none" href="blog-it"><button class="color-btn" type="button">TikShort</button></a>
+        </div>
     </div>
-    <div class="d-flex align-items-center">
-        <i class="fa-regular pb-3 me-1 fa-blog"></i>
-        <a class="me-4 text-decoration-none" href="#"><p>Chia Sẻ Cá Nhân</p></a>
-    </div>
-    <div class="d-flex align-items-center mb-3">
-        <a class="me-4 text-decoration-none" href="#"><button class="color-btn" type="button">TikShort</button></a>
-    </div>
-</div>
+}
+
+
 

@@ -13,6 +13,18 @@ namespace BBlogBlazor.Services
             _httpClient = httpClient;
         }
 
+        public async Task<List<CategoryDto>> GetAllCate()
+        {
+            try
+            {
+                var getCate = await _httpClient.GetFromJsonAsync<List<CategoryDto>>("api/Categories/GetAllCategories");
+                return getCate;
+            } catch
+            {
+                throw;
+            }
+        }
+
         public async Task<CategoryDto> GetCateId(string id)
         {
             try

@@ -22,5 +22,5 @@ namespace BBlogApi.Models
         public int CategoryId { get; set; }
 		public string? UserId { get; set; }
         //public Account AccountUser { get; set; }
-	}
+    }
 }

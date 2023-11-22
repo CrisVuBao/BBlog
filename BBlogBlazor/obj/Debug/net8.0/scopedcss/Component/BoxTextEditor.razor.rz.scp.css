@@ -1,0 +1,31 @@
+/*SET THE DEFAULT FONT*/
+#TestId[b-brko2uthui] {
+    font-family: "MS Gothic";
+    font-size: 18px;
+    height: 375px;
+}
+
+/*DEFINE ALL OF THE CUSTOM FONTS*/
+.ql-font-MSGothic[b-brko2uthui] {
+    font-family: 'MS Gothic';
+}
+
+.ql-font-Bahnschrift[b-brko2uthui] {
+    font-family: 'Bahnschrift'
+}
+
+.ql-font-Impact[b-brko2uthui] {
+    font-family: 'Impact';
+}
+
+.ql-font-Courier[b-brko2uthui] {
+    font-family: 'Courier';
+}
+
+.ql-font-Comic[b-brko2uthui] {
+    font-family: 'Comic Sans MS';
+}
+
+.layout-text-editor[b-brko2uthui] {
+    height: 500px;
+}

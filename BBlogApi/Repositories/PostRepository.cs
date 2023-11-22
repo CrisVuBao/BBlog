@@ -50,7 +50,14 @@ namespace BBlogApi.Repository
 			return getPost;
 		}
 
-		// Add Post
+		// Lấy bài viết theo chủ đề công ngh
+        public async Task<List<Post>> GetPostWithCateIT()
+        {
+			var getPost = await _db.PostZ.Where(w => w.CategoryId == 1 || w.CategoryId == 2 || w.CategoryId == 3).ToListAsync();
+			return getPost;
+        }
+
+        // Add Post
         public async Task<Post> AddPost(PostDto postDto)
 		{
 			var addPost = _mapper.Map<Post>(postDto); // tạo ra đối tượng mới kiểu Post, và sao chép dữ liệu từ postDto vào trong đối tượng Post
@@ -91,5 +98,7 @@ namespace BBlogApi.Repository
 			var topPost = await _db.PostZ.OrderByDescending(p => p.ViewCount).Take(5).ToListAsync();
 			return topPost;
 		}
-	}
+
+
+    }
 }

@@ -2,7 +2,7 @@
 using BBlogBlazor.Services.IRepository;
 using Microsoft.AspNetCore.Components;
 
-namespace BBlogBlazor.Pages.Blog
+namespace BBlogBlazor.Pages.Blog.BlogDetail
 {
     public partial class BlogDetail
     {

@@ -9,6 +9,7 @@ namespace BBlogApi.Repository.IRepository
         Task<Post> GetPostById(int id);
         Task<List<Post>> GetTopPost();
         Task<List<Post>> GetPostWithCate(int id);
+        Task<List<Post>> GetPostWithCateIT();
         Task<Post> AddPost(PostDto postDto);
         Task<Post> AddPostForAccount(PostDto postDto);
         Task<Post> UpdatePost(Post post);

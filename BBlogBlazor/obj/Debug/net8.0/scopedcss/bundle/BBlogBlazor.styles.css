@@ -1,3 +1,35 @@
+/* /Component/BoxTextEditor.razor.rz.scp.css */
+/*SET THE DEFAULT FONT*/
+#TestId[b-brko2uthui] {
+    font-family: "MS Gothic";
+    font-size: 18px;
+    height: 375px;
+}
+
+/*DEFINE ALL OF THE CUSTOM FONTS*/
+.ql-font-MSGothic[b-brko2uthui] {
+    font-family: 'MS Gothic';
+}
+
+.ql-font-Bahnschrift[b-brko2uthui] {
+    font-family: 'Bahnschrift'
+}
+
+.ql-font-Impact[b-brko2uthui] {
+    font-family: 'Impact';
+}
+
+.ql-font-Courier[b-brko2uthui] {
+    font-family: 'Courier';
+}
+
+.ql-font-Comic[b-brko2uthui] {
+    font-family: 'Comic Sans MS';
+}
+
+.layout-text-editor[b-brko2uthui] {
+    height: 500px;
+}
 /* /Component/LoadingBar.razor.rz.scp.css */
 .spinner[b-0z84csx8x2] {
     border: 16px solid silver;
@@ -65,7 +97,7 @@
 }
 
 .menu-link[b-5swpb2a07p] {
-    margin-top: 75px;
+    margin-top: 80px;
     margin-left: 120px;
 }
 

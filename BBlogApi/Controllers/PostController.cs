@@ -79,8 +79,22 @@ namespace BBlogApi.Controllers
             } catch { return BadRequest(); }
         }
 
-		// Add
-		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+        [HttpGet("GetPostWithCateIT")]
+        public async Task<ActionResult> GetPostWithCateIT()
+        {
+            try
+            {
+                var getPost = await _postRepo.GetPostWithCateIT();
+                return Ok(getPost);
+
+            } catch
+            {
+                return BadRequest("Không thể hiển thị bài viết");
+            }
+        }
+
+        // Add
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
 		[HttpPost("AddPost")]
         public async Task<ActionResult<Post>> AddPost(PostDto postDto)
         {
@@ -109,9 +123,9 @@ namespace BBlogApi.Controllers
 
         }
 
-		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
-		// Delete
-		[HttpDelete("{id}")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+        // Delete
+        [HttpDelete("{id}")]
         public async Task<ActionResult> DeletePost(int id)
         {
             try

@@ -30,12 +30,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XExvZ28ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/Blog.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nLnJhem9y
+[F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogDetail/BlogDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nRGV0YWlsXEJsb2dEZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogDetail.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nRGV0YWlsLnJhem9y
+[F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogIT.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nSVQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Counter.razor]
@@ -45,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 [F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Component/BoxTextEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XEJveFRleHRFZGl0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-brko2uthui
 
 [F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Component/LoadingBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XExvYWRpbmdCYXIucmF6b3I=
