@@ -6,6 +6,7 @@
     width: 68%;
 }
 
+/*Phần banner*/
 .banner-tech[b-imzvi9asn0] {
     /*border: 1px solid #000000;*/
     max-width: 100%;
@@ -18,6 +19,14 @@
     width: 100%;
     height: 280px;
     border-radius: 15px;
+}
+
+.menu-child-a[b-imzvi9asn0] {
+    color: #ff0000;
+}
+
+.menu-child-a:hover[b-imzvi9asn0] {
+    color: #1570EF;
 }
 
 /*Danh sách tin tức và bài viết*/

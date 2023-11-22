@@ -1,0 +1,18 @@
+﻿/*Danh sách tin tức và bài viết*/
+.list-news {
+    /*border: 1px solid #ff00dc;*/
+    width: 100%;
+    height: 500px;
+}
+
+.layout-list-news {
+    max-width: 260px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.img-list-news {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}

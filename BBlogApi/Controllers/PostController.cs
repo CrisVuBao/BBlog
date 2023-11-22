@@ -66,7 +66,7 @@ namespace BBlogApi.Controllers
         }
 
         // Get bài viết theo chủ đề
-        [HttpGet("GetPostWithCategories")]
+        [HttpGet("GetPostWithCategories/{id}")]
         public async Task<ActionResult> GetPostWithCategories(int id)
         {
             try

@@ -57,5 +57,11 @@ namespace BBlogBlazor.Services
             var getPost = await _httpClient.GetFromJsonAsync<List<PostDto>>("api/Post/GetPostWithCateIT");
             return getPost;
         }
+
+        public async Task<List<PostDto>> GetPostWithCateId(string id)
+        {
+            var getPost = await _httpClient.GetFromJsonAsync<List<PostDto>>($"api/Post/GetPostWithCategories/{id}");
+            return getPost;
+        }
     }
 }

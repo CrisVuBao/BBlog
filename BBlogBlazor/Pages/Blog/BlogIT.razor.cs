@@ -27,6 +27,5 @@ namespace BBlogBlazor.Pages.Blog
             GetCatePhanMemIT = await CategoryClient.GetCateId("2");
             GetCateTinCongNghe = await CategoryClient.GetCateId("3");
         }
-
     }
 }
