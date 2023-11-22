@@ -1,0 +1,75 @@
+﻿.blog-main {
+    /*border: 1px solid #ff0000;*/
+}
+
+.blog-list {
+    width: 68%;
+}
+
+.banner-tech {
+    /*border: 1px solid #000000;*/
+    max-width: 100%;
+    max-height: 280px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.banner-tech-img {
+    width: 100%;
+    height: 280px;
+    border-radius: 15px;
+}
+
+/*Danh sách tin tức và bài viết*/
+.list-news {
+    /*border: 1px solid #ff00dc;*/
+    width: 100%;
+    height: 500px;
+}
+
+.layout-list-news {
+    max-width: 260px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.img-list-news {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+/*Top Bài Viết*/
+.blog-popular {
+    /*border: 1px solid #ff6a00;*/
+    margin-left: 860px;
+    bottom: -140px;
+    width: 28%;
+    height: 800px;
+}
+
+.news-small {
+    /*border: 1px solid #b6ff00;*/ /*xanh lá*/
+    padding-left: 10px;
+    width: 100%;
+    height: 750px;
+}
+
+.layout-img-flash {
+    max-width: 300px;
+    max-height: 110px;
+    overflow: hidden;
+}
+
+.img-flash {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.title-flash {
+    overflow: hidden;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    margin-top: 2px;
+}

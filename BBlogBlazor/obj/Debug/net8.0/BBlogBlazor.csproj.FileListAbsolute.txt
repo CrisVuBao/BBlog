@@ -3131,3 +3131,5 @@ F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\De
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\webcil\WYSIWYGTextEditor.wasm
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Component\BoxTextEditor.razor.rz.scp.css
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\compressed\ckktbrih14.gz
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Blog\BlogIT.razor.rz.scp.css
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Blog\BlogGame.razor.rz.scp.css
