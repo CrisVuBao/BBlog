@@ -51,5 +51,29 @@ namespace BBlogApi.Controllers
                 return BadRequest("Ko thêm được chủ đề");
             }
         }
+
+        [HttpPut("UpdateCategory")]
+        public async Task<ActionResult> UpdateCategory(int id, Categories categories)
+        {
+            var getCategory = await _db.CategorieZ.FindAsync(id);
+
+            getCategory.CategoryName = categories.CategoryName;
+
+            _db.Update(getCategory);
+           await _db.SaveChangesAsync();
+
+            return Ok(getCategory);
+        }
+
+        [HttpDelete("DeleteCategory")]
+        public async Task<ActionResult> DeleteCategory(int id)
+        {
+            var deleteCate = await _db.CategorieZ.FindAsync(id);
+
+            _db.Remove(deleteCate);
+            await _db.SaveChangesAsync();
+
+            return Ok("Đã xóa chủ đề");
+        }
     }
 }

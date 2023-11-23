@@ -8485,6 +8485,10 @@
       "PackagePath": "staticwebassets\\images\\banner\\bannerGame (72 x 25 inch).png"
     },
     {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\banner\\bannerPersonal (72 x 25 inch).png",
+      "PackagePath": "staticwebassets\\images\\banner\\bannerPersonal (72 x 25 inch).png"
+    },
+    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\banner\\bannerTech (72 x 25 inch).png",
       "PackagePath": "staticwebassets\\images\\banner\\bannerTech (72 x 25 inch).png"
     },
@@ -8599,6 +8603,30 @@
     {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\logo.svg",
       "PackagePath": "staticwebassets\\logo\\logo.svg"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\logoB.png",
+      "PackagePath": "staticwebassets\\logo\\logoB.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\logoBBLog.png",
+      "PackagePath": "staticwebassets\\logo\\logoBBLog.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\logoBcoffe.png",
+      "PackagePath": "staticwebassets\\logo\\logoBcoffe.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\logoPass.png",
+      "PackagePath": "staticwebassets\\logo\\logoPass.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\logobstart.png",
+      "PackagePath": "staticwebassets\\logo\\logobstart.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\logo\\logostar.png",
+      "PackagePath": "staticwebassets\\logo\\logostar.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BBlogBlazor.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -35,7 +35,7 @@ namespace BBlogApi.Data
                 new Categories
                 {
                     CategoryId = 2,
-                    CategoryName = "Phần Mềm IT",
+                    CategoryName = "Phần Mềm",
                     
                   
                 },
@@ -49,14 +49,14 @@ namespace BBlogApi.Data
                 new Categories
                 {
                     CategoryId = 4,
-                    CategoryName = "Chia Sẻ Cá Nhân",
+                    CategoryName = "Tâm Sự Cuộc Sống",
                     
                   
                 },
                 new Categories
                 {
                     CategoryId = 5,
-                    CategoryName = "Động Lực Phát Triển",
+                    CategoryName = "Mở Mang",
                     
                   
                 }
@@ -75,6 +75,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
+                    CategoryName = "Phần Mềm",
                     UserId = "1"
 
                 },
@@ -90,6 +91,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
+                    CategoryName = "Phần Mềm",
                     UserId = "1"
                 },
                 new Post
@@ -104,6 +106,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
+                    CategoryName = "Phần Mềm",
                     UserId = "1"
                 },
                 new Post
@@ -118,6 +121,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
+                    CategoryName = "Phần Mềm",
                     UserId = "1"
                 },
                 new Post
@@ -132,6 +136,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
+                    CategoryName = "Phần Mềm",
                     UserId = "1"
                 },
                 // 
@@ -147,6 +152,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 3,
+                    CategoryName = "Tin Công Nghệ",
                     UserId = "1"
                 },
                 new Post
@@ -161,6 +167,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 3,
+                    CategoryName = "Tin Công Nghệ",
                     UserId = "1"
                 },
                 new Post
@@ -175,6 +182,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
+                    CategoryName = "Phần Mềm",
                     UserId = "1"
                 },
                 new Post
@@ -189,6 +197,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
+                    CategoryName = "Phần Mềm",
                     UserId = "1"
                 },
                 new Post
@@ -203,6 +212,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
+                    CategoryName = "Phần Mềm",
                     UserId = "1"
                 },
 
@@ -219,6 +229,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
+                    CategoryName = "Phần Mềm",
                     UserId = "1"
                 },
                 new Post
@@ -233,6 +244,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
+                    CategoryName = "Phần Mềm",
                     UserId = "1"
                 },
                 new Post
@@ -247,6 +259,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
+                    CategoryName = "Thủ Thuật IT",
                     UserId = "1"
                 },
                 new Post
@@ -261,6 +274,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
+                    CategoryName = "Thủ Thuật IT",
                     UserId = "1"
                 },
                 new Post
@@ -275,6 +289,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
+                    CategoryName = "Thủ Thuật IT",
                     UserId = "1"
                 },
 
@@ -291,6 +306,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
+                    CategoryName = "Thủ Thuật IT",
                     UserId = "1"
                 },
                 new Post
@@ -305,6 +321,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 5,
+                    CategoryName = "Mở Mang",
                     UserId = "1"
                 },
                 new Post
@@ -319,6 +336,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
+                    CategoryName = "Tâm Sự Cuộc Sống",
                     UserId = "1"
                 },
                 new Post
@@ -333,6 +351,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
+                    CategoryName = "Tâm Sự Cuộc Sống",
                     UserId = "1"
                 },
                 new Post
@@ -346,7 +365,8 @@ namespace BBlogApi.Data
                     TagSearch = "haitrieu",
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
-                    CategoryId = 5,
+                    CategoryId = 4,
+                    CategoryName = "Tâm Sự Cuộc Sống",
                     UserId = "1"
                 }
                 ,
@@ -361,7 +381,8 @@ namespace BBlogApi.Data
                     TagSearch = "haitrieu",
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
-                    CategoryId = 5,
+                    CategoryId = 4,
+                    CategoryName = "Tâm Sự Cuộc Sống",
                     UserId = "1"
                 },
                 new Post
@@ -376,6 +397,7 @@ namespace BBlogApi.Data
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
+                    CategoryName = "Tâm Sự Cuộc Sống",
                     UserId = "1"
                 },
                 new Post
@@ -389,7 +411,8 @@ namespace BBlogApi.Data
                     TagSearch = "haitrieu",
                     PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
-                    CategoryId = 5,
+                    CategoryId = 4,
+                    CategoryName = "Tâm Sự Cuộc Sống",
                     UserId = "1"
                 }
                 );

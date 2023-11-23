@@ -8,7 +8,7 @@ else
 {
     <!--Danh sách tin tức và bài viết-->
     <div class="list-news mt-3">
-        <h5 class="title-news fw-bold">#@GetPostWithCateId.Select(s => s.CategoryDto.CategoryName)</h5>
+        <h5 class="title-news fw-bold">@firstPostWithCategory</h5>
         @foreach (var listNews in GetPostWithCateId)
         {
             <div class="mb-3 mt-3" style="max-width: 100%; height: 150px;">

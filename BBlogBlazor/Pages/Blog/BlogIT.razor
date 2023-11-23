@@ -63,17 +63,19 @@ else
                 <div class="title-news fw-bold" style="font-size: 20px">Top Bài Viết</div>
                 @foreach (var watchFlash in GetTopPost)
                 {
-                    <div class="watch-flash mt-3" style="max-width: 100%; height: 117px;">
-                        <div class="row g-0">
-                            <div class="col-md-6">
+                    <div class="watch-flash mt-3" style="max-width: 100%; height: 70px;">
+                        <div class="d-flex">
+                            <div class="index-main">
+                                <div class="layout-index-post">
+                                    <div class="index-post">@(GetTopPost.IndexOf(watchFlash) + 1)</div>                                  
+                                </div>
+                            </div>
+                            <div class="g-0 ms-2">
                                 <div class="layout-title-flash" style="padding: 0 3px 0 0; font-size: 14.5px;">
                                     <a href="blog-detail/@watchFlash.PostId" class="text-decoration-none">
                                         <p class="title-flash text-black">@watchFlash.Title</p>
                                     </a>
                                 </div>
-                            </div>
-                            <div class="layout-img-flash col-md-6">
-                                <a href="blog-detail/@watchFlash.PostId"><img src="@watchFlash.PicturePostUrl" class="img-flash img-fluid" alt="..."></a>
                             </div>
                         </div>
                     </div>

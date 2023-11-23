@@ -16,7 +16,7 @@ namespace BBlogBlazor.Pages.Blog.BlogChild
         private CategoryDto GetCateThuThuat { get; set; }
         private CategoryDto GetCatePhanMemIT { get; set; }
         private CategoryDto GetCateTinCongNghe { get; set; }
-
+        private string firstPostWithCategory;
 
         protected async override Task OnInitializedAsync()
         {
@@ -25,6 +25,8 @@ namespace BBlogBlazor.Pages.Blog.BlogChild
             GetCatePhanMemIT = await CategoryClient.GetCateId("2");
             GetCateTinCongNghe = await CategoryClient.GetCateId("3");
 
+            // Sử dụng LINQ để tìm phần tử đầu tiên có CategoryName không rỗng hoặc null
+            firstPostWithCategory = GetPostWithCateId.FirstOrDefault()?.CategoryName;
         }
     }
 }

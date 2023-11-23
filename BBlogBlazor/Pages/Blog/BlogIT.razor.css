@@ -3,7 +3,7 @@
 }
 
 .blog-list {
-    width: 68%;
+    width: 67%;
 }
 
 /*Phần banner*/
@@ -51,9 +51,9 @@
 /*Top Bài Viết*/
 .blog-popular {
     /*border: 1px solid #ff6a00;*/
-    margin-left: 860px;
-    bottom: -140px;
-    width: 28%;
+    margin-left: 890px;
+    bottom: -145px;
+    width: 25%;
     height: 800px;
 }
 
@@ -64,21 +64,32 @@
     height: 750px;
 }
 
-.layout-img-flash {
-    max-width: 300px;
-    max-height: 110px;
+.layout-index-post {
+    max-width: 30px;
+    max-height: 20px;
     overflow: hidden;
-}
-
-.img-flash {
-    width: 100%;
-    height: 100%;
-    border-radius: 7px;
 }
 
 .title-flash {
     overflow: hidden;
     white-space: pre-wrap;
     text-overflow: ellipsis;
-    margin-top: 2px;
+}
+
+.layout-index-post {
+    text-align: center;
+    overflow: hidden;
+    max-width: 40px;
+    width: 40px;
+    max-height: 40px;
+    height: 40px;
+    background-color: #1570EF;
+    border-radius: 10px;
+}
+
+.index-post {
+    font-size: 28px;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
 }

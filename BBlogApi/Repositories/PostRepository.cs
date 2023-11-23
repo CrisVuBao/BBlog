@@ -50,10 +50,16 @@ namespace BBlogApi.Repository
 			return getPost;
 		}
 
-		// Lấy bài viết theo chủ đề công ngh
+		// Lấy bài viết theo chủ đề công nghê
         public async Task<List<Post>> GetPostWithCateIT()
         {
 			var getPost = await _db.PostZ.Where(w => w.CategoryId == 1 || w.CategoryId == 2 || w.CategoryId == 3).ToListAsync();
+			return getPost;
+        }
+
+        public async Task<List<Post>> GetPostWithCatePersonal()
+        {
+			var getPost = await _db.PostZ.Where(w => w.CategoryId == 4 || w.CategoryId == 5).ToListAsync();
 			return getPost;
         }
 

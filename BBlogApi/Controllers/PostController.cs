@@ -93,6 +93,13 @@ namespace BBlogApi.Controllers
             }
         }
 
+        [HttpGet("GetPostWithCatePersonal")]
+        public async Task<ActionResult> GetPostWithCatePersonal()
+        {
+            var getPost = await _postRepo.GetPostWithCatePersonal();
+            return Ok(getPost);
+        }
+
         // Add
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
 		[HttpPost("AddPost")]

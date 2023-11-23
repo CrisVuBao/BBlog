@@ -3134,3 +3134,4 @@ F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\De
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Blog\BlogIT.razor.rz.scp.css
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Blog\BlogGame.razor.rz.scp.css
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Blog\BlogChild\BlogChild.razor.rz.scp.css
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Blog\BlogPersonal.razor.rz.scp.css
