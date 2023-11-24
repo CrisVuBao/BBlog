@@ -146,7 +146,7 @@
     }
 }
 
-/*icon*/
+
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-687od6cswe] {
     position: relative;
@@ -224,6 +224,16 @@ main[b-687od6cswe] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
+}
+
+.cay-thong[b-687od6cswe] {
+    position: fixed;
+    margin-top: 440px;
+}
+
+.cay-thong-img[b-687od6cswe] {
+    width: 150px;
+    height: 200px;
 }
 /* /Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-psknuevzuo] {

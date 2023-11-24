@@ -8481,6 +8481,14 @@
       "PackagePath": "staticwebassets\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\GIAY HOA.png",
+      "PackagePath": "staticwebassets\\images\\GIAY HOA.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\PNG-0000001905-png-cay-thong.png",
+      "PackagePath": "staticwebassets\\images\\PNG-0000001905-png-cay-thong.png"
+    },
+    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\banner\\bannerGame (72 x 25 inch).png",
       "PackagePath": "staticwebassets\\images\\banner\\bannerGame (72 x 25 inch).png"
     },
@@ -8497,6 +8505,10 @@
       "PackagePath": "staticwebassets\\images\\banner\\bannerTech.png"
     },
     {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\cay-thong.png",
+      "PackagePath": "staticwebassets\\images\\cay-thong.png"
+    },
+    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\hero1.jpg",
       "PackagePath": "staticwebassets\\images\\hero1.jpg"
     },
@@ -8511,6 +8523,10 @@
     {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\mery.png",
+      "PackagePath": "staticwebassets\\images\\mery.png"
     },
     {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\placeholder.png",

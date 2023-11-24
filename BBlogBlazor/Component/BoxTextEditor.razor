@@ -2,6 +2,14 @@
 
 @using WYSIWYGTextEditor
 
+<form>
+    <label for="title">Tiêu đề:</label>
+    <input type="text" id="title" />
+
+    <label for="content">Nội dung:</label>
+    <textarea id="content" ></textarea>
+</form>
+
 <TextEditor @ref="@QuillHtml">
     <ToolbarContent>
         <select class="ql-header">
