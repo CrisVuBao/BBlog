@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lJpZceQEDmC2RoN4GY2wsyBqDZWKB3MzhK7gfUfwO10=",
+  "Hash": "HM7ORG4gRzRV3+2qyqIyaVQXSDVyyl/5NDtv+K9xFns=",
   "Source": "BBlogBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -48769,6 +48769,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cay-thong.png"
+    },
+    {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\drag-drop-upload-2.webp",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/drag-drop-upload-2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\drag-drop-upload-2.webp"
     },
     {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\GIAY HOA.png",

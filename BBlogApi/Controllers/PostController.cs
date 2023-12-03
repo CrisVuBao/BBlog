@@ -112,27 +112,12 @@ namespace BBlogApi.Controllers
         // Add
         //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
         [HttpPost("AddPost")]
-        public async Task<ActionResult<Post>> AddPost([FromForm] CreatePostDto createPostDto)
+        public async Task<ActionResult<Post>> AddPost([FromBody] PostDto PostDto)
         {
             try
             {
-                if(createPostDto.File != null && createPostDto.File.Length > 0)
-                {
-                    if (!string.IsNullOrEmpty(createPostDto.File.ContentType))
-                    {
-                        var addPost = await _postRepo.AddPost(createPostDto);
-                        return Ok(addPost);
-                    }
-                    else
-                    {
-                        // ContentType là null hoặc rỗng, xử lý theo yêu cầu của bạn
-                        return BadRequest("Invalid ContentType for the file.");
-                    }
-                } else
-                {
-                    // File không tồn tại hoặc có độ dài bằng 0, xử lý theo yêu cầu của bạn
-                    return BadRequest("File is missing or empty.");
-                }
+                var addPost = await _postRepo.AddPost(PostDto);
+                return Ok(addPost);
             }
             catch
             {

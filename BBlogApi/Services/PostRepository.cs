@@ -87,17 +87,9 @@ namespace BBlogApi.Services
         }
 
         // Add Post
-        public async Task<Post> AddPost(CreatePostDto createPostDto)
+        public async Task<Post> AddPost(PostDto PostDto)
         {
-            var addPost = _mapper.Map<Post>(createPostDto); // tạo ra đối tượng mới kiểu Post, và sao chép dữ liệu từ postDto vào trong đối tượng Post
-
-            if (createPostDto.File != null)
-            {
-                var imageResult = await _imageService.AddImageAsync(createPostDto.File);
-
-                addPost.PicturePostUrl = imageResult.SecureUrl.ToString();
-                addPost.PublicId = imageResult.PublicId;
-            }
+            var addPost = _mapper.Map<Post>(PostDto); // tạo ra đối tượng mới kiểu Post, và sao chép dữ liệu từ postDto vào trong đối tượng Post
 
             await _db.PostZ.AddAsync(addPost);
             await _db.SaveChangesAsync();
