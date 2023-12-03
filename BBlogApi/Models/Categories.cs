@@ -9,7 +9,6 @@ namespace BBlogApi.Models
         public int CategoryId { get; set; }
 
         public string CategoryName { get; set; }
-
         public List<Post> Post { get; set; }
-	}
+    }
 }

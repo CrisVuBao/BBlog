@@ -3,7 +3,6 @@ using BBlogApi.Data;
 using BBlogApi.DTOs;
 using BBlogApi.Helpers;
 using BBlogApi.Models;
-using BBlogApi.Repository.IRepository;
 using BBlogApi.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;

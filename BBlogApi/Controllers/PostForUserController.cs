@@ -40,7 +40,6 @@ namespace BBlogApi.Controllers
 				BriefContent = postDto.BriefContent,
 				Content = postDto.Content,
 				PicturePostUrl = postDto.PicturePostUrl,
-				OrderNo = postDto.OrderNo,
 				TagSearch = postDto.TagSearch,
 				PostStatus = postDto.PostStatus,
 				CreateDate = DateTime.UtcNow,
@@ -82,7 +81,6 @@ namespace BBlogApi.Controllers
 				post.BriefContent = postDto.BriefContent;
 				post.Content = postDto.Content;
 				post.PicturePostUrl = postDto.PicturePostUrl;
-				post.OrderNo = postDto.OrderNo;
 				post.TagSearch = postDto.TagSearch;
 				post.PostStatus = postDto.PostStatus;
 				post.CreateDate = DateTime.Now;

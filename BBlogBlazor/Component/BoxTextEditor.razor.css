@@ -29,3 +29,16 @@
 .layout-text-editor {
     height: 500px;
 }
+
+.input-layout {
+    outline: none;
+    border: 2px solid #0026ff;
+    border-radius: 12px;
+    margin: 3px;
+}
+
+.form {
+    border: 2px solid #0094ff;
+    border-radius: 12px;
+    padding: 12px;
+}

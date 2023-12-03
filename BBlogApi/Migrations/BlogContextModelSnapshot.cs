@@ -125,7 +125,7 @@ namespace BBlogApi.Migrations
                         new
                         {
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT"
+                            CategoryName = "Phần Mềm"
                         },
                         new
                         {
@@ -135,12 +135,12 @@ namespace BBlogApi.Migrations
                         new
                         {
                             CategoryId = 4,
-                            CategoryName = "Chia Sẻ Cá Nhân"
+                            CategoryName = "Tâm Sự Cuộc Sống"
                         },
                         new
                         {
                             CategoryId = 5,
-                            CategoryName = "Động Lực Phát Triển"
+                            CategoryName = "Mở Mang"
                         });
                 });
 
@@ -156,15 +156,8 @@ namespace BBlogApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("CategoriesCategoryId")
-                        .HasColumnType("int");
-
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
-
-                    b.Property<string>("CategoryName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Content")
                         .IsRequired()
@@ -173,15 +166,15 @@ namespace BBlogApi.Migrations
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("OrderNo")
-                        .HasColumnType("int");
-
                     b.Property<string>("PicturePostUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PostStatus")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PublicId")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TagSearch")
@@ -200,7 +193,7 @@ namespace BBlogApi.Migrations
 
                     b.HasKey("PostId");
 
-                    b.HasIndex("CategoriesCategoryId");
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("PostZ");
 
@@ -210,10 +203,8 @@ namespace BBlogApi.Migrations
                             PostId = 1,
                             BriefContent = "CPU Intel thế hệ thứ 14 “Raptor Lake Refresh” dự kiến sẽ được ra mắt vào tháng 10/2023, và chúng ta vừa mới có được những con số benchmark bị rò rỉ của Core i9-14900K và Core i7-14700K.",
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT",
                             Content = "Core i9-14900K có 24 nhân 32 luồng (8 P-core và 16 E-core). Con chip này sẽ thay thế cho con chip đầu bảng Core i9-13900K hiện tại. Còn Core i7-14700K thì sẽ kế nhiệm Core i7-13700K, và nó được nâng cấp số nhân lên thành 8 P-core và 12 E-core.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7441),
-                            OrderNo = 1,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6102),
                             PicturePostUrl = "/images/products/i9_banner.jpg",
                             PostStatus = "Mới tạo",
                             TagSearch = "i9",
@@ -226,10 +217,8 @@ namespace BBlogApi.Migrations
                             PostId = 2,
                             BriefContent = "Phiên bản hệ điều hành iOS 17 vừa mới được Apple chính thức phát hành vào sáng nay.",
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT",
                             Content = "Rạng sáng ngày 19/9, Apple phát hành phiên bản cập nhật chính thức của iOS 17 tới người dùng iPhone. iOS 17 mang đến các tính năng mới giúp giao tiếp thêm biểu cảm, chia sẻ trở nên đơn giản, cùng một trải nghiệm toàn màn hình mới cho iPhone.\r\n\r\nCụ thể, phiên bản cập nhật iOS 17 có dung lượng khoảng hơn 3GB (tuỳ model), mang số hiệu 21A329, được phát hành cho các thiết bị iPhone từ thế hệ iPhone XS và XR trở đi.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7444),
-                            OrderNo = 2,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6106),
                             PicturePostUrl = "/images/products/ios17_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "ios17",
@@ -242,10 +231,8 @@ namespace BBlogApi.Migrations
                             PostId = 3,
                             BriefContent = "Với sự tham gia của các chuyên gia hàng đầu, lãnh đạo doanh nghiệp và những người có tầm ảnh hưởng, giải thưởng này cam kết tôn vinh những đổi mới sáng tạo thực sự mang lại giá trị cho người tiêu dùng.",
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT",
                             Content = "Rạng sáng ngày 19/9, Apple phát hành phiên bản cập nhật chính thức của iOS 17 tới người dùng iPhone. iOS 17 mang đến các tính năng mới giúp giao tiếp thêm biểu cảm, chia sẻ trở nên đơn giản, cùng một trải nghiệm toàn màn hình mới cho iPhone.\r\n\r\nCụ thể, phiên bản cập nhật iOS 17 có dung lượng khoảng hơn 3GB (tuỳ model), mang số hiệu 21A329, được phát hành cho các thiết bị iPhone từ thế hệ iPhone XS và XR trở đi.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7446),
-                            OrderNo = 2,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6107),
                             PicturePostUrl = "/images/products/pewpew_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "pewpew",
@@ -258,10 +245,8 @@ namespace BBlogApi.Migrations
                             PostId = 4,
                             BriefContent = "Bằng cách sử dụng hai chiếc iPhone, người dùng có thể phần nào được trải nghiệm những lợi ích mà họ sẽ có được khi nâng cấp lên Galaxy Z Fold.",
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT",
                             Content = "So với những chiếc smartphone truyền thống với thiết kế phẳng, những chiếc điện thoại màn hình gập mang đến nhiều lợi thế. Với thiết kế gập ngang như Galaxy Z Fold, người dùng sẽ có được một chiếc tablet nằm gọn trong túi quần, khiến cho mọi trải nghiệm giải trí, học tập và làm việc trở nên hiệu quả hơn.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7447),
-                            OrderNo = 3,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6108),
                             PicturePostUrl = "/images/products/z-fold_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "zfold",
@@ -274,10 +259,8 @@ namespace BBlogApi.Migrations
                             PostId = 5,
                             BriefContent = "\r\nHải Triều, một trong những gương mặt đình đám chuyên “phá hoại” trong làng công nghệ, cho biết anh muốn droptest các sản phẩm tại BCA, vừa là để kiểm chứng độ bền, lại vừa được… thỏa mãn đam mê.",
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT",
                             Content = "Nếu bạn là một người yêu công nghệ, hay xem các video clip đánh giá sản phẩm công nghệ nổi bật tại Việt Nam thì chắc chắn sẽ cảm thấy quen thuộc với cái tên Hải Triều tới từ kênh AnhEm TV. Hải Triều là một trong những gương mặt đình đám trong làng công nghệ, bên cạnh các video đánh giá sản phẩm công tâm thì anh còn nổi tiếng với độ “phá hoại” bởi Hải Triều luôn muốn thử độ bền các sản phẩm công nghệ, tạo nên sự khác biệt và chất riêng cho bản thân.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7449),
-                            OrderNo = 4,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6110),
                             PicturePostUrl = "/images/products/haitrieu_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "haitrieu",
@@ -290,10 +273,8 @@ namespace BBlogApi.Migrations
                             PostId = 6,
                             BriefContent = "CPU Intel thế hệ thứ 14 “Raptor Lake Refresh” dự kiến sẽ được ra mắt vào tháng 10/2023, và chúng ta vừa mới có được những con số benchmark bị rò rỉ của Core i9-14900K và Core i7-14700K.",
                             CategoryId = 3,
-                            CategoryName = "Tin Công Nghệ",
                             Content = "Core i9-14900K có 24 nhân 32 luồng (8 P-core và 16 E-core). Con chip này sẽ thay thế cho con chip đầu bảng Core i9-13900K hiện tại. Còn Core i7-14700K thì sẽ kế nhiệm Core i7-13700K, và nó được nâng cấp số nhân lên thành 8 P-core và 12 E-core.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7450),
-                            OrderNo = 5,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6111),
                             PicturePostUrl = "/images/products/i9_banner.jpg",
                             PostStatus = "Mới tạo",
                             TagSearch = "i9",
@@ -306,10 +287,8 @@ namespace BBlogApi.Migrations
                             PostId = 7,
                             BriefContent = "Phiên bản hệ điều hành iOS 17 vừa mới được Apple chính thức phát hành vào sáng nay.",
                             CategoryId = 3,
-                            CategoryName = "Tin Công Nghệ",
                             Content = "Rạng sáng ngày 19/9, Apple phát hành phiên bản cập nhật chính thức của iOS 17 tới người dùng iPhone. iOS 17 mang đến các tính năng mới giúp giao tiếp thêm biểu cảm, chia sẻ trở nên đơn giản, cùng một trải nghiệm toàn màn hình mới cho iPhone.\r\n\r\nCụ thể, phiên bản cập nhật iOS 17 có dung lượng khoảng hơn 3GB (tuỳ model), mang số hiệu 21A329, được phát hành cho các thiết bị iPhone từ thế hệ iPhone XS và XR trở đi.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7451),
-                            OrderNo = 6,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6112),
                             PicturePostUrl = "/images/products/ios17_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "ios17",
@@ -322,10 +301,8 @@ namespace BBlogApi.Migrations
                             PostId = 8,
                             BriefContent = "Với sự tham gia của các chuyên gia hàng đầu, lãnh đạo doanh nghiệp và những người có tầm ảnh hưởng, giải thưởng này cam kết tôn vinh những đổi mới sáng tạo thực sự mang lại giá trị cho người tiêu dùng.",
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT",
                             Content = "Rạng sáng ngày 19/9, Apple phát hành phiên bản cập nhật chính thức của iOS 17 tới người dùng iPhone. iOS 17 mang đến các tính năng mới giúp giao tiếp thêm biểu cảm, chia sẻ trở nên đơn giản, cùng một trải nghiệm toàn màn hình mới cho iPhone.\r\n\r\nCụ thể, phiên bản cập nhật iOS 17 có dung lượng khoảng hơn 3GB (tuỳ model), mang số hiệu 21A329, được phát hành cho các thiết bị iPhone từ thế hệ iPhone XS và XR trở đi.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7453),
-                            OrderNo = 7,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6113),
                             PicturePostUrl = "/images/products/pewpew_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "pewpew",
@@ -338,10 +315,8 @@ namespace BBlogApi.Migrations
                             PostId = 9,
                             BriefContent = "Bằng cách sử dụng hai chiếc iPhone, người dùng có thể phần nào được trải nghiệm những lợi ích mà họ sẽ có được khi nâng cấp lên Galaxy Z Fold.",
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT",
                             Content = "So với những chiếc smartphone truyền thống với thiết kế phẳng, những chiếc điện thoại màn hình gập mang đến nhiều lợi thế. Với thiết kế gập ngang như Galaxy Z Fold, người dùng sẽ có được một chiếc tablet nằm gọn trong túi quần, khiến cho mọi trải nghiệm giải trí, học tập và làm việc trở nên hiệu quả hơn.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7490),
-                            OrderNo = 8,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6114),
                             PicturePostUrl = "/images/products/z-fold_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "zfold",
@@ -354,10 +329,8 @@ namespace BBlogApi.Migrations
                             PostId = 10,
                             BriefContent = "\r\nHải Triều, một trong những gương mặt đình đám chuyên “phá hoại” trong làng công nghệ, cho biết anh muốn droptest các sản phẩm tại BCA, vừa là để kiểm chứng độ bền, lại vừa được… thỏa mãn đam mê.",
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT",
                             Content = "Nếu bạn là một người yêu công nghệ, hay xem các video clip đánh giá sản phẩm công nghệ nổi bật tại Việt Nam thì chắc chắn sẽ cảm thấy quen thuộc với cái tên Hải Triều tới từ kênh AnhEm TV. Hải Triều là một trong những gương mặt đình đám trong làng công nghệ, bên cạnh các video đánh giá sản phẩm công tâm thì anh còn nổi tiếng với độ “phá hoại” bởi Hải Triều luôn muốn thử độ bền các sản phẩm công nghệ, tạo nên sự khác biệt và chất riêng cho bản thân.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7491),
-                            OrderNo = 9,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6116),
                             PicturePostUrl = "/images/products/haitrieu_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "haitrieu",
@@ -370,10 +343,8 @@ namespace BBlogApi.Migrations
                             PostId = 11,
                             BriefContent = "CPU Intel thế hệ thứ 14 “Raptor Lake Refresh” dự kiến sẽ được ra mắt vào tháng 10/2023, và chúng ta vừa mới có được những con số benchmark bị rò rỉ của Core i9-14900K và Core i7-14700K.",
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT",
                             Content = "Core i9-14900K có 24 nhân 32 luồng (8 P-core và 16 E-core). Con chip này sẽ thay thế cho con chip đầu bảng Core i9-13900K hiện tại. Còn Core i7-14700K thì sẽ kế nhiệm Core i7-13700K, và nó được nâng cấp số nhân lên thành 8 P-core và 12 E-core.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7493),
-                            OrderNo = 10,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6153),
                             PicturePostUrl = "/images/products/i9_banner.jpg",
                             PostStatus = "Mới tạo",
                             TagSearch = "i9",
@@ -386,10 +357,8 @@ namespace BBlogApi.Migrations
                             PostId = 12,
                             BriefContent = "Phiên bản hệ điều hành iOS 17 vừa mới được Apple chính thức phát hành vào sáng nay.",
                             CategoryId = 2,
-                            CategoryName = "Phần Mềm IT",
                             Content = "Rạng sáng ngày 19/9, Apple phát hành phiên bản cập nhật chính thức của iOS 17 tới người dùng iPhone. iOS 17 mang đến các tính năng mới giúp giao tiếp thêm biểu cảm, chia sẻ trở nên đơn giản, cùng một trải nghiệm toàn màn hình mới cho iPhone.\r\n\r\nCụ thể, phiên bản cập nhật iOS 17 có dung lượng khoảng hơn 3GB (tuỳ model), mang số hiệu 21A329, được phát hành cho các thiết bị iPhone từ thế hệ iPhone XS và XR trở đi.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7494),
-                            OrderNo = 11,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6155),
                             PicturePostUrl = "/images/products/ios17_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "ios17",
@@ -402,10 +371,8 @@ namespace BBlogApi.Migrations
                             PostId = 13,
                             BriefContent = "Với sự tham gia của các chuyên gia hàng đầu, lãnh đạo doanh nghiệp và những người có tầm ảnh hưởng, giải thưởng này cam kết tôn vinh những đổi mới sáng tạo thực sự mang lại giá trị cho người tiêu dùng.",
                             CategoryId = 1,
-                            CategoryName = "Thủ Thuật IT",
                             Content = "Rạng sáng ngày 19/9, Apple phát hành phiên bản cập nhật chính thức của iOS 17 tới người dùng iPhone. iOS 17 mang đến các tính năng mới giúp giao tiếp thêm biểu cảm, chia sẻ trở nên đơn giản, cùng một trải nghiệm toàn màn hình mới cho iPhone.\r\n\r\nCụ thể, phiên bản cập nhật iOS 17 có dung lượng khoảng hơn 3GB (tuỳ model), mang số hiệu 21A329, được phát hành cho các thiết bị iPhone từ thế hệ iPhone XS và XR trở đi.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7495),
-                            OrderNo = 12,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6156),
                             PicturePostUrl = "/images/products/pewpew_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "pewpew",
@@ -418,10 +385,8 @@ namespace BBlogApi.Migrations
                             PostId = 14,
                             BriefContent = "Bằng cách sử dụng hai chiếc iPhone, người dùng có thể phần nào được trải nghiệm những lợi ích mà họ sẽ có được khi nâng cấp lên Galaxy Z Fold.",
                             CategoryId = 1,
-                            CategoryName = "Thủ Thuật IT",
                             Content = "So với những chiếc smartphone truyền thống với thiết kế phẳng, những chiếc điện thoại màn hình gập mang đến nhiều lợi thế. Với thiết kế gập ngang như Galaxy Z Fold, người dùng sẽ có được một chiếc tablet nằm gọn trong túi quần, khiến cho mọi trải nghiệm giải trí, học tập và làm việc trở nên hiệu quả hơn.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7497),
-                            OrderNo = 13,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6157),
                             PicturePostUrl = "/images/products/z-fold_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "zfold",
@@ -434,10 +399,8 @@ namespace BBlogApi.Migrations
                             PostId = 15,
                             BriefContent = "\r\nHải Triều, một trong những gương mặt đình đám chuyên “phá hoại” trong làng công nghệ, cho biết anh muốn droptest các sản phẩm tại BCA, vừa là để kiểm chứng độ bền, lại vừa được… thỏa mãn đam mê.",
                             CategoryId = 1,
-                            CategoryName = "Thủ Thuật IT",
                             Content = "Nếu bạn là một người yêu công nghệ, hay xem các video clip đánh giá sản phẩm công nghệ nổi bật tại Việt Nam thì chắc chắn sẽ cảm thấy quen thuộc với cái tên Hải Triều tới từ kênh AnhEm TV. Hải Triều là một trong những gương mặt đình đám trong làng công nghệ, bên cạnh các video đánh giá sản phẩm công tâm thì anh còn nổi tiếng với độ “phá hoại” bởi Hải Triều luôn muốn thử độ bền các sản phẩm công nghệ, tạo nên sự khác biệt và chất riêng cho bản thân.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7498),
-                            OrderNo = 14,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6159),
                             PicturePostUrl = "/images/products/haitrieu_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "haitrieu",
@@ -450,10 +413,8 @@ namespace BBlogApi.Migrations
                             PostId = 16,
                             BriefContent = "CPU Intel thế hệ thứ 14 “Raptor Lake Refresh” dự kiến sẽ được ra mắt vào tháng 10/2023, và chúng ta vừa mới có được những con số benchmark bị rò rỉ của Core i9-14900K và Core i7-14700K.",
                             CategoryId = 1,
-                            CategoryName = "Thủ Thuật IT",
                             Content = "Core i9-14900K có 24 nhân 32 luồng (8 P-core và 16 E-core). Con chip này sẽ thay thế cho con chip đầu bảng Core i9-13900K hiện tại. Còn Core i7-14700K thì sẽ kế nhiệm Core i7-13700K, và nó được nâng cấp số nhân lên thành 8 P-core và 12 E-core.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7499),
-                            OrderNo = 15,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6160),
                             PicturePostUrl = "/images/products/i9_banner.jpg",
                             PostStatus = "Mới tạo",
                             TagSearch = "i9",
@@ -466,10 +427,8 @@ namespace BBlogApi.Migrations
                             PostId = 17,
                             BriefContent = "Phiên bản hệ điều hành iOS 17 vừa mới được Apple chính thức phát hành vào sáng nay.",
                             CategoryId = 5,
-                            CategoryName = "Động Lực Phát Triển",
                             Content = "Rạng sáng ngày 19/9, Apple phát hành phiên bản cập nhật chính thức của iOS 17 tới người dùng iPhone. iOS 17 mang đến các tính năng mới giúp giao tiếp thêm biểu cảm, chia sẻ trở nên đơn giản, cùng một trải nghiệm toàn màn hình mới cho iPhone.\r\n\r\nCụ thể, phiên bản cập nhật iOS 17 có dung lượng khoảng hơn 3GB (tuỳ model), mang số hiệu 21A329, được phát hành cho các thiết bị iPhone từ thế hệ iPhone XS và XR trở đi.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7501),
-                            OrderNo = 16,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6161),
                             PicturePostUrl = "/images/products/ios17_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "ios17",
@@ -482,10 +441,8 @@ namespace BBlogApi.Migrations
                             PostId = 18,
                             BriefContent = "Với sự tham gia của các chuyên gia hàng đầu, lãnh đạo doanh nghiệp và những người có tầm ảnh hưởng, giải thưởng này cam kết tôn vinh những đổi mới sáng tạo thực sự mang lại giá trị cho người tiêu dùng.",
                             CategoryId = 4,
-                            CategoryName = "Chia Sẻ Cá Nhân",
                             Content = "Rạng sáng ngày 19/9, Apple phát hành phiên bản cập nhật chính thức của iOS 17 tới người dùng iPhone. iOS 17 mang đến các tính năng mới giúp giao tiếp thêm biểu cảm, chia sẻ trở nên đơn giản, cùng một trải nghiệm toàn màn hình mới cho iPhone.\r\n\r\nCụ thể, phiên bản cập nhật iOS 17 có dung lượng khoảng hơn 3GB (tuỳ model), mang số hiệu 21A329, được phát hành cho các thiết bị iPhone từ thế hệ iPhone XS và XR trở đi.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7502),
-                            OrderNo = 17,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6162),
                             PicturePostUrl = "/images/products/pewpew_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "pewpew",
@@ -498,10 +455,8 @@ namespace BBlogApi.Migrations
                             PostId = 19,
                             BriefContent = "Bằng cách sử dụng hai chiếc iPhone, người dùng có thể phần nào được trải nghiệm những lợi ích mà họ sẽ có được khi nâng cấp lên Galaxy Z Fold.",
                             CategoryId = 4,
-                            CategoryName = "Chia Sẻ Cá Nhân",
                             Content = "So với những chiếc smartphone truyền thống với thiết kế phẳng, những chiếc điện thoại màn hình gập mang đến nhiều lợi thế. Với thiết kế gập ngang như Galaxy Z Fold, người dùng sẽ có được một chiếc tablet nằm gọn trong túi quần, khiến cho mọi trải nghiệm giải trí, học tập và làm việc trở nên hiệu quả hơn.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7503),
-                            OrderNo = 18,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6163),
                             PicturePostUrl = "/images/products/z-fold_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "zfold",
@@ -514,10 +469,8 @@ namespace BBlogApi.Migrations
                             PostId = 20,
                             BriefContent = "\r\nHải Triều, một trong những gương mặt đình đám chuyên “phá hoại” trong làng công nghệ, cho biết anh muốn droptest các sản phẩm tại BCA, vừa là để kiểm chứng độ bền, lại vừa được… thỏa mãn đam mê.",
                             CategoryId = 4,
-                            CategoryName = "Chia Sẻ Cá Nhân",
                             Content = "Nếu bạn là một người yêu công nghệ, hay xem các video clip đánh giá sản phẩm công nghệ nổi bật tại Việt Nam thì chắc chắn sẽ cảm thấy quen thuộc với cái tên Hải Triều tới từ kênh AnhEm TV. Hải Triều là một trong những gương mặt đình đám trong làng công nghệ, bên cạnh các video đánh giá sản phẩm công tâm thì anh còn nổi tiếng với độ “phá hoại” bởi Hải Triều luôn muốn thử độ bền các sản phẩm công nghệ, tạo nên sự khác biệt và chất riêng cho bản thân.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7505),
-                            OrderNo = 19,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6164),
                             PicturePostUrl = "/images/products/haitrieu_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "haitrieu",
@@ -530,10 +483,8 @@ namespace BBlogApi.Migrations
                             PostId = 21,
                             BriefContent = "\r\nHải Triều, một trong những gương mặt đình đám chuyên “phá hoại” trong làng công nghệ, cho biết anh muốn droptest các sản phẩm tại BCA, vừa là để kiểm chứng độ bền, lại vừa được… thỏa mãn đam mê.",
                             CategoryId = 4,
-                            CategoryName = "Chia Sẻ Cá Nhân",
                             Content = "Nếu bạn là một người yêu công nghệ, hay xem các video clip đánh giá sản phẩm công nghệ nổi bật tại Việt Nam thì chắc chắn sẽ cảm thấy quen thuộc với cái tên Hải Triều tới từ kênh AnhEm TV. Hải Triều là một trong những gương mặt đình đám trong làng công nghệ, bên cạnh các video đánh giá sản phẩm công tâm thì anh còn nổi tiếng với độ “phá hoại” bởi Hải Triều luôn muốn thử độ bền các sản phẩm công nghệ, tạo nên sự khác biệt và chất riêng cho bản thân.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7507),
-                            OrderNo = 20,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6165),
                             PicturePostUrl = "/images/products/haitrieu_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "haitrieu",
@@ -546,10 +497,8 @@ namespace BBlogApi.Migrations
                             PostId = 22,
                             BriefContent = "\r\nHải Triều, một trong những gương mặt đình đám chuyên “phá hoại” trong làng công nghệ, cho biết anh muốn droptest các sản phẩm tại BCA, vừa là để kiểm chứng độ bền, lại vừa được… thỏa mãn đam mê.",
                             CategoryId = 4,
-                            CategoryName = "Chia Sẻ Cá Nhân",
                             Content = "Nếu bạn là một người yêu công nghệ, hay xem các video clip đánh giá sản phẩm công nghệ nổi bật tại Việt Nam thì chắc chắn sẽ cảm thấy quen thuộc với cái tên Hải Triều tới từ kênh AnhEm TV. Hải Triều là một trong những gương mặt đình đám trong làng công nghệ, bên cạnh các video đánh giá sản phẩm công tâm thì anh còn nổi tiếng với độ “phá hoại” bởi Hải Triều luôn muốn thử độ bền các sản phẩm công nghệ, tạo nên sự khác biệt và chất riêng cho bản thân.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7508),
-                            OrderNo = 21,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6167),
                             PicturePostUrl = "/images/products/haitrieu_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "haitrieu",
@@ -562,10 +511,8 @@ namespace BBlogApi.Migrations
                             PostId = 23,
                             BriefContent = "\r\nHải Triều, một trong những gương mặt đình đám chuyên “phá hoại” trong làng công nghệ, cho biết anh muốn droptest các sản phẩm tại BCA, vừa là để kiểm chứng độ bền, lại vừa được… thỏa mãn đam mê.",
                             CategoryId = 4,
-                            CategoryName = "Chia Sẻ Cá Nhân",
                             Content = "Nếu bạn là một người yêu công nghệ, hay xem các video clip đánh giá sản phẩm công nghệ nổi bật tại Việt Nam thì chắc chắn sẽ cảm thấy quen thuộc với cái tên Hải Triều tới từ kênh AnhEm TV. Hải Triều là một trong những gương mặt đình đám trong làng công nghệ, bên cạnh các video đánh giá sản phẩm công tâm thì anh còn nổi tiếng với độ “phá hoại” bởi Hải Triều luôn muốn thử độ bền các sản phẩm công nghệ, tạo nên sự khác biệt và chất riêng cho bản thân.",
-                            CreateDate = new DateTime(2023, 11, 22, 17, 30, 14, 545, DateTimeKind.Local).AddTicks(7509),
-                            OrderNo = 22,
+                            CreateDate = new DateTime(2023, 11, 28, 11, 52, 57, 483, DateTimeKind.Local).AddTicks(6168),
                             PicturePostUrl = "/images/products/haitrieu_3.webp",
                             PostStatus = "Mới tạo",
                             TagSearch = "haitrieu",
@@ -608,14 +555,14 @@ namespace BBlogApi.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "8f351725-a94f-4db5-aa1b-6e999559c593",
+                            ConcurrencyStamp = "50127be5-31fc-4a09-af5d-90a62d697177",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "33a5d705-c212-498f-9e71-98dafaa5d3dd",
+                            ConcurrencyStamp = "aba25304-3ff6-424a-883d-caf7f0d45f6d",
                             Name = "Member",
                             NormalizedName = "MEMBER"
                         });
@@ -726,9 +673,13 @@ namespace BBlogApi.Migrations
 
             modelBuilder.Entity("BBlogApi.Models.Post", b =>
                 {
-                    b.HasOne("BBlogApi.Models.Categories", null)
+                    b.HasOne("BBlogApi.Models.Categories", "Categories")
                         .WithMany("Post")
-                        .HasForeignKey("CategoriesCategoryId");
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Categories");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>

@@ -1,7 +1,5 @@
 ﻿using BBlogApi.Data;
 using BBlogApi.Models;
-using BBlogApi.Repository;
-using BBlogApi.Repository.IRepository;
 using BBlogApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -16,6 +14,7 @@ using Microsoft.OpenApi.Models;
 using System.Net;
 using System.Text;
 using Microsoft.AspNetCore.Http;
+using BBlogApi.Services.IServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -104,6 +103,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization();
 
 builder.Services.AddScoped<TokenService>();
+builder.Services.AddScoped<ImageService>();
 
 // đk automapper để sử dụng
 builder.Services.AddAutoMapper(typeof(Program));

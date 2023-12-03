@@ -30,6 +30,19 @@
 .layout-text-editor[b-brko2uthui] {
     height: 500px;
 }
+
+.input-layout[b-brko2uthui] {
+    outline: none;
+    border: 2px solid #0026ff;
+    border-radius: 12px;
+    margin: 3px;
+}
+
+.form[b-brko2uthui] {
+    border: 2px solid #0094ff;
+    border-radius: 12px;
+    padding: 12px;
+}
 /* /Component/LoadingBar.razor.rz.scp.css */
 .spinner[b-0z84csx8x2] {
     border: 16px solid silver;
@@ -57,6 +70,11 @@
     bottom: 0;
 }
 /* /Layout/Header.razor.rz.scp.css */
+a[b-5swpb2a07p] {
+    text-decoration: none;
+    color: #000000;
+}
+
 .nav-test[b-5swpb2a07p] {
     /*  border: 1px solid #ff0000;*/
     background-color: #FFFFFF;
@@ -236,6 +254,11 @@ main[b-687od6cswe] {
     height: 200px;
 }
 /* /Layout/NavMenu.razor.rz.scp.css */
+a[b-psknuevzuo] {
+    text-decoration: none;
+    color: #000000;
+}
+
 .navbar-toggler[b-psknuevzuo] {
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -338,6 +361,7 @@ main[b-687od6cswe] {
     height: 100%;
     border-radius: 7px;
 }
+
 /* /Pages/Blog/BlogGame.razor.rz.scp.css */
 .blog-main[b-1pqexut77p] {
     border: 1px solid #ff0000;

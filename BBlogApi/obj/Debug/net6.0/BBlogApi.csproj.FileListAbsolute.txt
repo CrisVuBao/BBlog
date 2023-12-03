@@ -301,6 +301,7 @@ F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\BBlogApi.pdb
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\AutoMapper.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\CloudinaryDotNet.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\Humanizer.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -324,6 +325,7 @@ F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\Newtonsoft.Json.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -353,6 +355,7 @@ F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\BBlogApi.csproj.CoreCompileInputs.cache
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\BBlogApi.MvcApplicationPartsAssemblyInfo.cs
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\BBlogApi.MvcApplicationPartsAssemblyInfo.cache
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\BBlogApi.sourcelink.json
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\staticwebassets.build.json
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\staticwebassets.development.json
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\staticwebassets\msbuild.BBlogApi.Microsoft.AspNetCore.StaticWebAssets.props
@@ -367,4 +370,3 @@ F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\BBlogApi.pdb
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\BBlogApi.genruntimeconfig.cache
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\ref\BBlogApi.dll
-F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\BBlogApi.sourcelink.json
