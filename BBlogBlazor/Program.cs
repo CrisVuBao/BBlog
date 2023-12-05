@@ -1,6 +1,7 @@
 using BBlogBlazor;
 using BBlogBlazor.Services;
 using BBlogBlazor.Services.IRepository;
+using BBlogBlazor.Services.IServices;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -12,6 +13,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped<IPostClient, PostClient>();
 builder.Services.AddScoped<ICategoryClient, CategoryClient>();
+builder.Services.AddScoped<IAccountClient, AccountClient>();
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5000/") });
 

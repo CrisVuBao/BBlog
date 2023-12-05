@@ -275,11 +275,61 @@ a[b-5swpb2a07p] {
 
 
 /* /Layout/MainLayout.razor.rz.scp.css */
-.page[b-687od6cswe] {
+.main-layout[b-687od6cswe] {
     position: relative;
-    display: flex;
-    flex-direction: column;
 }
+
+.snow[b-687od6cswe], .snow[b-687od6cswe]::after, .snow[b-687od6cswe]::before {
+    position: absolute;
+    top:-650px;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image:
+        radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+        radial-gradient(6px 6px at 200px 150px, #fff, transparent),
+        radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+        radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+        radial-gradient(4px 4px at 400px 350px, #fff, transparent),
+        radial-gradient(6px 6px at 500px 100px, #fff, transparent),
+        radial-gradient(3px 3px at 50px 200px, #fff, transparent),
+        radial-gradient(4px 4px at 150px 300px, #fff, transparent),
+        radial-gradient(6px 6px at 250px 400px, #fff, transparent),
+        radial-gradient(3px 3px at 350px 500px, #fff, transparent);
+    background-size: 650px 650px;
+    animation: snowAnim-b-687od6cswe 3s linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+
+    .snow[b-687od6cswe]::after {
+        margin-left: -250px;
+        opacity: 0.5;
+        filter: blur(2px);
+        animation-direction: reverse;
+        animation-duration: 6s;
+    }
+
+    .snow[b-687od6cswe]::before {
+        margin-left: -350px;
+        opacity: 0.7;
+        filter: blur(1px);
+    }
+
+    @keyframes snowAnim-b-687od6cswe {
+        from {
+            transform: translateY(0);
+        }
+        to {
+            transform: translateY(650px);
+        }
+    }
+
+    .page[b-687od6cswe] {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
 
 main[b-687od6cswe] {
     flex: 1;
@@ -482,6 +532,61 @@ table th[b-vspxdysga4] {
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
+/* /Pages/Authentication/Login.razor.rz.scp.css */
+/*.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}*/
+
+.h-custom[b-d5seq0j47v] {
+    /*height: calc(100% - 73px);*/
+    margin-top: 10px;
+}
+
+/*@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+*/
+/* /Pages/Authentication/Register.razor.rz.scp.css */
+body[b-k5hfqs12ar] {
+    background-color: #f8f9fa;
+}
+
+.login-container[b-k5hfqs12ar] {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.login-form[b-k5hfqs12ar] {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .login-form h2[b-k5hfqs12ar] {
+        color: #1570EF;
+    }
+
+    .login-form .form-control[b-k5hfqs12ar] {
+        border-color: #1570EF;
+    }
+
+    .login-form .btn-primary[b-k5hfqs12ar] {
+        background-color: #1570EF;
+        border-color: #1570EF;
+    }
+
+        .login-form .btn-primary:hover[b-k5hfqs12ar] {
+            background-color: #135cb2;
+            border-color: #135cb2;
+        }
 /* /Pages/Blog/BlogChild/BlogChild.razor.rz.scp.css */
 /*Danh sách tin tức và bài viết*/
 .list-news[b-aajxn699sn] {

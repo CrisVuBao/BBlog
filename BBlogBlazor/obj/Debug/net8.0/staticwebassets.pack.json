@@ -8489,6 +8489,14 @@
       "PackagePath": "staticwebassets\\images\\PNG-0000001905-png-cay-thong.png"
     },
     {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\avatar\\admin.webp",
+      "PackagePath": "staticwebassets\\images\\avatar\\admin.webp"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\avatar\\test.png",
+      "PackagePath": "staticwebassets\\images\\avatar\\test.png"
+    },
+    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\images\\banner\\bannerGame (72 x 25 inch).png",
       "PackagePath": "staticwebassets\\images\\banner\\bannerGame (72 x 25 inch).png"
     },
