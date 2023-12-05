@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "7A4QXlXxw0TF9b/ISrctNE9dld6ZRBILPQoMIIZ1idU=",
+  "Hash": "YabM55okUXgJicrEA019XDRYpeKPYJMa+4VE0HaFGPE=",
   "Source": "BBlogApi",
   "BasePath": "_content/BBlogApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BBlogApi\\wwwroot",
+      "Source": "BBlogApi",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
+      "BasePath": "_content/BBlogApi",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

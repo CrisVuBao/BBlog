@@ -370,3 +370,4 @@ F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\BBlogApi.pdb
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\BBlogApi.genruntimeconfig.cache
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\obj\Debug\net6.0\ref\BBlogApi.dll
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogApi\bin\Debug\net6.0\BBlogApi.staticwebassets.runtime.json

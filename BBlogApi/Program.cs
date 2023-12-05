@@ -109,6 +109,7 @@ builder.Services.AddScoped<ImageService>();
 builder.Services.AddAutoMapper(typeof(Program));
 
 // Life cycle DI: AddScoped()
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 
 var app = builder.Build();
@@ -120,14 +121,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(opt =>
-{
-    opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000");
-});
+//app.UseCors(opt =>
+//{
+//    opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000");
+//});
 
 app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();
+app.UseStaticFiles(); // cấu hình file
 
 app.UseAuthentication();
 app.UseAuthorization();

@@ -1,20 +1,18 @@
 ﻿using BBlog.Models;
-using BBlogApi.Extensions;
 using BBlogBlazor.Services.IRepository;
 using Blazored.TextEditor;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Internal;
-using System.Net.Http.Json;
 
 
 namespace BBlogBlazor.Component
 {
     public partial class BoxTextEditor
     {
-        private IBrowserFile? imageFile;
-        private IFormFile ImaFile;
+        private string UploadFileWarning = string.Empty;
+        private string img = string.Empty;
         private BlazoredTextEditor QuillHtml;
         private string imageType;
         [Inject] private IPostClient PostClient { get; set; }
@@ -25,50 +23,30 @@ namespace BBlogBlazor.Component
 
         protected override async Task OnInitializedAsync()
         {
-            categories = await CategoryClient.GetAllCate();          
+            categories = await CategoryClient.GetAllCate();
         }
-
-
-        private bool _attemptingToUploadImage = false;
-        private bool _attempToUploadFailed = false;
-        private string _reasonImageUploadFailed = null;
 
         private async Task HandleFileSelect(InputFileChangeEventArgs e)
         {
-            using var httpClient = new HttpClient();
-
-            _attemptingToUploadImage = true;
-            if (e.File.Size >= 31575280)
+            var file = e.File;
+            if (file != null)
             {
-                _reasonImageUploadFailed = "Cần upload ảnh nhỏ hơn 30MB";
-                _attempToUploadFailed = true;
-            } else
-            {
-                imageFile = e.File;
-                byte[] imageAsByteArray = new byte[imageFile.Size];
-
-                await imageFile.OpenReadStream(31575280).ReadAsync(imageAsByteArray);
-                string byteString = Convert.ToBase64String(imageAsByteArray);
-
-                UploadImage uploadedImage = new UploadImage()
+                var ext = System.IO.Path.GetExtension(file.Name);
+                if (ext.ToLower().Contains("jpg") || ext.ToLower().Contains("png") || ext.ToLower().Contains("jpeg") || ext.ToLower().Contains("webp"))
                 {
-                    NewImageFileExtenstion = imageFile.Name.Substring(imageFile.Name.Length - 4),
-                    NewImageBase64Content = byteString,
-                    OldImagePath = string.Empty
-                };
+                    var byteArray = new byte[file.Size];
+                    await file.OpenReadStream().ReadAsync(byteArray);
+                    string imageType = file.ContentType;
+                    string base64String = Convert.ToBase64String(byteArray);
 
-               HttpResponseMessage response =  await httpClient.PostAsJsonAsync<UploadImage>("api/ImageUpload", uploadedImage);
-                if(response.StatusCode == System.Net.HttpStatusCode.Created)
-                {
-                    post.PicturePostUrl = await response.Content.ReadAsStringAsync();
-                }else
-                {
-                    _reasonImageUploadFailed = "lỗi gì đó khi yêu cầu từ server";
-                    _attempToUploadFailed = true;
+                    post.PictureUrlData = base64String;
+                    post.PictureUrlOriginal = file.Name;
+                    img = $"data:{imageType}; base64, {base64String}";
                 }
-
-                _attemptingToUploadImage = false;
-                StateHasChanged();
+                else
+                {
+                    UploadFileWarning = "Cần chọn file (*.ipg | *.png | *.jpeg | *.webp)";
+                }
             }
         }
 
@@ -82,14 +60,16 @@ namespace BBlogBlazor.Component
 
             var addPost = await PostClient.AddPost(post);
 
-            //if (addPost != null)
-            //{
-            //    navigationManager.NavigateTo("/");
-            //}
-            //else
-            //{
-            //    navigationManager.NavigateTo("/");
-            //}
+
+
+            if (addPost != null)
+            {
+                navigationManager.NavigateTo("/");
+            }
+            else
+            {
+                navigationManager.NavigateTo("/");
+            }
 
         }
     }

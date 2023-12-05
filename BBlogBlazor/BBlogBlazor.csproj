@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Component\Toasts.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Layout\Footer.razor.css" />
     <None Remove="Layout\Header.razor.css" />
   </ItemGroup>
@@ -27,6 +31,18 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BBlog.Models\BBlog.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Component\Toasts.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Component\Toasts.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Component\Toasts.razor" />
   </ItemGroup>
 
 </Project>

@@ -4,6 +4,7 @@ using BBlogApi.DTOs;
 using BBlogApi.Helpers;
 using BBlogApi.Models;
 using BBlogApi.Services.IServices;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -18,13 +19,17 @@ namespace BBlogApi.Services
         private readonly IMapper _mapper;
         private readonly UserManager<Account> _userManager;
         private readonly ImageService _imageService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public PostRepository(BlogContext db, IMapper mapper, UserManager<Account> userManager, ImageService imageService)
+        public PostRepository(BlogContext db, IMapper mapper, UserManager<Account> userManager, ImageService imageService, IHttpContextAccessor httpContextAccessor, IWebHostEnvironment webHostEnvironment)
         {
             _db = db;
             _mapper = mapper;
             _userManager = userManager;
             _imageService = imageService;
+            _httpContextAccessor = httpContextAccessor;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         // Get All
@@ -87,9 +92,11 @@ namespace BBlogApi.Services
         }
 
         // Add Post
-        public async Task<Post> AddPost(PostDto PostDto)
+        public async Task<Post> AddPost(CreatePostDto createPostDto)
         {
-            var addPost = _mapper.Map<Post>(PostDto); // tạo ra đối tượng mới kiểu Post, và sao chép dữ liệu từ postDto vào trong đối tượng Post
+            var addPost = _mapper.Map<Post>(createPostDto); // tạo ra đối tượng mới kiểu Post, và sao chép dữ liệu từ postDto vào trong đối tượng Post
+
+            addPost.PicturePostUrl = CreateFile(createPostDto.PictureUrlData, createPostDto.PictureUrlOriginal);
 
             await _db.PostZ.AddAsync(addPost);
             await _db.SaveChangesAsync();
@@ -120,6 +127,23 @@ namespace BBlogApi.Services
         {
             var topPost = await _db.PostZ.OrderByDescending(p => p.ViewCount).Take(5).ToListAsync();
             return topPost;
+        }
+
+        private string CreateFile(string imageBase64, string imageName)
+        {
+            var url = _httpContextAccessor.HttpContext.Request.Host.Value;
+            var ext = Path.GetExtension(imageName);
+            var fileName = $"{Guid.NewGuid()}.{ext}";
+
+            var path = $"{_webHostEnvironment.WebRootPath}\\images\\products\\{fileName}";
+
+            byte[] image = Convert.FromBase64String(imageBase64);
+
+            var fileStream = System.IO.File.Create(path);
+            fileStream.Write(image, 0, image.Length);
+            fileStream.Close();
+
+            return $"https://{url}/images/products/{fileName}";
         }
     }
 }

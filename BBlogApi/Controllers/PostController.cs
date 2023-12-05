@@ -22,13 +22,15 @@ namespace BBlogApi.Controllers
         private readonly IPostRepository _postRepo;
         private readonly UserManager<Account> _userManager;
         private readonly ImageService _imageService;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public PostController(BlogContext blogContext, IPostRepository postRepo, UserManager<Account> userManager, ImageService imageService)
+        public PostController(BlogContext blogContext, IPostRepository postRepo, UserManager<Account> userManager, ImageService imageService, IWebHostEnvironment webHostEnvironment)
         {
             _db = blogContext;
             _postRepo = postRepo;
             _userManager = userManager;
             _imageService = imageService;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         // Get all post
@@ -112,11 +114,11 @@ namespace BBlogApi.Controllers
         // Add
         //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
         [HttpPost("AddPost")]
-        public async Task<ActionResult<Post>> AddPost([FromBody] PostDto PostDto)
+        public async Task<ActionResult<Post>> AddPost(CreatePostDto createPostDto)
         {
             try
             {
-                var addPost = await _postRepo.AddPost(PostDto);
+                var addPost = await _postRepo.AddPost(createPostDto);
                 return Ok(addPost);
             }
             catch
