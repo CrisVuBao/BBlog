@@ -68,6 +68,12 @@ namespace BBlogBlazor.Services
             return getPost;
         }
 
+        public async Task<List<PostDto>> GetPostWithCateGame()
+        {
+            var getPost = await _httpClient.GetFromJsonAsync<List<PostDto>>("api/Post/GetPostWithCateGame");
+            return getPost;
+        }
+
         public async Task<List<PostDto>> GetPostWithCateId(string id)
         {
             var getPost = await _httpClient.GetFromJsonAsync<List<PostDto>>($"api/Post/GetPostWithCategories/{id}");
@@ -96,5 +102,7 @@ namespace BBlogBlazor.Services
 
             //return null;
         }
+
+
     }
 }

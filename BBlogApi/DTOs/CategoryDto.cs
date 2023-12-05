@@ -8,6 +8,5 @@ namespace BBlogApi.DTOs
 
         public string CategoryName { get; set; }
 
-        public List<Post> Post { get; set; }
     }
 }

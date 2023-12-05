@@ -11,6 +11,7 @@ namespace BBlogApi.Services.IServices
         Task<List<PostDto>> GetPostWithCate(int id);
         Task<List<Post>> GetPostWithCateIT();
         Task<List<Post>> GetPostWithCatePersonal();
+        Task<List<Post>> GetPostWithCateGame();
         Task<Post> AddPost(CreatePostDto createPostDto);
         Task<Post> UpdatePost(Post post);
         Task<Post> DeletePost(int id);

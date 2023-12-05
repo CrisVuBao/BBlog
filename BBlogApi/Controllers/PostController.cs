@@ -21,15 +21,13 @@ namespace BBlogApi.Controllers
         private readonly BlogContext _db;
         private readonly IPostRepository _postRepo;
         private readonly UserManager<Account> _userManager;
-        private readonly ImageService _imageService;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public PostController(BlogContext blogContext, IPostRepository postRepo, UserManager<Account> userManager, ImageService imageService, IWebHostEnvironment webHostEnvironment)
+        public PostController(BlogContext blogContext, IPostRepository postRepo, UserManager<Account> userManager, IWebHostEnvironment webHostEnvironment)
         {
             _db = blogContext;
             _postRepo = postRepo;
             _userManager = userManager;
-            _imageService = imageService;
             _webHostEnvironment = webHostEnvironment;
         }
 
@@ -108,6 +106,13 @@ namespace BBlogApi.Controllers
         public async Task<ActionResult> GetPostWithCatePersonal()
         {
             var getPost = await _postRepo.GetPostWithCatePersonal();
+            return Ok(getPost);
+        }
+
+        [HttpGet("GetPostWithCateGame")]
+        public async Task<ActionResult> GetPostWithCateGame()
+        {
+            var getPost = await _postRepo.GetPostWithCateGame();
             return Ok(getPost);
         }
 

@@ -1,0 +1,25 @@
+html[b-vspxdysga4],
+body[b-vspxdysga4],
+.intro[b-vspxdysga4] {
+    height: 100%;
+}
+
+table td[b-vspxdysga4],
+table th[b-vspxdysga4] {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.card[b-vspxdysga4] {
+    border-radius: .5rem;
+}
+
+.mask-custom[b-vspxdysga4] {
+    background: rgba(24, 24, 16, .2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}

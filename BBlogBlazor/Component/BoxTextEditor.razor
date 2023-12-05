@@ -9,7 +9,7 @@
                 <div class="d-flex flex-column">
                     Tên Tiêu Đề: <input class="input-layout" @bind="@post.Title">
                     Ảnh Bìa: <InputFile class="form-control" OnChange="@HandleFileSelect" />
-                    <img src="@img" width="200" height="100" class="img-post"/>
+                    <img src="@img" width="300" height="200" class="img-post m-3"/>
                 </div>
                 <div>
                     <div class="col mb-2 d-flex flex-column">
@@ -34,7 +34,7 @@
 
 
 
-            <div class="text-editor">
+            <div class="text-editor mb-3">
                 <BlazoredTextEditor @ref="@QuillHtml">
                     <ToolbarContent>
                         <select class="ql-header">
@@ -73,16 +73,4 @@
             </div>
             <button type="submit" class="btn btn-primary">Add Post</button>
         </EditForm>
-
-    @if(AddPostForm != null)
-    {
-        <div class="alert alert-success" role="alert">
-            Tạo bài viết thành công
-        </div>
-    }else
-    {
-        <div class="alert alert-danger" role="alert">
-            Không tạo được bài viết
-        </div>
-    }
 </div>

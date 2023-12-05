@@ -50,6 +50,14 @@ build_metadata.AdditionalFiles.CssScope = b-brko2uthui
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XExvYWRpbmdCYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0z84csx8x2
 
+[F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/AdminLayout/AdminLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEFkbWluTGF5b3V0XEFkbWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-h8q3btiy7b
+
+[F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/AdminLayout/NavAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEFkbWluTGF5b3V0XE5hdkFkbWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-2nnz7neu4n
+
 [F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-b1ioa2uj92
@@ -65,6 +73,14 @@ build_metadata.AdditionalFiles.CssScope = b-687od6cswe
 [F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-psknuevzuo
+
+[F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Admin/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7njvdql91s
+
+[F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Admin/UserManager.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlck1hbmFnZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-vspxdysga4
 
 [F:/Hoc Tap/C_Shape/API/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogChild/BlogChild.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nQ2hpbGRcQmxvZ0NoaWxkLnJhem9y

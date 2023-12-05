@@ -1,4 +1,5 @@
 ﻿using BBlogApi.Data;
+using BBlogApi.DTOs;
 using BBlogApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -33,13 +34,13 @@ namespace BBlogApi.Controllers
         }
 
         [HttpPost("AddCategory")]
-        public async Task<ActionResult> AddCategory(Categories categories)
+        public async Task<ActionResult<Categories>> AddCategory(CategoryDto categoriesDto)
         {
             try
             {
                 var addCate = new Categories
                 {
-                    CategoryName = categories.CategoryName
+                    CategoryName = categoriesDto.CategoryName
                 };
 
                 await _db.AddAsync(addCate);

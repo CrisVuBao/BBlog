@@ -103,7 +103,6 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization();
 
 builder.Services.AddScoped<TokenService>();
-builder.Services.AddScoped<ImageService>();
 
 // đk automapper để sử dụng
 builder.Services.AddAutoMapper(typeof(Program));

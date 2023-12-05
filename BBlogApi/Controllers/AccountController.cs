@@ -88,7 +88,7 @@ namespace BBlogApi.Controllers
 
 		}
 
-		[Authorize( Roles = "Admin")]
+		//[Authorize( Roles = "Admin")]
 		[HttpGet("GetAllUser")]
 		public async Task<ActionResult> GetAllUser()
 		{

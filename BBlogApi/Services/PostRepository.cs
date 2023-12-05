@@ -18,16 +18,14 @@ namespace BBlogApi.Services
         private readonly BlogContext _db;
         private readonly IMapper _mapper;
         private readonly UserManager<Account> _userManager;
-        private readonly ImageService _imageService;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public PostRepository(BlogContext db, IMapper mapper, UserManager<Account> userManager, ImageService imageService, IHttpContextAccessor httpContextAccessor, IWebHostEnvironment webHostEnvironment)
+        public PostRepository(BlogContext db, IMapper mapper, UserManager<Account> userManager, IHttpContextAccessor httpContextAccessor, IWebHostEnvironment webHostEnvironment)
         {
             _db = db;
             _mapper = mapper;
             _userManager = userManager;
-            _imageService = imageService;
             _httpContextAccessor = httpContextAccessor;
             _webHostEnvironment = webHostEnvironment;
         }
@@ -91,6 +89,12 @@ namespace BBlogApi.Services
             return getPost;
         }
 
+        public async Task<List<Post>> GetPostWithCateGame()
+        {
+            var getPost = await _db.PostZ.Where(w => w.CategoryId == 6 || w.CategoryId == 7).ToListAsync();
+            return getPost;
+        }
+
         // Add Post
         public async Task<Post> AddPost(CreatePostDto createPostDto)
         {
@@ -145,5 +149,7 @@ namespace BBlogApi.Services
 
             return $"https://{url}/images/products/{fileName}";
         }
+
+
     }
 }
