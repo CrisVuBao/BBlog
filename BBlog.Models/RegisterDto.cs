@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BBlog.Models
 {
-    public class Register
+    public class RegisterDto
     {
         public string MemberName { get; set; }
         public string Email { get; set; }

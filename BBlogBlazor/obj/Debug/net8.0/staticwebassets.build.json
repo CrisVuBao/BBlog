@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "75+cGl8tKdrOlioApF61ARXE33dFhu5EnQBt/f+59vY=",
+  "Hash": "Juf1pwM+EPmLwCoDDjn3Sr4BqKO+z0ErHvN6fFoVaX0=",
   "Source": "BBlogBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mobil\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.0\\build\\net8.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\webcil\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.TextEditor.wasm",
@@ -395,6 +414,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\webcil\\Microsoft.AspNetCore.Authorization.wasm"
+    },
+    {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\webcil\\Microsoft.AspNetCore.Components.Authorization.wasm"
     },
     {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.wasm",
@@ -5242,6 +5280,25 @@
       "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.DiagnosticSource.wasm"
     },
     {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\9j65yw2smt.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm"
+    },
+    {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\9j9nvpdnyl.gz",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -7140,6 +7197,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.wasm"
+    },
+    {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\pkdw4dgf93.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\ply894goxu.gz",

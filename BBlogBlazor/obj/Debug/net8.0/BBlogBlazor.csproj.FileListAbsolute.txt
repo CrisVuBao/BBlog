@@ -3206,3 +3206,13 @@ F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\De
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Admin\UserManager.razor.rz.scp.css
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Authentication\Login.razor.rz.scp.css
 F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Authentication\Register.razor.rz.scp.css
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.wasm
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.wasm.gz
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm.gz
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\Blazored.LocalStorage.dll
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\webcil\Blazored.LocalStorage.wasm
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Authorization.wasm
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\compressed\pkdw4dgf93.gz
+F:\Hoc Tap\C_Shape\API\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\compressed\9j65yw2smt.gz

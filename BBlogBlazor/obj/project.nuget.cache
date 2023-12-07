@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "cC3ChLjaNZYOEdBmq6DcUndmYj/HrF1e5wxZ2f2/NSZdDhFWf0yApzGKl0tIp62XdTBehnDlKCK799zDw/HUuQ==",
+  "dgSpecHash": "4+0kSZ4rq8SnRs9Y11fX3EYJ4B3A9ziWlMFdyEmbykUp90VClgCN+wRB/UUj51LykPiS02eOavfNWnGql39AwQ==",
   "success": true,
   "projectFilePath": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\BBlogBlazor.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mobil\\.nuget\\packages\\blazored.localstorage\\4.4.0\\blazored.localstorage.4.4.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\blazored.texteditor\\1.1.0\\blazored.texteditor.1.1.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\cloudinarydotnet\\1.23.0\\cloudinarydotnet.1.23.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0\\microsoft.aspnetcore.components.8.0.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.0\\microsoft.aspnetcore.components.analyzers.8.0.0.nupkg.sha512",
+    "C:\\Users\\mobil\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\8.0.0\\microsoft.aspnetcore.components.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.0\\microsoft.aspnetcore.components.forms.8.0.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.0\\microsoft.aspnetcore.components.web.8.0.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.0\\microsoft.aspnetcore.components.webassembly.8.0.0.nupkg.sha512",

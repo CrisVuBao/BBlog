@@ -32,7 +32,7 @@ namespace BBlogApi.Controllers
 		}
 
 		[HttpPost("Register")]
-		public async Task<ActionResult> Register(RegisterDto registerDto)
+		public async Task<ActionResult> Register([FromBody]RegisterDto registerDto)
 		{
 			try
 			{
@@ -47,13 +47,18 @@ namespace BBlogApi.Controllers
 					MemberName = registerDto.MemberName
 				};
 
+				if(registerDto.Password != registerDto.CofirmPassword)
+				{
+					return BadRequest(new Response { Status = "Error!", Message = "Mật khẩu không trùng nhau!" });
+				}
+
 				var result = await _userManager.CreateAsync(user, registerDto.Password);
 				if (!result.Succeeded)
 					return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User creation failed! Please check user details and try again." });
 
-				if (result.Succeeded) await _userManager.AddToRoleAsync(user, "Member");
+				if (result.Succeeded) await _userManager.AddToRoleAsync(user, "Admin");
 
-				return Ok(new Response { Status = "Success", Message = "User created successfully!" });
+				return Ok(user);
 
 			}
 			catch (Exception ex)
@@ -64,7 +69,7 @@ namespace BBlogApi.Controllers
 		}
 
 		[HttpPost("Login")]
-		public async Task<ActionResult<AccountDto>> Login(LoginDto loginDto)
+		public async Task<ActionResult<AccountDto>> Login([FromBody]LoginDto loginDto)
 		{
 			try
 			{

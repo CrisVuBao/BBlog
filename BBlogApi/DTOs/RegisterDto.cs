@@ -12,5 +12,7 @@ namespace BBlogApi.DTOs
         public string MemberName { get; set; }
 		[Required(ErrorMessage = "Password is required")]
 		public string? Password { get; set; }
-	}
+        public string CofirmPassword { get; set; }
+
+    }
 }
