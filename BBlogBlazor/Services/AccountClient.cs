@@ -1,7 +1,9 @@
 ﻿using BBlog.Models;
+using BBlogBlazor.Pages.Authentication;
 using BBlogBlazor.Services.IServices;
 using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Authorization;
+using Newtonsoft.Json;
 using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
@@ -29,10 +31,11 @@ namespace BBlogBlazor.Services
 
         public async Task<LoginResponse> Login(LoginDto login)
         {
-            //var loginJson = JsonSerializer.Serialize(login);
-            var response = await _httpClient.PostAsJsonAsync("api/Account/Login", login);
-            var loginResult = JsonSerializer.Deserialize<LoginResponse>(await response.Content.ReadAsStringAsync(),
-                new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            var loginJson = JsonConvert.SerializeObject(login);
+            var response = await _httpClient.PostAsync("api/Account/Login", 
+                new StringContent(loginJson, Encoding.UTF8, "application/json"));
+
+            var loginResult = JsonConvert.DeserializeObject<LoginResponse>(await response.Content.ReadAsStringAsync());
 
             if (!response.IsSuccessStatusCode)
             {
@@ -44,24 +47,6 @@ namespace BBlogBlazor.Services
             _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", loginResult.Token);
 
             return loginResult;
-
-
-            //var result = await _httpClient.PostAsJsonAsync("api/Account/Login", login);
-            //var content = await result.Content.ReadAsStringAsync();
-            //var loginResponse = JsonSerializer.Deserialize<LoginResponse>(content,
-            //    new JsonSerializerOptions()
-            //    {
-            //        PropertyNameCaseInsensitive = true
-            //    });
-            //if(!result.IsSuccessStatusCode)
-            //{
-            //    return loginResponse;
-            //}
-            //await _localStorage.SetItemAsync("authToken", loginResponse.Token);
-            //((ApiAuthenticationStateProvider)_authenticationStateProvider).MarkUserAsAuthenticated(login.Email);
-            //_httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", loginResponse.Token);
-            //return loginResponse;
-
         }
 
         public async Task Logout()
@@ -71,9 +56,22 @@ namespace BBlogBlazor.Services
             _httpClient.DefaultRequestHeaders.Authorization = null;
         }
 
-        public Task<RegisterDto> Register(RegisterDto register)
+        public async Task<RegisterResponse> Register(RegisterDto register)
         {
-            throw new NotImplementedException();
+            var registerJson = JsonConvert.SerializeObject(register);
+            var bodyContent = new StringContent(registerJson, Encoding.UTF8, "application/json");
+            var response = await _httpClient.PostAsync("api/Account/Register", bodyContent);
+            var contentTemp = await response.Content.ReadAsStringAsync();
+
+            var loginResult = JsonConvert.DeserializeObject<RegisterDto>(contentTemp);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return new RegisterResponse { RegisterSuccessful = true };
+            }else
+            {
+                return new RegisterResponse { RegisterSuccessful = false };
+            }
         }
     }
 }

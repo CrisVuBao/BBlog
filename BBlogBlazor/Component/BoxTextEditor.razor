@@ -1,7 +1,8 @@
 ﻿@page "/box-text-editor";
 @using Blazored.TextEditor;
+@using Microsoft.AspNetCore.Authorization
 @inject NavigationManager navigationManager;
-
+@attribute [Authorize]
 
     <div class="form">
         <EditForm Model="@post" OnValidSubmit="AddPostForm">
@@ -71,6 +72,6 @@
                     </EditorContent>
                 </BlazoredTextEditor>
             </div>
-            <button type="submit" class="btn btn-primary">Add Post</button>
+            <button type="submit" class="btn btn-primary">Đăng Bài Viết</button>
         </EditForm>
 </div>

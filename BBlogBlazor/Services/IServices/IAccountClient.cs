@@ -6,7 +6,7 @@ namespace BBlogBlazor.Services.IServices
     {
         Task<List<AccountDto>> GetAllUser();
         Task<LoginResponse> Login(LoginDto login);
-        Task<RegisterDto> Register(RegisterDto register);
+        Task<RegisterResponse> Register(RegisterDto register);
         Task Logout();
     }
 }

@@ -32,14 +32,15 @@
 
 .input-layout[b-brko2uthui] {
     outline: none;
-    border: 2px solid #0026ff;
+    border: 2px solid #1570EF;
     border-radius: 12px;
     margin: 3px;
+    padding: 2px;
     height: 30px;
 }
 
 .form[b-brko2uthui] {
-    border: 2px solid #0094ff;
+    border: 2px solid #1570EF;
     border-radius: 12px;
     padding: 12px;
 }

@@ -1,4 +1,8 @@
 ﻿@page "/register";
+@using CurrieTechnologies.Razor.SweetAlert2
+@inject NavigationManager navigationManager;
+@inject IJSRuntime JsRuntime
+@inject SweetAlertService Swal;
 
 <section class="vh-100">
     <div class="container-fluid h-custom">
@@ -8,7 +12,7 @@
                      class="img-fluid" alt="Sample image">
             </div>
             <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                <form>
+                <EditForm Model="@RegisterModel" OnSubmit="HandleRegister">
                     <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                         <p class="lead fw-normal mb-0 me-3">Đăng ký với</p>
                         <button type="button" class="btn btn-primary btn-floating mx-1">
@@ -31,25 +35,25 @@
                     <!-- Email input -->
                     <div class="form-outline mb-4">
                         <label class="form-label" for="form3Example3">Tên</label>
-                        <input type="text" class="form-control" id="member-name" placeholder="Tên của bạn">
+                        <input type="text" @bind="RegisterModel.MemberName" class="form-control" id="member-name" placeholder="Tên của bạn">
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline mb-4">
                         <label class="form-label" for="form3Example3">Địa chỉ email</label>
-                        <input type="text" class="form-control" id="username" placeholder="Nhập email đăng ký">
+                        <input type="text" @bind="RegisterModel.Email" class="form-control" id="email" placeholder="Nhập email đăng ký">
                     </div>
 
                     <!-- Password input -->
                     <div class="form-outline mb-3">
                         <label class="form-label" for="form3Example4">Mật khẩu</label>
-                        <input type="password" class="form-control" id="password" placeholder="Nhập mật khẩu">
+                        <input type="password" @bind="RegisterModel.Password" class="form-control" id="password" placeholder="Nhập mật khẩu">
                     </div>
 
                     <!-- Password input -->
                     <div class="form-outline mb-3">
                         <label class="form-label" for="form3Example4">Nhập lại mật khẩu</label>
-                        <input type="password" class="form-control" id="password" placeholder="Nhập lại mật khẩu">
+                        <input type="password" @bind="RegisterModel.CofirmPassword" class="form-control" id="CofirmPassword" placeholder="Nhập lại mật khẩu">
                     </div>
 
                     <div class="text-center text-lg-start mt-4 pt-2">
@@ -60,7 +64,7 @@
                         </p>
                     </div>
 
-                </form>
+                </EditForm>
             </div>
         </div>
     </div>

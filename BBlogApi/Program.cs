@@ -15,6 +15,7 @@ using System.Net;
 using System.Text;
 using Microsoft.AspNetCore.Http;
 using BBlogApi.Services.IServices;
+using BBlogApi.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,34 +27,32 @@ builder.Services.AddHttpContextAccessor();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
+builder.Services.AddSwaggerGen(s =>
 {
-    var jwtSecurityScheme = new OpenApiSecurityScheme
+    s.SwaggerDoc("v1", new OpenApiInfo { Title = "BBlogApi", Version = "v1" });
+    s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
-        BearerFormat = "JWT",
-        Name = "Authorization",
         In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = JwtBearerDefaults.AuthenticationScheme,
-        Description = "Nhập Bearer + token của tài khoản vừa mới đăng nhập",
-        Reference = new OpenApiReference
-        {
-            Id = JwtBearerDefaults.AuthenticationScheme,
-            Type = ReferenceType.SecurityScheme
-        }
-    };
-
-    c.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
-
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+        Description = "Bearer + token key",
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey
+    });
+    s.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
-			jwtSecurityScheme, Array.Empty<string>()
-		}      
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
     });
-} 
-    
-);
+
+});
 
 builder.Services.AddDbContext<BlogContext>(opt =>
 {
@@ -81,23 +80,32 @@ builder.Services.AddIdentity<Account, Role>(opt =>
     .AddEntityFrameworkStores<BlogContext>()
     .AddDefaultTokenProviders(); ;
 
+var apiSettingsSection = builder.Configuration.GetSection("APISettings");
+builder.Services.Configure<APISettings>(apiSettingsSection);
+
+var apiSettings = apiSettingsSection.Get<APISettings>();
+var key = Encoding.ASCII.GetBytes(apiSettings.SecretKey);
 
 builder.Services.AddAuthentication(options =>
 {
-	options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-	options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-	options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 })
     .AddJwtBearer(opt =>
 {
+    opt.RequireHttpsMetadata = false;
     opt.SaveToken = true;
-    opt.TokenValidationParameters = new TokenValidationParameters
-                                        {
-                                            ValidateIssuer = false,
-                                            ValidateAudience = false,
-                                            ValidateIssuerSigningKey = true,
-											IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecretKey"]))
-                                        };
+    opt.TokenValidationParameters = new()
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateAudience = true,
+        ValidateIssuer = true,
+        ValidAudience = apiSettings.ValidAudience,
+        ValidIssuer = apiSettings.ValidIssuer,
+        ClockSkew = TimeSpan.Zero
+    };
 });
 
 builder.Services.AddAuthorization();

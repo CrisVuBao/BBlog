@@ -1,5 +1,6 @@
 ﻿using BBlog.Models;
 using BBlogBlazor.Services.IRepository;
+using BBlogBlazor.Services.IServices;
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 
@@ -7,7 +8,8 @@ namespace BBlogBlazor.Layout
 {
     public partial class Header 
     {
-        [Inject] public ICategoryClient CategoryClient { get; set; }
+        [Inject] private ICategoryClient CategoryClient { get; set; }
+        [Inject] private IAccountClient AccountClient { get; set; }
 
         private CategoryDto GetCateId { get; set; }
 
@@ -19,7 +21,15 @@ namespace BBlogBlazor.Layout
         {
             GetAllCate = await CategoryClient.GetAllCate();
             GetCateId = await CategoryClient.GetCateId("5");
+            
+
             //await JSRuntime.InvokeVoidAsync("window.addEventListener", "scroll", DotNetObjectReference.Create(this), "HandleScroll");
+        }
+
+        private async Task Logout()
+        {
+            await AccountClient.Logout();
+            navigationManager.NavigateTo("/", forceLoad: true);
         }
 
         //[JSInvokable]

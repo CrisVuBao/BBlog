@@ -52,7 +52,7 @@ namespace BBlogBlazor.Component
 
         private async Task AddPostForm()
         {
-            var postContent = await QuillHtml.GetHTML();
+            var postContent = await QuillHtml.GetText();
             post.Content = postContent;
 
 

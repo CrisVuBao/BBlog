@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TmHf9uRP/Ry+bA/IgV8U4n4ZsrNrgBbAPuFprGzVXQ0=",
+  "Hash": "+evk624TxJpeicSRQYbZuaZ0UWYRL6v7ENqy7tbhesk=",
   "Source": "BBlogApi",
   "BasePath": "_content/BBlogApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BBlogApi\\wwwroot",
       "Source": "BBlogApi",
-      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
       "BasePath": "_content/BBlogApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\36e7ad6a-6997-41a6-bb83-18841aca6883..webp",
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\36e7ad6a-6997-41a6-bb83-18841aca6883..webp",
       "SourceId": "BBlogApi",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
       "BasePath": "_content/BBlogApi",
       "RelativePath": "images/products/36e7ad6a-6997-41a6-bb83-18841aca6883..webp",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\36e7ad6a-6997-41a6-bb83-18841aca6883..webp"
     },
     {
-      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\94fe3327-4713-41ce-9801-c556ff7867ff..png",
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\94fe3327-4713-41ce-9801-c556ff7867ff..png",
       "SourceId": "BBlogApi",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
       "BasePath": "_content/BBlogApi",
       "RelativePath": "images/products/94fe3327-4713-41ce-9801-c556ff7867ff..png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\94fe3327-4713-41ce-9801-c556ff7867ff..png"
     },
     {
-      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\985f6647-4bca-4918-ba99-2b36e520ce39..webp",
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\985f6647-4bca-4918-ba99-2b36e520ce39..webp",
       "SourceId": "BBlogApi",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
       "BasePath": "_content/BBlogApi",
       "RelativePath": "images/products/985f6647-4bca-4918-ba99-2b36e520ce39..webp",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\985f6647-4bca-4918-ba99-2b36e520ce39..webp"
     },
     {
-      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\9e1e06d4-41d2-4e8e-8d4c-074e975fd5d9..webp",
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\9e1e06d4-41d2-4e8e-8d4c-074e975fd5d9..webp",
       "SourceId": "BBlogApi",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
       "BasePath": "_content/BBlogApi",
       "RelativePath": "images/products/9e1e06d4-41d2-4e8e-8d4c-074e975fd5d9..webp",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\9e1e06d4-41d2-4e8e-8d4c-074e975fd5d9..webp"
     },
     {
-      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\b59397d4-e518-4e6d-87ca-c56c1d9591c3..webp",
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\b59397d4-e518-4e6d-87ca-c56c1d9591c3..webp",
       "SourceId": "BBlogApi",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
       "BasePath": "_content/BBlogApi",
       "RelativePath": "images/products/b59397d4-e518-4e6d-87ca-c56c1d9591c3..webp",
       "AssetKind": "All",
@@ -112,10 +112,29 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\b59397d4-e518-4e6d-87ca-c56c1d9591c3..webp"
     },
     {
-      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\ed7c6595-7142-47e0-a61b-4a41ede35d1c..jpg",
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\e8e8759a-6bca-43a8-bb31-276ef478014b..jpg",
       "SourceId": "BBlogApi",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
+      "BasePath": "_content/BBlogApi",
+      "RelativePath": "images/products/e8e8759a-6bca-43a8-bb31-276ef478014b..jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\e8e8759a-6bca-43a8-bb31-276ef478014b..jpg"
+    },
+    {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\ed7c6595-7142-47e0-a61b-4a41ede35d1c..jpg",
+      "SourceId": "BBlogApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\",
       "BasePath": "_content/BBlogApi",
       "RelativePath": "images/products/ed7c6595-7142-47e0-a61b-4a41ede35d1c..jpg",
       "AssetKind": "All",
