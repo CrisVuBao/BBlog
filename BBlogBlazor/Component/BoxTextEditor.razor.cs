@@ -1,10 +1,15 @@
-﻿using BBlog.Models;
+﻿using AngleSharp;
+using AngleSharp.Dom;
+using BBlog.Models;
 using BBlogBlazor.Services.IRepository;
 using Blazored.TextEditor;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Internal;
+using Microsoft.Extensions.Configuration;
+using Microsoft.JSInterop;
+using System.Text;
 
 
 namespace BBlogBlazor.Component
@@ -13,10 +18,13 @@ namespace BBlogBlazor.Component
     {
         private string UploadFileWarning = string.Empty;
         private string img = string.Empty;
-        private BlazoredTextEditor QuillHtml;
+        private BlazoredTextEditor BlazoredTextEditor;
         private string imageType;
         [Inject] private IPostClient PostClient { get; set; }
         [Inject] private ICategoryClient CategoryClient { get; set; }
+        [Inject] IJSRuntime JSRuntime { get; set; }
+        private ElementReference _quillJSEditorDiv;
+
 
         List<CategoryDto> categories = new List<CategoryDto>();
         CreatePost post = new CreatePost();
@@ -24,6 +32,8 @@ namespace BBlogBlazor.Component
         protected override async Task OnInitializedAsync()
         {
             categories = await CategoryClient.GetAllCate();
+
+            await JSRuntime.InvokeVoidAsync("QuillFunctions.createQuill", _quillJSEditorDiv, true);
         }
 
         private async Task HandleFileSelect(InputFileChangeEventArgs e)
@@ -52,8 +62,7 @@ namespace BBlogBlazor.Component
 
         private async Task AddPostForm()
         {
-            var postContent = await QuillHtml.GetText();
-            post.Content = postContent;
+            post.Content = await JSRuntime.InvokeAsync<string>("QuillFunctions.getQuillContent", _quillJSEditorDiv);
 
 
             if (post.UserId == null) post.UserId = "1";

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nmJ4WrSJsbHSMoD+14+MlqCI3rjrRCEkNYRheOz9Abs=",
+  "Hash": "uLkY+/t9vUKtYu9Jmv1VmhBB6LJLpt3dgCz4EVtmkEE=",
   "Source": "BBlogBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -701,6 +701,25 @@
       "OriginalItemSpec": "C:\\Users\\mobil\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\staticwebassets\\wordpressAdminTheme.min.js"
     },
     {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AngleSharp.wasm",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\webcil\\AngleSharp.wasm"
+    },
+    {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BBlog.Models.pdb",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -1003,6 +1022,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mobil\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+    },
+    {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HtmlAgilityPack.wasm",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HtmlAgilityPack.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\webcil\\HtmlAgilityPack.wasm"
     },
     {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -5356,6 +5394,25 @@
       "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Handles.wasm"
     },
     {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\3hgvu7ma0u.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AngleSharp.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AngleSharp.wasm"
+    },
+    {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\3upsgb04gf.gz",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -5582,6 +5639,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.JavaScript.wasm"
+    },
+    {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\58m6gltfrj.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HtmlAgilityPack.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HtmlAgilityPack.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HtmlAgilityPack.wasm"
     },
     {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\5c61jwxdpf.gz",
@@ -50118,6 +50194,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\js\\BlazorQuill.js",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/BlazorQuill.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\BlazorQuill.js"
     },
     {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\js\\common.js",

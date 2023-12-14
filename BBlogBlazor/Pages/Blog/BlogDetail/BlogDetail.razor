@@ -1,8 +1,6 @@
 ﻿@page "/blog-detail/{PostId}"
 @using BBlogBlazor.Component
 
-<h3>BlogDetail</h3>
-
 @if (PostDetail == null)
 {
     <LoadingBar></LoadingBar>
@@ -62,10 +60,12 @@ else
                 </div>
             </div>
             <div class="col-md-12 col-lg-8">
-                <article class="article-post">
-                    <p>
-                        @PostDetail.Content
-                    </p>
+                <article class="content-post">
+                    @if(_loadingContent == true)
+                    {
+                        <LoadingBar></LoadingBar>
+                    }
+                    <div @ref="_quillJSReadEditorDiv"></div>
                 </article>
                 <div class="border p-5 bg-lightblue">
                     <div class="row justify-content-between">

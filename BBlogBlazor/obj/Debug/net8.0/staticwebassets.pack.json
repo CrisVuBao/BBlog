@@ -8625,6 +8625,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\js\\BlazorQuill.js",
+      "PackagePath": "staticwebassets\\js\\BlazorQuill.js"
+    },
+    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\wwwroot\\js\\common.js",
       "PackagePath": "staticwebassets\\js\\common.js"
     },

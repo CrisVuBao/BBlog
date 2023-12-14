@@ -63,7 +63,7 @@ namespace BBlogApi.Controllers
                 if (!result.Succeeded)
                     return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User creation failed! Please check user details and try again." });
 
-                if (result.Succeeded) await _userManager.AddToRoleAsync(user, "Admin");
+                if (result.Succeeded) await _userManager.AddToRoleAsync(user, "Member");
 
                 return Ok(user);
 

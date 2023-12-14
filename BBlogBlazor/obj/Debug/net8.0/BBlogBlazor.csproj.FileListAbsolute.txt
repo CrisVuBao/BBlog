@@ -4357,3 +4357,13 @@ F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBla
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\CurrieTechnologies.Razor.SweetAlert2.dll
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\webcil\CurrieTechnologies.Razor.SweetAlert2.wasm
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\compressed\v0xf82k4wp.gz
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\wwwroot\_framework\HtmlAgilityPack.wasm
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\wwwroot\_framework\HtmlAgilityPack.wasm.gz
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\HtmlAgilityPack.dll
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\webcil\HtmlAgilityPack.wasm
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\compressed\58m6gltfrj.gz
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\wwwroot\_framework\AngleSharp.wasm
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\wwwroot\_framework\AngleSharp.wasm.gz
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\AngleSharp.dll
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\webcil\AngleSharp.wasm
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\compressed\3hgvu7ma0u.gz
