@@ -1,0 +1,17 @@
+.blog-detail-layout[b-4lihjkeazc] {
+    border: 1px solid #0000;
+    background-color: #EDF2F7;
+}
+.blog-detail-layout-inside[b-4lihjkeazc] {
+    background-color: #fff;
+    margin-top: 23px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 75%;
+    border-radius: 12px;
+}
+
+.content-quilljs[b-4lihjkeazc] {
+    border-radius: 10px;
+}

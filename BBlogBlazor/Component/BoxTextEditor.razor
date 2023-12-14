@@ -2,42 +2,46 @@
 @using Blazored.TextEditor;
 @using Microsoft.AspNetCore.Authorization
 @inject NavigationManager navigationManager;
+@inject SweetAlertService Swal;
 @attribute [Authorize]
 
-    <div class="form">
-        <EditForm Model="@post" OnValidSubmit="AddPostForm">
-            <div class="d-flex justify-content-between">
-                <div class="d-flex flex-column">
-                    Tên Tiêu Đề: <input class="input-layout" @bind="@post.Title">
-                    Ảnh Bìa: <InputFile class="form-control" OnChange="@HandleFileSelect" />
-                    <img src="@img" width="300" height="200" class="img-post m-3"/>
-                </div>
-                <div>
-                    <div class="col mb-2 d-flex flex-column">
-                        Chọn Chủ đề:
-                        <select id="CategoryId" class="input-layout" @bind="post.CategoryId">
-                            <option value="0" disabled="disabled" selected>--Chọn Chủ Đề--</option>
-                            @foreach (var cate in categories)
-                            {
-                                <option value="@cate.CategoryId">
-                                    @cate.CategoryName
-                                </option>
-                            }
-                        </select>
-                    </div>
-                </div>
-                <div class="d-flex flex-column">
-                    Tên Tiêu Đề Ngắn: <input class="input-layout" @bind="@post.BriefContent" />
-                    Thẻ Tag: <input class="input-layout" @bind="@post.TagSearch" />
-                    Trạng Thái: <input class="input-layout" @bind="@post.PostStatus" />
+<div class="form container">
+    <EditForm Model="@post" OnValidSubmit="AddPostForm">
+        <div class="d-flex justify-content-between">
+            <div class="d-flex flex-column">
+                Tên Tiêu Đề: <input class="input-layout" @bind="@post.Title">
+                Ảnh Bìa: <InputFile class="form-control" OnChange="@HandleFileSelect" />
+                <img src="@img" width="300" height="200" class="img-post m-3" />
+            </div>
+            <div>
+                <div class="col mb-2 d-flex flex-column">
+                    Chọn Chủ đề:
+                    <select id="CategoryId" class="input-layout" @bind="post.CategoryId">
+                        <option value="0" disabled="disabled" selected>--Chọn Chủ Đề--</option>
+                        @foreach (var cate in categories)
+                        {
+                            <option value="@cate.CategoryId">
+                                @cate.CategoryName
+                            </option>
+                        }
+                    </select>
                 </div>
             </div>
-
-
-
-            <div class="text-editor mb-3">
-                <div @ref="_quillJSEditorDiv" class="border border-secondary p-4"></div>
+            <div class="d-flex flex-column">
+                Tên Tiêu Đề Ngắn: <input class="input-layout" @bind="@post.BriefContent" />
+                Thẻ Tag: <input class="input-layout" @bind="@post.TagSearch" />
+                Trạng Thái: <input class="input-layout" @bind="@post.PostStatus" />
             </div>
+        </div>
+
+
+
+            <div>Viết Nội Dung (Nên cho kiểu chữ Heading 2 để hiển thị rõ nét nhất)</div>
+        <div class="text-editor mb-3">
+            <div @ref="_quillJSEditorDiv" class="border border-secondary p-2"></div>
+        </div>
+        <div class="d-flex justify-content-end">
             <button type="submit" class="btn btn-primary">Đăng Bài Viết</button>
-        </EditForm>
+        </div>
+    </EditForm>
 </div>

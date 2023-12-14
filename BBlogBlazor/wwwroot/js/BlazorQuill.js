@@ -6,7 +6,7 @@
                 modules: {
                     toolbar: hasToolbar ? toolbarOptions : false
                 },
-                placeholder: 'This post has no content.',
+                placeholder: 'Nhập nội dung vào đây.',
                 readOnly: false,
                 theme: 'snow',
                 bounds: quillElement

@@ -30,12 +30,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XExvZ28ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Authentication/RedirectToLogin.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cUmVkaXJlY3RUb0xvZ2luLnJhem9y
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Admin/PostManager.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUG9zdE1hbmFnZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogDetail/BlogDetail.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nRGV0YWlsXEJsb2dEZXRhaWwucmF6b3I=
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Authentication/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cUmVkaXJlY3RUb0xvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Counter.razor]
@@ -97,6 +97,10 @@ build_metadata.AdditionalFiles.CssScope = b-k5hfqs12ar
 [F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogChild/BlogChild.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nQ2hpbGRcQmxvZ0NoaWxkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-aajxn699sn
+
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogDetail/BlogDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nRGV0YWlsXEJsb2dEZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4lihjkeazc
 
 [F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogGame.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nR2FtZS5yYXpvcg==

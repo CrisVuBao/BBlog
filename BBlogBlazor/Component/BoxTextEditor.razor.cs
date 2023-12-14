@@ -4,6 +4,7 @@ using BBlog.Models;
 using BBlogBlazor.Services.IRepository;
 using Blazored.TextEditor;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Internal;
@@ -23,17 +24,26 @@ namespace BBlogBlazor.Component
         [Inject] private IPostClient PostClient { get; set; }
         [Inject] private ICategoryClient CategoryClient { get; set; }
         [Inject] IJSRuntime JSRuntime { get; set; }
+        [Inject] AuthenticationStateProvider AuthenticationStateProvider { get; set; }
         private ElementReference _quillJSEditorDiv;
-
 
         List<CategoryDto> categories = new List<CategoryDto>();
         CreatePost post = new CreatePost();
+        private string UserId;
 
         protected override async Task OnInitializedAsync()
         {
             categories = await CategoryClient.GetAllCate();
 
             await JSRuntime.InvokeVoidAsync("QuillFunctions.createQuill", _quillJSEditorDiv, true);
+
+            var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            var user = authenticationState.User;
+
+            if (user.Identity.IsAuthenticated)
+            {
+                UserId = user.FindFirst("sub")?.Value; // "sub" là claim chứa UserId
+            }
         }
 
         private async Task HandleFileSelect(InputFileChangeEventArgs e)
@@ -65,19 +75,17 @@ namespace BBlogBlazor.Component
             post.Content = await JSRuntime.InvokeAsync<string>("QuillFunctions.getQuillContent", _quillJSEditorDiv);
 
 
-            if (post.UserId == null) post.UserId = "1";
-
+            post.UserId = UserId;
             var addPost = await PostClient.AddPost(post);
-
-
 
             if (addPost != null)
             {
+                await Swal.FireAsync("Tạo bài viết thành công", "Chuyển hướng trong giây lát", "success");
                 navigationManager.NavigateTo("/");
             }
             else
             {
-                navigationManager.NavigateTo("/");
+                await Swal.FireAsync("Không tạo được bài viết", "Kiểm tra có thiếu sót gì không!", "error");
             }
 
         }
