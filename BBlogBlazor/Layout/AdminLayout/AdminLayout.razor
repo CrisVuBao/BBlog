@@ -1,14 +1,22 @@
 ﻿@inherits LayoutComponentBase;
 
+<Microsoft.AspNetCore.Components.Authorization.AuthorizeView>
+    <Authorized>
+        <Microsoft.AspNetCore.Components.Authorization.AuthorizeView Roles="Admin">
+            <ChildContent Context="authorizedContext">
+                <div class="admin-page d-flex">
+                    <div class="nav-main-admin sidebar">
+                        <NavAdmin></NavAdmin>
+                    </div>
+                    <div class="body">
+                        @Body
+                    </div>
+                </div>
+            </ChildContent>
+        </Microsoft.AspNetCore.Components.Authorization.AuthorizeView>
+    </Authorized>
+</Microsoft.AspNetCore.Components.Authorization.AuthorizeView>
 
-<div class="admin-page d-flex">
-    <div class="nav-main-admin sidebar">
-        <NavAdmin></NavAdmin>
-    </div>
-    <div class="body">
-        @Body
-    </div>
-</div>
 
 
 

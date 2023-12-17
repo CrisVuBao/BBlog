@@ -1,0 +1,50 @@
+/*SET THE DEFAULT FONT*/
+#TestId[b-c42o2qhy3x] {
+    font-family: "MS Gothic";
+    font-size: 18px;
+    height: 375px;
+}
+
+/*DEFINE ALL OF THE CUSTOM FONTS*/
+.ql-font-MSGothic[b-c42o2qhy3x] {
+    font-family: 'MS Gothic';
+}
+
+.ql-font-Bahnschrift[b-c42o2qhy3x] {
+    font-family: 'Bahnschrift'
+}
+
+.ql-font-Impact[b-c42o2qhy3x] {
+    font-family: 'Impact';
+}
+
+.ql-font-Courier[b-c42o2qhy3x] {
+    font-family: 'Courier';
+}
+
+.ql-font-Comic[b-c42o2qhy3x] {
+    font-family: 'Comic Sans MS';
+}
+
+.layout-text-editor[b-c42o2qhy3x] {
+    height: 500px;
+}
+
+.input-layout[b-c42o2qhy3x] {
+    outline: none;
+    border: 2px dashed #1C6DD0;
+    margin: 3px;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.form[b-c42o2qhy3x] {
+    border: 2px solid #1C6DD0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.form-inside[b-c42o2qhy3x] {
+    margin: 30px 5px 0 5px !important;
+}

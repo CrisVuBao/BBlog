@@ -1,5 +1,6 @@
 ﻿using BBlog.Models;
 using BBlogBlazor.Services.IServices;
+using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 using System.Web;
@@ -25,14 +26,18 @@ namespace BBlogBlazor.Pages.Authentication
                 await Swal.FireAsync("Đăng nhập thành công", "Chuyển hướng trong giây lát", "success");
                 var absoluteUri = new Uri(navigationManager.Uri);
                 var queryParam = HttpUtility.ParseQueryString(absoluteUri.Query);
+
+                var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+                var user = authState.User;
+
                 ReturnUrl = queryParam["returnUrl"];
-                if (string.IsNullOrEmpty(ReturnUrl))
+
+                if (user.Identity.IsAuthenticated)
                 {
-                    navigationManager.NavigateTo("/", forceLoad: true);
-                }else
-                {
-                    navigationManager.NavigateTo("/" + ReturnUrl);
+                    if (user.IsInRole("Admin")) navigationManager.NavigateTo("/admin-home", forceLoad: true);
+                    else if (user.IsInRole("Member")) navigationManager.NavigateTo("/" + ReturnUrl);
                 }
+
             }
             else
             {

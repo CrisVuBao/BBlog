@@ -1,7 +1,9 @@
 ﻿@page "/login"
+@using Microsoft.AspNetCore.Components.Authorization
 @inject NavigationManager navigationManager;
 @inject SweetAlertService Swal;
 @inject IJSRuntime JsRuntime
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 <section class="vh-100">
     <div class="container-fluid h-custom">

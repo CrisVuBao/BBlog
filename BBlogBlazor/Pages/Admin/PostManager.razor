@@ -1,10 +1,11 @@
 ﻿@page "/post-admin-manager"
 @using BBlogBlazor.Layout.AdminLayout
 @layout AdminLayout;
+@inject NavigationManager NavigationManager
 
 @if (PostAll == null)
 {
-    <BBlogBlazor.Component.LoadingBar></BBlogBlazor.Component.LoadingBar>
+    <div>...is loading</div>
 }
 else
 {
@@ -12,6 +13,20 @@ else
         <h1>Trang quản lý bài viết</h1>
         <section class="intro">
             <div class="bg-image h-100">
+                <div>
+                    <div class="col mb-2 d-flex flex-column" style="width: 200px; margin-left: 12px;">
+                        Chọn Chủ đề:
+                        <select id="CategoryId" class="form-select input-layout" aria-label="Default select example" @onchange="SelectPost">
+                            <option value="1" disabled="disabled" selected>--Chọn Chủ Đề--</option>
+                            @foreach (var cate in categories)
+                            {
+                                <option value="@cate.CategoryId">
+                                    @cate.CategoryName
+                                </option>
+                            }
+                        </select>
+                    </div>
+                </div>
                 <div class="mask d-flex align-items-center h-100">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -19,9 +34,9 @@ else
                                 <div class="card shadow-2-strong" style="background-color: #f5f7fa;">
                                     <div class="card-body">
                                         <div class="table-responsive">
-                                            <table class="table table-borderless mb-0">
+                                            <table class="table table-striped mb-0">
                                                 <thead>
-                                                    <tr>             
+                                                    <tr>
                                                         <th scope="col">Ảnh bìa</th>
                                                         <th scope="col">Tiêu đề</th>
                                                         <th scope="col">Ngày tạo</th>
@@ -32,27 +47,26 @@ else
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                    @foreach (var acc in PostAll)
+                                                    @foreach (var acc in PostWithCate)
                                                     {
                                                         <tr>
                                                             <td>
-                                                                <img src="@acc.PicturePostUrl" class="rounded-circle" style="width: 38px;"
-                                                                     alt="Avatar" />
+                                                                <img src="@acc.PicturePostUrl" class="" style="width: 100px;" />
                                                             </td>
-                                                            <td>@acc.Title</td>
+                                                            <td width="300">@acc.Title</td>
                                                             <td>@acc.CreateDate</td>
                                                             <td>@acc.UserId</td>
                                                             <td>@acc.CategoryId</td>
 
                                                             <td>
-                                                                <button type="button" class="btn btn-warning btn-sm px-3">
+                                                                <a class="btn btn-warning px-3" href="update-post-admin">
                                                                     <i class="fa-solid fa-pen-to-square"></i>
-                                                                </button>
+                                                                </a>
                                                             </td>
                                                             <td>
-                                                                <button type="button" class="btn btn-danger btn-sm px-3">
+                                                                <a href="bupdate-post-admin" class="btn btn-danger">
                                                                     <i class="fas fa-times"></i>
-                                                                </button>
+                                                                </a>
                                                             </td>
                                                         </tr>
                                                     }

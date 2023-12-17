@@ -103,6 +103,10 @@ namespace BBlogBlazor.Services
             //return null;
         }
 
-
+        public async Task<bool> UpdatePost(CreatePost post)
+        {
+            var result = await _httpClient.PutAsJsonAsync("api/Post/UpdatePost", post);
+            return result.IsSuccessStatusCode;
+        }
     }
 }

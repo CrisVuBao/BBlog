@@ -33,15 +33,14 @@
 
 .input-layout[b-brko2uthui] {
     outline: none;
-    border: 2px solid #1570EF;
-    border-radius: 12px;
+    border: 2px dashed #1C6DD0;
     margin: 3px;
-    padding: 2px;
+    padding-left: 5px;
     height: 30px;
 }
 
 .form[b-brko2uthui] {
-    border: 2px solid #1570EF;
+    border: 2px solid #1C6DD0;
     border-radius: 12px;
     padding: 12px;
 }
@@ -65,6 +64,27 @@
 
     100% {
         transform: rotate(360deg)
+    }
+}
+
+.progress[b-0z84csx8x2] {
+    border-radius: 10px;
+}
+
+.progress-bar[b-0z84csx8x2] {
+    width: 100%;
+    animation: progress-b-0z84csx8x2 1s;
+}
+
+@-webkit-keyframes progress {
+    0% {
+        width: 0;
+    }
+}
+
+@keyframes progress-b-0z84csx8x2 {
+    0% {
+        width: 0;
     }
 }
 /* /Layout/AdminLayout/AdminLayout.razor.rz.scp.css */
@@ -497,6 +517,57 @@ a[b-psknuevzuo] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+}
+/* /Pages/Admin/Component/UpdatePost.razor.rz.scp.css */
+/*SET THE DEFAULT FONT*/
+#TestId[b-c42o2qhy3x] {
+    font-family: "MS Gothic";
+    font-size: 18px;
+    height: 375px;
+}
+
+/*DEFINE ALL OF THE CUSTOM FONTS*/
+.ql-font-MSGothic[b-c42o2qhy3x] {
+    font-family: 'MS Gothic';
+}
+
+.ql-font-Bahnschrift[b-c42o2qhy3x] {
+    font-family: 'Bahnschrift'
+}
+
+.ql-font-Impact[b-c42o2qhy3x] {
+    font-family: 'Impact';
+}
+
+.ql-font-Courier[b-c42o2qhy3x] {
+    font-family: 'Courier';
+}
+
+.ql-font-Comic[b-c42o2qhy3x] {
+    font-family: 'Comic Sans MS';
+}
+
+.layout-text-editor[b-c42o2qhy3x] {
+    height: 500px;
+}
+
+.input-layout[b-c42o2qhy3x] {
+    outline: none;
+    border: 2px dashed #1C6DD0;
+    margin: 3px;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.form[b-c42o2qhy3x] {
+    border: 2px solid #1C6DD0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.form-inside[b-c42o2qhy3x] {
+    margin: 30px 5px 0 5px !important;
 }
 /* /Pages/Admin/Home.razor.rz.scp.css */
 .home[b-7njvdql91s] {

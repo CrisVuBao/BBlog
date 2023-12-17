@@ -134,7 +134,7 @@ namespace BBlogApi.Controllers
         }
 
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
-        [HttpPut]
+        [HttpPut("UpdatePost")]
         public async Task<ActionResult<Post>> UpdatePost(Post post)
         {
             try

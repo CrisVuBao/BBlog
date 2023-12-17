@@ -13,7 +13,6 @@ namespace BBlogApi.Models
         public string Content { get; set; }
         public string PicturePostUrl { get; set; }
         public string TagSearch { get; set; } // từ khóa tìm kiếm, thẻ tag  
-        public string PostStatus { get; set; } // trạng thái (bài viết mới tạo, bài viết đang chờ, bài viết bị hủy,...)
 
         [BindNever]
         public DateTime CreateDate { get; set; } = DateTime.Now;

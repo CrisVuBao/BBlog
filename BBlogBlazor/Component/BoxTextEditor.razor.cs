@@ -74,11 +74,14 @@ namespace BBlogBlazor.Component
         {
             post.Content = await JSRuntime.InvokeAsync<string>("QuillFunctions.getQuillContent", _quillJSEditorDiv);
 
+            if (post.UserId == null)
+            {
+                post.UserId = "1";
+            }
 
-            post.UserId = UserId;
             var addPost = await PostClient.AddPost(post);
 
-            if (addPost != null)
+            if (addPost != null && post.PostId > 0)
             {
                 await Swal.FireAsync("Tạo bài viết thành công", "Chuyển hướng trong giây lát", "success");
                 navigationManager.NavigateTo("/");

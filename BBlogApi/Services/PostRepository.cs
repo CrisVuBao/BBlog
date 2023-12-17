@@ -60,6 +60,7 @@ namespace BBlogApi.Services
 
             var getPost = await _db.PostZ.Join(_db.CategorieZ, p => p.CategoryId, c => c.CategoryId, (post, cate) => new { post, cate })
                 .Where(w => w.post.CategoryId == id)
+                .OrderByDescending(x => x.post.PostId)
                 .Select(s => new PostDto
                 {
                     PostId = s.post.PostId,
@@ -68,30 +69,30 @@ namespace BBlogApi.Services
                     Content = s.post.Content,
                     PicturePostUrl = s.post.PicturePostUrl,
                     TagSearch = s.post.TagSearch,
-                    PostStatus = s.post.PostStatus,
                     CreateDate = s.post.CreateDate,
                     CategoryId = s.post.CategoryId,
                     Categories = s.cate
                 }).ToListAsync();
+
             return getPost;
         }
 
         // Lấy bài viết theo chủ đề công nghê
         public async Task<List<Post>> GetPostWithCateIT()
         {
-            var getPost = await _db.PostZ.Where(w => w.CategoryId == 1 || w.CategoryId == 2 || w.CategoryId == 3).ToListAsync();
+            var getPost = await _db.PostZ.Where(w => w.CategoryId == 1 || w.CategoryId == 2 || w.CategoryId == 3).OrderByDescending(x => x.PostId).ToListAsync();
             return getPost;
         }
 
         public async Task<List<Post>> GetPostWithCatePersonal()
         {
-            var getPost = await _db.PostZ.Where(w => w.CategoryId == 4 || w.CategoryId == 5).ToListAsync();
+            var getPost = await _db.PostZ.Where(w => w.CategoryId == 4 || w.CategoryId == 5).OrderByDescending(x => x.PostId).ToListAsync();
             return getPost;
         }
 
         public async Task<List<Post>> GetPostWithCateGame()
         {
-            var getPost = await _db.PostZ.Where(w => w.CategoryId == 6 || w.CategoryId == 7).ToListAsync();
+            var getPost = await _db.PostZ.Where(w => w.CategoryId == 6 || w.CategoryId == 7).OrderByDescending(x => x.PostId).ToListAsync();
             return getPost;
         }
 

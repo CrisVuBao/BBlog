@@ -72,7 +72,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/i9_banner.jpg",
                    
                     TagSearch = "i9",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
           
@@ -88,7 +87,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/ios17_3.webp",
                    
                     TagSearch = "ios17",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
           
@@ -103,7 +101,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/pewpew_3.webp",
                    
                     TagSearch = "pewpew",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
           
@@ -118,7 +115,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/z-fold_3.webp",
                    
                     TagSearch = "zfold",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
           
@@ -133,7 +129,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/haitrieu_3.webp",
                    
                     TagSearch = "haitrieu",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
           
@@ -149,7 +144,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/i9_banner.jpg",
                    
                     TagSearch = "i9",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 3,
                
@@ -164,7 +158,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/ios17_3.webp",
                    
                     TagSearch = "ios17",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 3,
                
@@ -179,7 +172,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/pewpew_3.webp",
                    
                     TagSearch = "pewpew",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
           
@@ -194,7 +186,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/z-fold_3.webp",
                    
                     TagSearch = "zfold",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
           
@@ -209,7 +200,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/haitrieu_3.webp",
                    
                     TagSearch = "haitrieu",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
           
@@ -226,7 +216,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/i9_banner.jpg",
                     
                     TagSearch = "i9",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
           
@@ -241,7 +230,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/ios17_3.webp",
                     
                     TagSearch = "ios17",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 2,
           
@@ -256,7 +244,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/pewpew_3.webp",
                     
                     TagSearch = "pewpew",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
               
@@ -271,7 +258,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/z-fold_3.webp",
                     
                     TagSearch = "zfold",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
               
@@ -286,7 +272,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/haitrieu_3.webp",
                     
                     TagSearch = "haitrieu",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
               
@@ -303,7 +288,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/i9_banner.jpg",
                     
                     TagSearch = "i9",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 1,
               
@@ -318,7 +302,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/ios17_3.webp",
                     
                     TagSearch = "ios17",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 5,
          
@@ -333,7 +316,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/pewpew_3.webp",
                     
                     TagSearch = "pewpew",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
                   
@@ -348,7 +330,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/z-fold_3.webp",
                     
                     TagSearch = "zfold",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
                   
@@ -363,7 +344,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/haitrieu_3.webp",
                     
                     TagSearch = "haitrieu",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
                   
@@ -379,7 +359,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/haitrieu_3.webp",
                     
                     TagSearch = "haitrieu",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
                   
@@ -394,7 +373,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/haitrieu_3.webp",
                     
                     TagSearch = "haitrieu",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
                   
@@ -409,7 +387,6 @@ namespace BBlogApi.Data
                     PicturePostUrl = "/images/products/haitrieu_3.webp",
                     
                     TagSearch = "haitrieu",
-                    PostStatus = "Mới tạo",
                     CreateDate = DateTime.Now,
                     CategoryId = 4,
                   

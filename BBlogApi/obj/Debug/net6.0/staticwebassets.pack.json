@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\images\\products\\166327ed-7d7d-4496-9448-8faa4fd6fc4a..jpg"
     },
     {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\18ad42f9-7c5d-444d-ba81-5cdd165f0a12..webp",
+      "PackagePath": "staticwebassets\\images\\products\\18ad42f9-7c5d-444d-ba81-5cdd165f0a12..webp"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\1bcf2994-ca74-4014-879a-d3616d5ab468..webp",
+      "PackagePath": "staticwebassets\\images\\products\\1bcf2994-ca74-4014-879a-d3616d5ab468..webp"
+    },
+    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\24e98077-85e7-41c5-936a-1aa8001dd1c4..png",
       "PackagePath": "staticwebassets\\images\\products\\24e98077-85e7-41c5-936a-1aa8001dd1c4..png"
     },
@@ -25,8 +33,24 @@
       "PackagePath": "staticwebassets\\images\\products\\4a5e489d-0b3e-4e37-b443-1aa702fd9c7c..png"
     },
     {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\60bf378f-d1dc-492a-b63d-6d64ccc54102..webp",
+      "PackagePath": "staticwebassets\\images\\products\\60bf378f-d1dc-492a-b63d-6d64ccc54102..webp"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\65d97167-328f-4401-8067-6b164d91d0e2..webp",
+      "PackagePath": "staticwebassets\\images\\products\\65d97167-328f-4401-8067-6b164d91d0e2..webp"
+    },
+    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\6a22a4a3-2165-47ed-af05-223501abef77..webp",
       "PackagePath": "staticwebassets\\images\\products\\6a22a4a3-2165-47ed-af05-223501abef77..webp"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\74438e45-843a-473b-b143-48b24cec3176..webp",
+      "PackagePath": "staticwebassets\\images\\products\\74438e45-843a-473b-b143-48b24cec3176..webp"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\807556f5-2bd6-4428-93ee-47c2a874167f..webp",
+      "PackagePath": "staticwebassets\\images\\products\\807556f5-2bd6-4428-93ee-47c2a874167f..webp"
     },
     {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\8a888c2b-b792-48c7-8122-045b06863f92..jpg",
@@ -53,6 +77,14 @@
       "PackagePath": "staticwebassets\\images\\products\\cb785298-dec9-476d-bd61-16c1d6a57f00..jpg"
     },
     {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\d77d5e6f-7523-4ad4-88e5-c9f8317335ba..webp",
+      "PackagePath": "staticwebassets\\images\\products\\d77d5e6f-7523-4ad4-88e5-c9f8317335ba..webp"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\dde6dbb1-b7bf-40bc-bfab-95b544859a0f..webp",
+      "PackagePath": "staticwebassets\\images\\products\\dde6dbb1-b7bf-40bc-bfab-95b544859a0f..webp"
+    },
+    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\e22befa0-d298-4d6a-8449-5ffae31816b4..jpg",
       "PackagePath": "staticwebassets\\images\\products\\e22befa0-d298-4d6a-8449-5ffae31816b4..jpg"
     },
@@ -67,6 +99,10 @@
     {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\f6f1787c-63f2-43b4-8bf3-73da13454045..jpg",
       "PackagePath": "staticwebassets\\images\\products\\f6f1787c-63f2-43b4-8bf3-73da13454045..jpg"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogApi\\wwwroot\\images\\products\\f87db3d7-ead5-4c3c-b517-622192e0855b..webp",
+      "PackagePath": "staticwebassets\\images\\products\\f87db3d7-ead5-4c3c-b517-622192e0855b..webp"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BBlogApi.Microsoft.AspNetCore.StaticWebAssets.props",

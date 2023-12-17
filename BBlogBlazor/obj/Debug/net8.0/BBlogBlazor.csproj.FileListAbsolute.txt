@@ -4368,3 +4368,4 @@ F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBla
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\webcil\AngleSharp.wasm
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\compressed\3hgvu7ma0u.gz
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Blog\BlogDetail\BlogDetail.razor.rz.scp.css
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Admin\Component\UpdatePost.razor.rz.scp.css

@@ -29,6 +29,7 @@ namespace BBlogBlazor.Layout
         private async Task Logout()
         {
             await AccountClient.Logout();
+            await Swal.FireAsync("Đã đăng xuất tài khoản");
             navigationManager.NavigateTo("/", forceLoad: true);
         }
 

@@ -14,8 +14,7 @@ namespace BBlog.Models
         public string BriefContent { get; set; } // mô tả ngắn
         public string Content { get; set; }
         public string PicturePostUrl { get; set; }
-        public string TagSearch { get; set; } // từ khóa tìm kiếm, thẻ tag  
-        public string PostStatus { get; set; } // trạng thái (bài viết mới tạo, bài viết đang chờ, bài viết bị hủy,...)
+        public string TagSearch { get; set; } // từ khóa tìm kiếm, thẻ tag        
         public DateTime CreateDate { get; set; } = DateTime.Now;
         public int ViewCount { get; set; }
 

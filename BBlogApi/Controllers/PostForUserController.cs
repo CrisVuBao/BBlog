@@ -41,7 +41,6 @@ namespace BBlogApi.Controllers
 				Content = postDto.Content,
 				PicturePostUrl = postDto.PicturePostUrl,
 				TagSearch = postDto.TagSearch,
-				PostStatus = postDto.PostStatus,
 				CreateDate = DateTime.UtcNow,
 				CategoryId = postDto.CategoryId,
 				UserId = userId
@@ -82,7 +81,6 @@ namespace BBlogApi.Controllers
 				post.Content = postDto.Content;
 				post.PicturePostUrl = postDto.PicturePostUrl;
 				post.TagSearch = postDto.TagSearch;
-				post.PostStatus = postDto.PostStatus;
 				post.CreateDate = DateTime.Now;
 				post.CategoryId = postDto.CategoryId;
 				post.UserId = userId;

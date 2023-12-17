@@ -19,3 +19,24 @@
         transform: rotate(360deg)
     }
 }
+
+.progress {
+    border-radius: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    animation: progress 1s;
+}
+
+@-webkit-keyframes progress {
+    0% {
+        width: 0;
+    }
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+}
