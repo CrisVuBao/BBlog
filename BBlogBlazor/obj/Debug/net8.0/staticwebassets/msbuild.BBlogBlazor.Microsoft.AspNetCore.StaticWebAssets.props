@@ -34697,7 +34697,7 @@
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Alternative</AssetRole>
-      <RelatedAsset>F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
+      <RelatedAsset>F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogBlazor\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
       <AssetTraitName>Content-Encoding</AssetTraitName>
       <AssetTraitValue>gzip</AssetTraitValue>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

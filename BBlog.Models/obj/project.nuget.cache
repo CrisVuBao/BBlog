@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JLCB5ivHPWP1EcynRKJijR13pLZiUEVGPejJv2j1Zs9XvgapLNw53BH7jEsmGJw9CT2DXu6XcPTdBscBSEdacA==",
+  "dgSpecHash": "/CtrVx4R3PhGD15ufQkzY/WJWBFKll/Ma9NayZJgRSW/rjdp49kyCpNjOGrM2ebsUUPGRzclmlYnTuS5Fbq/ew==",
   "success": true,
-  "projectFilePath": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlog.Models\\BBlog.Models.csproj",
+  "projectFilePath": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",

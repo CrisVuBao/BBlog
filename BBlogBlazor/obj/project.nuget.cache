@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WvO+9ZJVYuUofzP4QCmlcxMPgEwirmtI38Z4TO7f/HubWTx/WiAWKV/VNZtIrKkbR/Q+zA6/o7bZb3mtg9iFYQ==",
+  "dgSpecHash": "Yr0d7kNbMziiprsZQ5xya4lzlLLoJtc9lWsPljnMKKDNChtyjoS3J7gvCryGDslA8R/a5TQLsLNGUO2OQj8uIg==",
   "success": true,
-  "projectFilePath": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog-blazor\\BBlog-blazor\\BBlogBlazor\\BBlogBlazor.csproj",
+  "projectFilePath": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\BBlogBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mobil\\.nuget\\packages\\anglesharp\\1.0.7\\anglesharp.1.0.7.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\blazored.localstorage\\4.4.0\\blazored.localstorage.4.4.0.nupkg.sha512",
@@ -47,8 +47,8 @@
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.jsinterop\\8.0.0\\microsoft.jsinterop.8.0.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.0\\microsoft.jsinterop.webassembly.8.0.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
-    "C:\\Users\\mobil\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.0\\microsoft.net.illink.tasks.8.0.0.nupkg.sha512",
-    "C:\\Users\\mobil\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.0\\microsoft.net.sdk.webassembly.pack.8.0.0.nupkg.sha512",
+    "C:\\Users\\mobil\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.1\\microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+    "C:\\Users\\mobil\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.1\\microsoft.net.sdk.webassembly.pack.8.0.1.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
@@ -120,7 +120,7 @@
     "C:\\Users\\mobil\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\mobil\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\mobil\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.0.nupkg.sha512"
+    "C:\\Users\\mobil\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.1\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }

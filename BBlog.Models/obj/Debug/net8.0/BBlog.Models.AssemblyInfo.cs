@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BBlog.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a900a8f81cb0b3748a3e3dd87c0938134b7b8284")]
 [assembly: System.Reflection.AssemblyProductAttribute("BBlog.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BBlog.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

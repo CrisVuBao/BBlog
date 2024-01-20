@@ -13,111 +13,111 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BBlogBlazor
 build_property.RootNamespace = BBlogBlazor
-build_property.ProjectDir = F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor\
+build_property.ProjectDir = F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogBlazor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog-blazor\BBlog-blazor\BBlogBlazor
+build_property.MSBuildProjectDirectory = F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogBlazor
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/App.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Component/Logo.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Component/Logo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XExvZ28ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Admin/PostManager.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Admin/PostManager.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUG9zdE1hbmFnZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Authentication/RedirectToLogin.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Authentication/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cUmVkaXJlY3RUb0xvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Counter.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/_Imports.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Component/BoxTextEditor.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Component/BoxTextEditor.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XEJveFRleHRFZGl0b3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-brko2uthui
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Component/LoadingBar.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Component/LoadingBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XExvYWRpbmdCYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0z84csx8x2
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/AdminLayout/AdminLayout.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Layout/AdminLayout/AdminLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEFkbWluTGF5b3V0XEFkbWluTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-h8q3btiy7b
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/AdminLayout/NavAdmin.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Layout/AdminLayout/NavAdmin.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEFkbWluTGF5b3V0XE5hdkFkbWluLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-2nnz7neu4n
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/Footer.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Layout/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-b1ioa2uj92
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/Header.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Layout/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-5swpb2a07p
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/MainLayout.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-687od6cswe
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Layout/NavMenu.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-psknuevzuo
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Admin/Component/UpdatePost.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Admin/Component/UpdatePost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ29tcG9uZW50XFVwZGF0ZVBvc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-c42o2qhy3x
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Admin/Home.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Admin/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-7njvdql91s
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Admin/UserManager.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Admin/UserManager.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlck1hbmFnZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-vspxdysga4
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Authentication/Login.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Authentication/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-d5seq0j47v
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Authentication/Register.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Authentication/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-k5hfqs12ar
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogChild/BlogChild.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Blog/BlogChild/BlogChild.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nQ2hpbGRcQmxvZ0NoaWxkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-aajxn699sn
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogDetail/BlogDetail.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Blog/BlogDetail/BlogDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nRGV0YWlsXEJsb2dEZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4lihjkeazc
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogGame.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Blog/BlogGame.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nR2FtZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-1pqexut77p
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogIT.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Blog/BlogIT.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nSVQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-imzvi9asn0
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Blog/BlogPersonal.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Blog/BlogPersonal.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nUGVyc29uYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jik2sbxz9a
 
-[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog-blazor/BBlog-blazor/BBlogBlazor/Pages/Home.razor]
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-exiwmkvlsc

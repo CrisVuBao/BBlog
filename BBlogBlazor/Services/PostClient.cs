@@ -84,23 +84,6 @@ namespace BBlogBlazor.Services
         {
             var result = await _httpClient.PostAsJsonAsync("api/Post/AddPost", post);          
             return result.IsSuccessStatusCode;
-
-            //var itemJson = new StringContent(JsonSerializer.Serialize(post), Encoding.UTF8, "application/json");
-
-            //var response = await _httpClient.PostAsync("api/Post/AddPost", itemJson);
-            //if (response.IsSuccessStatusCode)
-            //{
-            //    var responseBody = await response.Content.ReadAsStreamAsync();
-
-            //    var addPost = await JsonSerializer.DeserializeAsync<PostDto>(responseBody, new JsonSerializerOptions
-            //    {
-            //        PropertyNameCaseInsensitive = true
-            //    });
-
-            //    return addPost;
-            //}
-
-            //return null;
         }
 
         public async Task<bool> UpdatePost(CreatePost post)
