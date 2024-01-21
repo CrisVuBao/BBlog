@@ -91,5 +91,11 @@ namespace BBlogBlazor.Services
             var result = await _httpClient.PutAsJsonAsync($"api/Post/UpdatePost/{id}", post);
             return result.IsSuccessStatusCode;
         }
+
+        public async Task<bool> DeletePost(string id)
+        {
+            var deletePost = await _httpClient.DeleteAsync($"api/Post/DeletePost/{id}");
+            return deletePost.IsSuccessStatusCode;
+        }
     }
 }

@@ -145,9 +145,9 @@ namespace BBlogApi.Controllers
             catch { return BadRequest(); }
         }
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
         // Delete
-        [HttpDelete("{id}")]
+        [HttpDelete("DeletePost/{id}")]
         public async Task<ActionResult> DeletePost(int id)
         {
             try

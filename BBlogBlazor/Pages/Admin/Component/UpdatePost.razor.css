@@ -48,3 +48,7 @@
 .form-inside {
     margin: 30px 5px 0 5px !important;
 }
+
+.img-post {
+    border-radius: 12px;
+}

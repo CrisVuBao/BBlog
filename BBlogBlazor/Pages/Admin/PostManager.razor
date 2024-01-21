@@ -3,6 +3,7 @@
 @using BBlogBlazor.Static
 @layout AdminLayout;
 @inject NavigationManager NavigationManager
+@inject SweetAlertService Swal;
 
 @if (PostAll == null)
 {
@@ -67,9 +68,9 @@ else
                                                                 </a>
                                                             </td>
                                                             <td>
-                                                                <a href="bupdate-post-admin" class="btn btn-danger">
+                                                                <button class="btn btn-danger" @onclick="(() => HandleDeletePost(acc.PostId.ToString()))">
                                                                     <i class="fas fa-times"></i>
-                                                                </a>
+                                                                </button>
                                                             </td>
                                                         </tr>
                                                     }

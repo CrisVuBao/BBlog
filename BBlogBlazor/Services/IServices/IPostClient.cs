@@ -13,5 +13,6 @@ namespace BBlogBlazor.Services.IRepository
         Task<List<PostDto>> GetPostWithCateId(string id);
         Task<bool> AddPost(PostDto post);
         Task<bool> UpdatePost(string id, PostDto post);
+        Task<bool> DeletePost(string id);
     }
 }
