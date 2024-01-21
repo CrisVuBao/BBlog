@@ -11,7 +11,7 @@ namespace BBlogBlazor.Services.IRepository
         Task<List<PostDto>> GetPostWithCatePersonal();
         Task<List<PostDto>> GetPostWithCateGame();
         Task<List<PostDto>> GetPostWithCateId(string id);
-        Task<bool> AddPost(CreatePost post);
-        Task<bool> UpdatePost(CreatePost post);
+        Task<bool> AddPost(PostDto post);
+        Task<bool> UpdatePost(string id, PostDto post);
     }
 }

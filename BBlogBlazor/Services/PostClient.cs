@@ -80,15 +80,15 @@ namespace BBlogBlazor.Services
             return getPost;
         }
 
-        public async Task<bool> AddPost(CreatePost post)
+        public async Task<bool> AddPost(PostDto post)
         {
             var result = await _httpClient.PostAsJsonAsync("api/Post/AddPost", post);          
             return result.IsSuccessStatusCode;
         }
 
-        public async Task<bool> UpdatePost(CreatePost post)
+        public async Task<bool> UpdatePost(string id, PostDto post)
         {
-            var result = await _httpClient.PutAsJsonAsync("api/Post/UpdatePost", post);
+            var result = await _httpClient.PutAsJsonAsync($"api/Post/UpdatePost/{id}", post);
             return result.IsSuccessStatusCode;
         }
     }

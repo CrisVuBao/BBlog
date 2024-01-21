@@ -133,18 +133,16 @@ namespace BBlogApi.Controllers
 
         }
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
-        [HttpPut("UpdatePost")]
-        public async Task<ActionResult<Post>> UpdatePost(Post post)
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+        [HttpPut("UpdatePost/{id}")]
+        public async Task<ActionResult<Post>> UpdatePost(int id, UpdatePostDto postDto)
         {
             try
             {
-                var updatePost = await _postRepo.UpdatePost(post);
+                var updatePost = await _postRepo.UpdatePost(id, postDto);
                 return Ok(updatePost);
-
             }
             catch { return BadRequest(); }
-
         }
 
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]

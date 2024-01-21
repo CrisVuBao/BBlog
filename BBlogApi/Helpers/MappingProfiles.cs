@@ -11,6 +11,7 @@ namespace BBlogApi.Helpers
             CreateMap<Post, PostDto>().ReverseMap(); // ánh xạ từ Post qua PostDto, ReverseMap là ánh xạ 2 chiều
             CreateMap<Post, CreatePostDto>().ReverseMap();
             CreateMap<Categories, CategoryDto>().ReverseMap();
+            CreateMap<Post, UpdatePostDto>().ReverseMap();
         }
     }
 }

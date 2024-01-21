@@ -26,7 +26,7 @@ namespace BBlogBlazor.Pages.Blog.BlogChild
             GetCateTinCongNghe = await CategoryClient.GetCateId("3");
 
             // Sử dụng LINQ để tìm phần tử đầu tiên có CategoryName không rỗng hoặc null
-            firstPostWithCategory = GetPostWithCateId.FirstOrDefault()?.CategoryName;
+            firstPostWithCategory = GetPostWithCateId.FirstOrDefault()?.Categories.CategoryName;
         }
     }
 }

@@ -8557,70 +8557,6 @@
       "PackagePath": "staticwebassets\\images\\placeholder.png"
     },
     {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\haitrieu_1webp.webp",
-      "PackagePath": "staticwebassets\\images\\products\\haitrieu_1webp.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\haitrieu_2.webp",
-      "PackagePath": "staticwebassets\\images\\products\\haitrieu_2.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\haitrieu_3.webp",
-      "PackagePath": "staticwebassets\\images\\products\\haitrieu_3.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\i9_1.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\i9_1.jpg"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\i9_2.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\i9_2.jpg"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\i9_banner.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\i9_banner.jpg"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\ios17_1.webp",
-      "PackagePath": "staticwebassets\\images\\products\\ios17_1.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\ios17_2.webp",
-      "PackagePath": "staticwebassets\\images\\products\\ios17_2.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\ios17_3.webp",
-      "PackagePath": "staticwebassets\\images\\products\\ios17_3.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\pewpew_1.webp",
-      "PackagePath": "staticwebassets\\images\\products\\pewpew_1.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\pewpew_2.webp",
-      "PackagePath": "staticwebassets\\images\\products\\pewpew_2.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\pewpew_3.webp",
-      "PackagePath": "staticwebassets\\images\\products\\pewpew_3.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\tom.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\tom.jpg"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\z-fold_1.webp",
-      "PackagePath": "staticwebassets\\images\\products\\z-fold_1.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\z-fold_2.webp",
-      "PackagePath": "staticwebassets\\images\\products\\z-fold_2.webp"
-    },
-    {
-      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\images\\products\\z-fold_3.webp",
-      "PackagePath": "staticwebassets\\images\\products\\z-fold_3.webp"
-    },
-    {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
@@ -8675,6 +8611,10 @@
     {
       "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\logo\\logostar.png",
       "PackagePath": "staticwebassets\\logo\\logostar.png"
+    },
+    {
+      "Id": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\wwwroot\\web.config",
+      "PackagePath": "staticwebassets\\web.config"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BBlogBlazor.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,4 +1,5 @@
 ﻿@page "/box-text-editor";
+@using BBlogBlazor.Static
 @using Blazored.TextEditor;
 @using Microsoft.AspNetCore.Authorization
 @inject NavigationManager navigationManager;
@@ -10,8 +11,8 @@
         <div class="d-flex ps-3 pe-3">
             <div class="d-flex flex-column me-3">
                 Tên Tiêu Đề: <input class="input-layout" @bind="@post.Title">
-                Ảnh Bìa: <InputFile class="form-control" OnChange="@HandleFileSelect" />
-                <img src="@img" width="300" height="200" class="img-post m-3" />
+                Ảnh Bìa: <InputFile class="form-control" accept="image/jpeg, image/png, image/jpg, image/webp" OnChange="@HandleFileSelect" />
+                <img src="@($"{APIEndpoints.ServerBaseUrl}/{post.PicturePostUrl}")" accept="image/jpeg, image/png, image/jpg, image/webp" width="300" height="200" class="img-post m-3" />
             </div>
             <div>
                 <div class="col mb-2 d-flex flex-column" style="width: 600px;">

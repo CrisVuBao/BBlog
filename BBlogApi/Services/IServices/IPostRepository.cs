@@ -13,7 +13,7 @@ namespace BBlogApi.Services.IServices
         Task<List<Post>> GetPostWithCatePersonal();
         Task<List<Post>> GetPostWithCateGame();
         Task<Post> AddPost(CreatePostDto createPostDto);
-        Task<Post> UpdatePost(Post post);
+        Task<Post> UpdatePost(int id, UpdatePostDto postDto);
         Task<Post> DeletePost(int id);
     }
 }

@@ -1,5 +1,6 @@
 ﻿@page "/post-admin-manager"
 @using BBlogBlazor.Layout.AdminLayout
+@using BBlogBlazor.Static
 @layout AdminLayout;
 @inject NavigationManager NavigationManager
 
@@ -37,11 +38,12 @@ else
                                             <table class="table table-striped mb-0">
                                                 <thead>
                                                     <tr>
+                                                        <th scope="col">ID Bài Viết</th>
                                                         <th scope="col">Ảnh bìa</th>
                                                         <th scope="col">Tiêu đề</th>
                                                         <th scope="col">Ngày tạo</th>
                                                         <th scope="col">UserId</th>
-                                                        <th scope="col">Cate Id</th>
+                                                        <th scope="col">Tên Chủ Đề</th>
                                                         <th scope="col">Sửa</th>
                                                         <th scope="col">Xóa</th>
                                                     </tr>
@@ -50,16 +52,17 @@ else
                                                     @foreach (var acc in PostWithCate)
                                                     {
                                                         <tr>
+                                                            <td>@acc.PostId</td>
                                                             <td>
-                                                                <img src="@acc.PicturePostUrl" class="" style="width: 100px;" />
+                                                                <img src="@($"{APIEndpoints.ServerBaseUrl}/{acc.PicturePostUrl}")" class="" style="width: 100px;" />
                                                             </td>
                                                             <td width="300">@acc.Title</td>
                                                             <td>@acc.CreateDate</td>
                                                             <td>@acc.UserId</td>
-                                                            <td>@acc.CategoryId</td>
+                                                            <td>@acc.Categories.CategoryName</td>
 
                                                             <td>
-                                                                <a class="btn btn-warning px-3" href="update-post-admin">
+                                                                <a class="btn btn-warning px-3" href="update-post-admin/@acc.PostId">
                                                                     <i class="fa-solid fa-pen-to-square"></i>
                                                                 </a>
                                                             </td>

@@ -1,5 +1,6 @@
 ﻿@page "/blog-detail/{PostId}"
 @using BBlogBlazor.Component
+@using BBlogBlazor.Static
 
 @if (PostDetail == null)
 {
@@ -27,7 +28,7 @@ else
                                 </div>
                             </div>
                             <div class="col-md-6 pr-0 w-50">
-                                <img class="img-fluid" src="@PostDetail.PicturePostUrl" style="border-radius:15px;">
+                            <img class="img-fluid" src="@($"{APIEndpoints.ServerBaseUrl}/{PostDetail.PicturePostUrl}")" style="border-radius:15px;">
                             </div>
                         </div>
                     </div>

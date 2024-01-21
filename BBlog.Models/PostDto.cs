@@ -20,7 +20,6 @@ namespace BBlog.Models
 
         [ForeignKey("TopicDetailId")]
         public int CategoryId { get; set; }
-        public string CategoryName { get; set; }
         public CategoryDto Categories { get; set; }
         public string UserId { get; set; }
 

@@ -147,3 +147,5 @@ F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogApi\obj\Debug\net8.0\re
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogApi\obj\Debug\net8.0\BBlogApi.pdb
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogApi\obj\Debug\net8.0\BBlogApi.genruntimeconfig.cache
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogApi\obj\Debug\net8.0\ref\BBlogApi.dll
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogApi\bin\Debug\net8.0\BBlog.Models.dll
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogApi\bin\Debug\net8.0\BBlog.Models.pdb
