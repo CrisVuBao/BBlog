@@ -1,7 +1,9 @@
 ﻿@inject IJSRuntime JSRuntime
 @inject NavigationManager navigationManager;
 @inject SweetAlertService Swal;
+@using BBlog.Models
 @using Microsoft.AspNetCore.Components.Authorization;
+@inject NavigationManager NavigationManager;
 
 @if (GetAllCate == null)
 {
@@ -18,7 +20,33 @@ else
                             <img id="img-logo" src="/logo/logoPass.png" alt="logo" />
                         </a>
                     </div>
-                    <input class="input-search" type="text" placeholder="Tìm kiếm bài viết, bạn bè...">
+                    @* <input class="input-search" type="text" placeholder="Tìm kiếm bài viết, bạn bè..."> *@
+                    <BlazoredTypeahead SearchMethod="@SearchPost"
+                                       style="    padding: 5px 5px 5px 10px;
+    width: 382px;
+    height: 33px;
+    margin-left: 47px;
+    font-size: 15px;
+    background-color: #E5E6ED;
+    border-radius: 50px;
+    border: none !important;
+    outline: none !important;"
+                                       TValue="PostDto"
+                                       TItem="PostDto"
+                                       Value="selectedPost"
+                                       ValueChanged="HandleSearch"
+                                       ValueExpression="@(() => selectedPost)"
+                                       placeholder="Tìm kiếm bài viết, bạn bè...">
+                        <SelectedTemplate>
+                            @context.Title || @context.TagSearch
+                        </SelectedTemplate>
+                        <ResultTemplate>
+                            @context.Title || @context.TagSearch
+                        </ResultTemplate>
+                        <NotFoundTemplate>
+                            Không tìm thấy !
+                        </NotFoundTemplate>
+                    </BlazoredTypeahead>
                 </div>
                 <div class="logo-text d-flex align-items-center" style="margin-right: 164px;">
                     <i class="fa-solid fa-candy-cane" style="font-size: 30px; padding-right: 7px; color: #BB1F2D"></i>

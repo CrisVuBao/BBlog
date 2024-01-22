@@ -14,5 +14,6 @@ namespace BBlogBlazor.Services.IRepository
         Task<bool> AddPost(PostDto post);
         Task<bool> UpdatePost(string id, PostDto post);
         Task<bool> DeletePost(string id);
+        Task<List<PostDto>> SearchPost(string searchText);
     }
 }

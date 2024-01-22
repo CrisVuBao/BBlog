@@ -158,5 +158,18 @@ namespace BBlogApi.Controllers
             }
             catch { return BadRequest(); }
         }
+
+        [HttpGet("Search/{searchText}")]
+        public async Task<ActionResult<List<Post>>> SearchPost(string searchText)
+        {
+            try
+            {
+                return Ok(await _postRepo.SearchPost(searchText));
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
     }
 }

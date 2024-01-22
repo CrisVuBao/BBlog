@@ -15,5 +15,6 @@ namespace BBlogApi.Services.IServices
         Task<Post> AddPost(CreatePostDto createPostDto);
         Task<Post> UpdatePost(int id, UpdatePostDto postDto);
         Task<Post> DeletePost(int id);
+        Task<List<Post>> SearchPost(string searchText);
     }
 }

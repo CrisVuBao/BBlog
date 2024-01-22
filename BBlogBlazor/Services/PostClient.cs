@@ -97,5 +97,10 @@ namespace BBlogBlazor.Services
             var deletePost = await _httpClient.DeleteAsync($"api/Post/DeletePost/{id}");
             return deletePost.IsSuccessStatusCode;
         }
+
+        public async Task<List<PostDto>> SearchPost(string searchText)
+        {
+            return await _httpClient.GetFromJsonAsync<List<PostDto>>($"api/Post/Search/{searchText}"); 
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rRtjYoJMWh7kPAhuW3AdmpDDYc3CMeF+iLqHJkcptvY=",
+  "Hash": "QeHHWAz7mEr99D7blm5jBXizdMR6djn6y9a0/HriPBk=",
   "Source": "BBlogApi",
   "BasePath": "_content/BBlogApi",
   "Mode": "Default",
@@ -262,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\2f261aa6-c7b7-4a61-9bd0-97c5d2c18f4f.webp"
+    },
+    {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\wwwroot\\images\\products\\2f7d8e4b-0ceb-46d1-9272-03aaf3e67c47.webp",
+      "SourceId": "BBlogApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\wwwroot\\",
+      "BasePath": "_content/BBlogApi",
+      "RelativePath": "images/products/2f7d8e4b-0ceb-46d1-9272-03aaf3e67c47.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\2f7d8e4b-0ceb-46d1-9272-03aaf3e67c47.webp"
     },
     {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\wwwroot\\images\\products\\32362040-26ee-4466-923c-6637850fd990webp",
@@ -663,6 +682,25 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\8244397_5687012-nintendo-switch-oled-7.webp"
     },
     {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\wwwroot\\images\\products\\8992a7dc-b843-4a20-a9b0-f8a71c2fac30.webp",
+      "SourceId": "BBlogApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\wwwroot\\",
+      "BasePath": "_content/BBlogApi",
+      "RelativePath": "images/products/8992a7dc-b843-4a20-a9b0-f8a71c2fac30.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\8992a7dc-b843-4a20-a9b0-f8a71c2fac30.webp"
+    },
+    {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\wwwroot\\images\\products\\89b74439-0a23-401f-b465-88ecb46530a2.jpg",
       "SourceId": "BBlogApi",
       "SourceType": "Discovered",
@@ -756,6 +794,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\985f6647-4bca-4918-ba99-2b36e520ce39..webp"
+    },
+    {
+      "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\wwwroot\\images\\products\\9a8e43bc-8752-48a7-be04-c5883f643088.webp",
+      "SourceId": "BBlogApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\wwwroot\\",
+      "BasePath": "_content/BBlogApi",
+      "RelativePath": "images/products/9a8e43bc-8752-48a7-be04-c5883f643088.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\9a8e43bc-8752-48a7-be04-c5883f643088.webp"
     },
     {
       "Identity": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\wwwroot\\images\\products\\9e1e06d4-41d2-4e8e-8d4c-074e975fd5d9..webp",

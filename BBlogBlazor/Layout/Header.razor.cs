@@ -10,7 +10,9 @@ namespace BBlogBlazor.Layout
     {
         [Inject] private ICategoryClient CategoryClient { get; set; }
         [Inject] private IAccountClient AccountClient { get; set; }
+        [Inject] private IPostClient PostClient { get; set; }
 
+        private PostDto selectedPost;
         private CategoryDto GetCateId { get; set; }
 
         private List<CategoryDto> GetAllCate { get; set; }
@@ -31,6 +33,19 @@ namespace BBlogBlazor.Layout
             await AccountClient.Logout();
             await Swal.FireAsync("Đã đăng xuất tài khoản");
             navigationManager.NavigateTo("/", forceLoad: true);
+        }
+
+        private void HandleSearch(PostDto postDto)
+        {
+            if (postDto == null) return;
+            selectedPost = postDto;
+            NavigationManager.NavigateTo($"/blog-detail/{selectedPost.PostId}");
+        }
+
+        private async Task<IEnumerable<PostDto>> SearchPost(string searchText)
+        {
+            var response = await PostClient.SearchPost(searchText);
+            return response;
         }
 
         //[JSInvokable]

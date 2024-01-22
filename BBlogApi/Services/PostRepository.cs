@@ -150,6 +150,9 @@ namespace BBlogApi.Services
             return $"https://{url}/images/products/{fileName}";
         }
 
-
+        public async Task<List<Post>> SearchPost(string searchText)
+        {
+            return await _db.PostZ.Where(p => p.Title.Contains(searchText) || p.TagSearch.Contains(searchText)).ToListAsync();
+        }
     }
 }
