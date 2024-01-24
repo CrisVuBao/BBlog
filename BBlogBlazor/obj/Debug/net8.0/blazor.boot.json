@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BBlogBlazor",
   "resources": {
-    "hash": "sha256-vzK/jos/OaoH7iMQmOGdw+85IjSGwQ9avi+Vyq3ghDQ=",
+    "hash": "sha256-KG3zQFmshX7LZR0ilHl5FwCJlcutFUUpqdFmQur9k2c=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.r7fnqodbjp.js": "sha256-SGOlISx+3G4kkvpC9Uq3qoPGsnjxGmW61QBev0lyI5U="
     },
@@ -228,12 +228,12 @@
       "mscorlib.wasm": "sha256-EpWTfh4m/hEcXRFYMCR9YeYHwdUJgcm1laBaxWfq2S4=",
       "netstandard.wasm": "sha256-2kH24/YfHmU3B4eYRyRmiwebYROM4+B9eDWKvMnUdP8=",
       "System.Private.CoreLib.wasm": "sha256-CsySKiP7HYY1pS8LTDE60EkqiX5oHb3WoEZHDNd1yK0=",
-      "BBlog.Models.wasm": "sha256-WatbxePWMNVBmOzUeZjjQsoWbasLU9U4DH5yhOs1Bak=",
-      "BBlogBlazor.wasm": "sha256-xsR+9cixjNpTBZ8HqHokoIPBGnFDG9LfddjXQZahkDw="
+      "BBlog.Models.wasm": "sha256-HyU715TTFf3pCY1oX2OLYJ5EgTBcT4lEKZVl8/uc+jM=",
+      "BBlogBlazor.wasm": "sha256-/o/AyF0zL+c26FaeBVpCEFB7KMNy18O4I1MsZdAjYQg="
     },
     "pdb": {
-      "BBlog.Models.pdb": "sha256-4Y5L9RaZ6gvCisYPJ/aYSFgrpg8YoAXkkegJ82EWn6U=",
-      "BBlogBlazor.pdb": "sha256-tBwQv6NSUOQbcdSvDGokRpmaioDVJL++fdItyk4E6EQ="
+      "BBlog.Models.pdb": "sha256-TkOOsDo5GQ3q1blB2TDNGkjT0wflRmQobF44Yd7Jphs=",
+      "BBlogBlazor.pdb": "sha256-bstptdgpKMd0Zx04OVE1VR514LgT/d36viutGXq93Ac="
     }
   },
   "cacheBootResources": true,

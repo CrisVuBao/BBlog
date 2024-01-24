@@ -7,6 +7,7 @@ using CurrieTechnologies.Razor.SweetAlert2;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.AspNetCore.Components.WebAssembly.Services;
 using Microsoft.JSInterop;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
@@ -25,5 +26,7 @@ builder.Services.AddBlazoredLocalStorage();
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5000/") });
 builder.Services.AddScoped<AuthenticationStateProvider, ApiAuthenticationStateProvider>();
+
+builder.Services.AddSingleton<LazyAssemblyLoader>();
 
 await builder.Build().RunAsync();
