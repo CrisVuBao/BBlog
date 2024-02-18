@@ -27,14 +27,23 @@ namespace BBlogApi.Controllers
         private readonly SignInManager<Account> _signInManager;
         private readonly IMapper _mapper;
         private readonly TokenService _tokenService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly APISettings _apiSetting;
 
-        public AccountController(UserManager<Account> userManager, SignInManager<Account> signInManager, IMapper mapper, TokenService tokenService, IOptions<APISettings> options)
+        public AccountController(
+            UserManager<Account> userManager,
+            SignInManager<Account> signInManager,
+            IMapper mapper, 
+            TokenService tokenService, 
+            IOptions<APISettings> options,
+            IHttpContextAccessor httpContextAccessor
+            )
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _mapper = mapper;
             _tokenService = tokenService;
+            _httpContextAccessor = httpContextAccessor;
             _apiSetting = options.Value;
         }
 
@@ -153,19 +162,35 @@ namespace BBlogApi.Controllers
             return Ok(user);
         }
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Member,Admin")]
+        [HttpGet("{id}")]
+        public async Task<ActionResult<AccountDto>> getUserId(string id)
+        {
+            var user = _userManager.FindByIdAsync(id);
+            return Ok(user);
+        }
+
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
         [HttpGet("CurrentUser")]
-        public async Task<ActionResult> CurrentUser()
+        public ActionResult CurrentUser()
         {
             try
             {
-                string? userId = _userManager.GetUserId(User); // Get user id:
-                                                               //var user = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                //string? userId = _userManager.GetUserId(User); 
+
+                //var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                //var userName = User.FindFirst(ClaimTypes.Name)?.Value;
+
+
+                var user = _httpContextAccessor.HttpContext.User.Identity.Name;
+                //var user = _userManager.FindByEmailAsync();
+                // Get user id:
+                //var user = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
                 //var userId = Convert.ToInt32(HttpContext.User.FindFirstValue("id"));
-                if (userId == null) return Unauthorized();
 
-                return Ok(userId);
+                if (user == null) return Unauthorized();
+
+                return Ok(user);
             }
             catch
             {

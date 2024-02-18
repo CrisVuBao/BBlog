@@ -128,10 +128,9 @@ main {
 
 .cay-thong {
     position: fixed;
-    margin-top: 440px;
 }
 
 .cay-thong-img {
-    width: 150px;
-    height: 200px;
+    width: 50%;
+    height: 40%;
 }

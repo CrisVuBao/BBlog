@@ -11,7 +11,7 @@ namespace BBlogApi.Data
             {
                 var admin = new Account
                 {
-                    UserName = "admin",
+                    UserName = "admin@gmail.com",
                     Email = "admin@gmail.com",
                     MemberName = "Người quản trị",
                     InforUser = "Admin",

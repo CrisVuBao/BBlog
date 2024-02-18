@@ -14,6 +14,7 @@ using Microsoft.JSInterop;
 using System.Text;
 using System.Net;
 using System.Net.Http.Json;
+using System.Security.Claims;
 
 
 namespace BBlogBlazor.Component
@@ -108,7 +109,10 @@ namespace BBlogBlazor.Component
 
             if (post.UserId == null)
             {
-                post.UserId = "1";
+                var authstate = await GetAuthenticationStateAsync.GetAuthenticationStateAsync();
+                var user = authstate.User;
+                var name = user.Identity.Name;
+                post.UserId = name;
             }
 
             var addPost = await PostClient.AddPost(post);

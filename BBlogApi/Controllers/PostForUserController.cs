@@ -58,7 +58,7 @@ namespace BBlogApi.Controllers
 			string? userId = User.FindFirstValue(ClaimTypes.Email);
 			if (userId == null) return Unauthorized();
 
-			var getPost =  await _db.PostZ.Where(w => w.UserId == userId).ToListAsync();
+			var getPost =  await _db.PostZ.Where(w => w.UserId == userId).OrderByDescending(o => o.PostId).ToListAsync();
 
 			return Ok(getPost);
 		}

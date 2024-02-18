@@ -19,6 +19,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddScoped<IPostClient, PostClient>();
 builder.Services.AddScoped<ICategoryClient, CategoryClient>();
 builder.Services.AddScoped<IAccountClient, AccountClient>();
+builder.Services.AddScoped<IPostForUserClient, PostForUserClient>();
 builder.Services.AddSweetAlert2(opt => opt.Theme = SweetAlertTheme.Default);
 builder.Services.AddAuthorizationCore();
 

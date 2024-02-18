@@ -29,6 +29,12 @@ namespace BBlogBlazor.Services
             return getUser;
         }
 
+        public async Task<AccountDto> GetCurrentUser()
+        {
+            var getUser = await _httpClient.GetFromJsonAsync<AccountDto>("api/Account/CurrentUser");
+            return getUser;
+        }
+
         public async Task<LoginResponse> Login(LoginDto login)
         {
             var loginJson = JsonConvert.SerializeObject(login);

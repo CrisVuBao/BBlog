@@ -2,9 +2,11 @@
 @using BBlogBlazor.Static
 @using Blazored.TextEditor;
 @using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
 @inject NavigationManager navigationManager;
 @inject SweetAlertService Swal;
 @attribute [Authorize]
+@inject AuthenticationStateProvider GetAuthenticationStateAsync
 
 <div class="form container">
     <EditForm Model="@post" OnValidSubmit="AddPostForm">

@@ -1,7 +1,7 @@
 /*Danh sách tin tức và bài viết*/
 .list-news[b-aajxn699sn] {
     /*border: 1px solid #ff00dc;*/
-    width: 100%;
+    width: 71%;
     height: 500px;
 }
 
@@ -16,4 +16,3 @@
     height: 100%;
     border-radius: 7px;
 }
-

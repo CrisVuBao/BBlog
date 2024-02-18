@@ -1,0 +1,67 @@
+﻿/*Phần banner*/
+.profile-layout {
+    border-top: 1px solid #E5E1DA
+}
+
+.banner-tech {
+    /*border: 1px solid #000000;*/
+    max-width: 100%;
+    overflow: hidden;
+    min-height: 220px;
+    border: none;
+    border-radius: 8px;
+}
+
+.banner-tech-img {
+    width: 100%;
+    height: 220px;
+}
+
+.menu-child-a {
+    color: #ff0000;
+}
+
+.menu-child-a:hover {
+    color: #1570EF;
+}
+
+.my-post-layout {
+    background-color: rgb(237, 242, 247)
+}
+
+.my-post {
+    margin-top: 15px;
+    border: 1px solid #E5E1DA;
+    background-color: #FFFFFF;
+    max-width: 1000px;
+    min-height: 1000px;
+    /*border-radius: 15px;*/
+    overflow: auto;
+}
+
+.title-my-post {    
+    margin-top: 5px;
+    border-bottom: 1px solid #E5E1DA;
+}
+
+/*Danh sách tin tức và bài viết*/
+.list-news {
+    /*border: 1px solid #ff00dc;*/
+    width: 80%;
+    height: 500px;
+}
+
+.layout-list-news {
+    max-width: 260px;
+    max-height: 150px;
+}
+
+.img-list-news {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.post-user {
+    border-bottom: 1px solid #E5E1DA;
+}
