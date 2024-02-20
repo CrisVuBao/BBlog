@@ -90,6 +90,10 @@ build_metadata.AdditionalFiles.CssScope = b-7njvdql91s
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlck1hbmFnZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-vspxdysga4
 
+[F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Authentication/AuthenComponent/UpdatePostForUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cQXV0aGVuQ29tcG9uZW50XFVwZGF0ZVBvc3RGb3JVc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-xoajqq3ej1
+
 [F:/Hoc Tap/C_Shape/API/1_Project/Blog Website/BBlog/BBlogBlazor/Pages/Authentication/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-d5seq0j47v

@@ -63,5 +63,10 @@
 }
 
 .post-user {
+    /*border-bottom: 1px solid #E5E1DA;*/
+}
+
+.btn-post {
+    padding-bottom: 10px;
     border-bottom: 1px solid #E5E1DA;
 }

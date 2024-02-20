@@ -5538,3 +5538,4 @@ F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogBlazor\obj\Debug\net8.0
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogBlazor\obj\Debug\net8.0\compressed\t71rmzup03.gz
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogBlazor\obj\Debug\net8.0\compressed\h3k7nr5nbl.gz
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Authentication\Profile.razor.rz.scp.css
+F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlogBlazor\obj\Debug\net8.0\scopedcss\Pages\Authentication\AuthenComponent\UpdatePostForUser.razor.rz.scp.css

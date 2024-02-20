@@ -63,5 +63,10 @@
 }
 
 .post-user[b-zmhttkpw5r] {
+    /*border-bottom: 1px solid #E5E1DA;*/
+}
+
+.btn-post[b-zmhttkpw5r] {
+    padding-bottom: 10px;
     border-bottom: 1px solid #E5E1DA;
 }

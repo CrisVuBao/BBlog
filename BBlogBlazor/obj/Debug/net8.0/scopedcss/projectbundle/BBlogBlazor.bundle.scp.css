@@ -608,6 +608,61 @@ table th[b-vspxdysga4] {
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
+/* /Pages/Authentication/AuthenComponent/UpdatePostForUser.razor.rz.scp.css */
+/*SET THE DEFAULT FONT*/
+#TestId[b-xoajqq3ej1] {
+    font-family: "MS Gothic";
+    font-size: 18px;
+    height: 375px;
+}
+
+/*DEFINE ALL OF THE CUSTOM FONTS*/
+.ql-font-MSGothic[b-xoajqq3ej1] {
+    font-family: 'MS Gothic';
+}
+
+.ql-font-Bahnschrift[b-xoajqq3ej1] {
+    font-family: 'Bahnschrift'
+}
+
+.ql-font-Impact[b-xoajqq3ej1] {
+    font-family: 'Impact';
+}
+
+.ql-font-Courier[b-xoajqq3ej1] {
+    font-family: 'Courier';
+}
+
+.ql-font-Comic[b-xoajqq3ej1] {
+    font-family: 'Comic Sans MS';
+}
+
+.layout-text-editor[b-xoajqq3ej1] {
+    height: 500px;
+}
+
+.input-layout[b-xoajqq3ej1] {
+    outline: none;
+    border: 2px dashed #1C6DD0;
+    margin: 3px;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.form[b-xoajqq3ej1] {
+    border: 2px solid #1C6DD0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.form-inside[b-xoajqq3ej1] {
+    margin: 30px 5px 0 5px !important;
+}
+
+.img-post[b-xoajqq3ej1] {
+    border-radius: 12px;
+}
 /* /Pages/Authentication/Login.razor.rz.scp.css */
 /*.divider:after,
 .divider:before {
@@ -694,6 +749,11 @@ table th[b-vspxdysga4] {
 }
 
 .post-user[b-zmhttkpw5r] {
+    /*border-bottom: 1px solid #E5E1DA;*/
+}
+
+.btn-post[b-zmhttkpw5r] {
+    padding-bottom: 10px;
     border-bottom: 1px solid #E5E1DA;
 }
 /* /Pages/Authentication/Register.razor.rz.scp.css */

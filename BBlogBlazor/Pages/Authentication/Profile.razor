@@ -4,9 +4,9 @@
 @using BBlogBlazor.Static
 @using Microsoft.AspNetCore.Components.Authorization;
 
-@if(PostForUser == null)
+@if (PostForUser == null)
 {
-   <LoadingBar></LoadingBar>
+    <LoadingBar></LoadingBar>
 }
 else
 {
@@ -58,6 +58,16 @@ else
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="btn-post">
+                                <a class="btn btn-primary px-3" href="update-post/@listNews.PostId">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    Chỉnh sửa bài viết
+                                </a>
+                                <button class="btn btn-danger" @onclick="(() => HandleDeletePost(listNews.PostId.ToString()))">
+                                    <i class="fas fa-times"></i>
+                                    Xóa bài viết
+                                </button>
                             </div>
                         }
                     </div>

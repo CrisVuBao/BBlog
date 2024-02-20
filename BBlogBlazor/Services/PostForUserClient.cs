@@ -24,5 +24,17 @@ namespace BBlogBlazor.Services
                 throw;
             }
         }
+
+        public async Task<bool> UpdatePostForUser(string id, PostDto post)
+        {
+            var result = await _httpClient.PutAsJsonAsync($"api/PostForUser/UpdatePostForUser/{id}", post);
+            return result.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> DeletePostForUser(string id)
+        {
+            var deletePost = await _httpClient.DeleteAsync($"api/PostForUser/DeletePostForUser/{id}");
+            return deletePost.IsSuccessStatusCode;
+        }
     }
 }

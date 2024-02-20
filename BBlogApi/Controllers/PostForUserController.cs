@@ -64,7 +64,7 @@ namespace BBlogApi.Controllers
 		}
 
 		[HttpPut("UpdatePostForUser/{postId}")]
-		public async Task<ActionResult<Post>> UpdatePostForUser(int postId, PostDto postDto)
+		public async Task<ActionResult<Post>> UpdatePostForUser(int postId, UpdatePostDto UpdatePostDto)
 		{
 			string? userId = User.FindFirstValue(ClaimTypes.Email);
 			if (userId == null) return Unauthorized();
@@ -76,13 +76,13 @@ namespace BBlogApi.Controllers
 
 			if (post.UserId != userId) return Forbid("Bạn không có quyền truy cập bài viết này"); // người dùng ko có quyền chỉnh sửa bài viết
 
-				post.Title = postDto.Title;
-				post.BriefContent = postDto.BriefContent;
-				post.Content = postDto.Content;
-				post.PicturePostUrl = postDto.PicturePostUrl;
-				post.TagSearch = postDto.TagSearch;
+				post.Title = UpdatePostDto.Title;
+				post.BriefContent = UpdatePostDto.BriefContent;
+				post.Content = UpdatePostDto.Content;
+				post.PicturePostUrl = UpdatePostDto.PicturePostUrl;
+				post.TagSearch = UpdatePostDto.TagSearch;
 				post.CreateDate = DateTime.Now;
-				post.CategoryId = postDto.CategoryId;
+				post.CategoryId = UpdatePostDto.CategoryId;
 				post.UserId = userId;
 			await _db.SaveChangesAsync();
 

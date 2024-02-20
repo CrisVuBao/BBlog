@@ -55,13 +55,12 @@ else
                                                         <tr>
                                                             <td>@acc.PostId</td>
                                                             <td>
-                                                                <img src="@($"{APIEndpoints.ServerBaseUrl}/{acc.PicturePostUrl}")" class="" style="width: 100px;" />
+                                                                <img src="@($"{APIEndpoints.ServerBaseUrl}/{acc.PicturePostUrl}")" style="width: 100px;" />
                                                             </td>
                                                             <td width="300">@acc.Title</td>
                                                             <td>@acc.CreateDate</td>
                                                             <td>@acc.UserId</td>
                                                             <td>@acc.Categories.CategoryName</td>
-
                                                             <td>
                                                                 <a class="btn btn-warning px-3" href="update-post-admin/@acc.PostId">
                                                                     <i class="fa-solid fa-pen-to-square"></i>
