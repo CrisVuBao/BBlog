@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NFzS7I2axNXo/l5zfEcEqITj/ro8vXIjeVllDiVG9uw=",
+  "Hash": "UL2910baLSdF0fkfgIJ3LXsN2VDKpRYYmqnA/LX6csw=",
   "Source": "BBlogBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -1800,7 +1800,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -1819,15 +1819,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.6.dd3l6oyf6x.js",
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.7.e0zy828fb6.js",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.6.dd3l6oyf6x.js",
+      "RelativePath": "_framework/dotnet.native.8.0.7.e0zy828fb6.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1838,7 +1838,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -1857,15 +1857,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.6.hh0f4fypg9.js",
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.7.7x65g0nqp3.js",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.6.hh0f4fypg9.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.7.7x65g0nqp3.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1876,7 +1876,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -1895,7 +1895,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HtmlAgilityPack.wasm",
@@ -1933,7 +1933,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -1952,7 +1952,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -1971,7 +1971,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -6059,25 +6059,6 @@
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.wasm"
     },
     {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\2bz0f58v7n.gz",
-      "SourceId": "BBlogBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
-    },
-    {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\2f6x914zjx.gz",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -6439,25 +6420,6 @@
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.CSharp.wasm"
     },
     {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\5d2zzj69xo.gz",
-      "SourceId": "BBlogBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
-    },
-    {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\5i9mm7ip0o.gz",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -6513,25 +6475,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Data.Common.wasm"
-    },
-    {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\682a05gict.gz",
-      "SourceId": "BBlogBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\6auz30ps2o.gz",
@@ -6646,6 +6589,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Sockets.wasm"
+    },
+    {
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\7x65g0nqp3.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.7.7x65g0nqp3.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.7.7x65g0nqp3.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.7.7x65g0nqp3.js"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\7xhxg1gma9.gz",
@@ -7275,25 +7237,6 @@
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Drawing.Primitives.wasm"
     },
     {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\dd3l6oyf6x.gz",
-      "SourceId": "BBlogBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.6.dd3l6oyf6x.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.6.dd3l6oyf6x.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.6.dd3l6oyf6x.js"
-    },
-    {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\dg7perkavv.gz",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -7330,6 +7273,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Expressions.wasm"
+    },
+    {
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\e0zy828fb6.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.7.e0zy828fb6.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.7.e0zy828fb6.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.7.e0zy828fb6.js"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\e4abx1pe2r.gz",
@@ -7387,6 +7349,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.Writer.wasm"
+    },
+    {
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\erpbrcc3gk.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\esvwvrp8by.gz",
@@ -7501,6 +7482,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.wasm"
+    },
+    {
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\f7cj88edbl.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\f7ml78pknj.gz",
@@ -7750,25 +7750,6 @@
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Dynamic.Runtime.wasm"
     },
     {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\h05zy3spv5.gz",
-      "SourceId": "BBlogBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
-    },
-    {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\h7skhlcolf.gz",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -7843,25 +7824,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.X509Certificates.wasm"
-    },
-    {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\hh0f4fypg9.gz",
-      "SourceId": "BBlogBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.6.hh0f4fypg9.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.6.hh0f4fypg9.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.6.hh0f4fypg9.js"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\hp43zwlc4j.gz",
@@ -8109,6 +8071,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Primitives.wasm"
+    },
+    {
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\k4356lfkc7.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\k83b55favy.gz",
@@ -8719,6 +8700,25 @@
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Thread.wasm"
     },
     {
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\pigybxdcbm.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
+    },
+    {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\pl6n0h56oy.gz",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -8831,25 +8831,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.Typeahead.wasm"
-    },
-    {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\q9jisjxugm.gz",
-      "SourceId": "BBlogBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\qaf97zw8n8.gz",
@@ -9080,25 +9061,6 @@
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.JavaScript.wasm"
     },
     {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\rkksjywh70.gz",
-      "SourceId": "BBlogBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
-    },
-    {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\ro5fx11vvx.gz",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -9135,25 +9097,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.wasm"
-    },
-    {
-      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\rw3iofyvu8.gz",
-      "SourceId": "BBlogBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\ry0c2daer6.gz",
@@ -9422,6 +9365,25 @@
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Concurrent.wasm"
     },
     {
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\ufz823r568.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
+    },
+    {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\ug78hwdmss.gz",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -9669,6 +9631,25 @@
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.wasm"
     },
     {
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\w1x0mpvbhb.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
+    },
+    {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\w2wim2f1kd.gz",
       "SourceId": "BBlogBlazor",
       "SourceType": "Computed",
@@ -9819,6 +9800,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.wasm"
+    },
+    {
+      "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\wwwivnzz3a.gz",
+      "SourceId": "BBlogBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogBlazor\\obj\\Debug\\net8.0\\compressed\\x21i5sj3nd.gz",
