@@ -61,3 +61,16 @@ F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\refint\BBlog.Models.dll
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\BBlog.Models.pdb
 F:\Hoc Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\ref\BBlog.Models.dll
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\bin\Debug\net8.0\BBlog.Models.deps.json
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\bin\Debug\net8.0\BBlog.Models.dll
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\bin\Debug\net8.0\BBlog.Models.pdb
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\BBlog.Models.csproj.AssemblyReference.cache
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\BBlog.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\BBlog.Models.AssemblyInfoInputs.cache
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\BBlog.Models.AssemblyInfo.cs
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\BBlog.Models.csproj.CoreCompileInputs.cache
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\BBlog.Models.sourcelink.json
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\BBlog.Models.dll
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\refint\BBlog.Models.dll
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\BBlog.Models.pdb
+D:\Hoc_Tap\C_Shape\API\1_Project\Blog Website\BBlog\BBlog.Models\obj\Debug\net8.0\ref\BBlog.Models.dll

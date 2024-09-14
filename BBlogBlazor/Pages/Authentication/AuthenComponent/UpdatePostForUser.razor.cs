@@ -130,7 +130,8 @@ namespace BBlogBlazor.Pages.Authentication.AuthenComponent
 
         private void CancelUpdate()
         {
-            JSRuntime.InvokeVoidAsync("history.back");
+            //JSRuntime.InvokeVoidAsync("history.back");
+            navigationManager.NavigateTo("/profile");
         }
     }
 }

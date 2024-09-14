@@ -16,6 +16,7 @@ namespace BBlogApi.Data
         #region Dbset
         public DbSet<Categories> CategorieZ { get; set; }
         public DbSet<Post> PostZ { get; set; }
+        public DbSet<Comment> Commentz { get; set; }
         #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

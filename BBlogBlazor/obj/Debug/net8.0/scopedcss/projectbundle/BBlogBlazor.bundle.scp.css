@@ -828,6 +828,10 @@ body[b-k5hfqs12ar] {
 .content-quilljs[b-4lihjkeazc] {
     border-radius: 10px;
 }
+
+.top-new-layout[b-4lihjkeazc] {
+    border-bottom: 1px solid #C7C8C9;
+}
 /* /Pages/Blog/BlogGame.razor.rz.scp.css */
 .blog-main[b-1pqexut77p] {
     /*border: 1px solid #ff0000;*/

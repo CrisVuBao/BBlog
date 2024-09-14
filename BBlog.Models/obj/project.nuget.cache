@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/CtrVx4R3PhGD15ufQkzY/WJWBFKll/Ma9NayZJgRSW/rjdp49kyCpNjOGrM2ebsUUPGRzclmlYnTuS5Fbq/ew==",
+  "dgSpecHash": "kgQt0+NZVbUgANgTiqkCZEc77hbPW8n2gqaKFQU9lCADdJHv1zuYTAGRJBfQ/Yrx3DDAPi2f8pOHThjup9fDPQ==",
   "success": true,
-  "projectFilePath": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj",
+  "projectFilePath": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mobil\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
-    "C:\\Users\\mobil\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
-    "C:\\Users\\mobil\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
-    "C:\\Users\\mobil\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+    "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Cris_Bao\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\Cris_Bao\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\Cris_Bao\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }

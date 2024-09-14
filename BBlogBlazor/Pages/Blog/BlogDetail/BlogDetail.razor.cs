@@ -17,11 +17,13 @@ namespace BBlogBlazor.Pages.Blog.BlogDetail
         public string PostId { get; set; }
 
         private PostDto PostDetail { get; set; }
+        private List<PostDto> GetTopPost { get; set; }
 
         protected override async Task OnParametersSetAsync()
         {
             _loadingContent = true;
             PostDetail = await PostClient.GetPostDetail(PostId);
+            GetTopPost = await PostClient.GetTopPost();
 
             StateHasChanged();
 

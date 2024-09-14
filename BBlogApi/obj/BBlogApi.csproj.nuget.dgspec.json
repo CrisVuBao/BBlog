@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\BBlogApi.csproj": {}
+    "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\BBlogApi.csproj": {}
   },
   "projects": {
-    "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj": {
+    "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj",
+        "projectUniqueName": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj",
         "projectName": "BBlog.Models",
-        "projectPath": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj",
-        "packagesPath": "C:\\Users\\mobil\\.nuget\\packages\\",
-        "outputPath": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\obj\\",
+        "projectPath": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj",
+        "packagesPath": "C:\\Users\\Cris_Bao\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mobil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cris_Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +40,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,24 +72,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\BBlogApi.csproj": {
+    "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\BBlogApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\BBlogApi.csproj",
+        "projectUniqueName": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\BBlogApi.csproj",
         "projectName": "BBlogApi",
-        "projectPath": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\BBlogApi.csproj",
-        "packagesPath": "C:\\Users\\mobil\\.nuget\\packages\\",
-        "outputPath": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\obj\\",
+        "projectPath": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\BBlogApi.csproj",
+        "packagesPath": "C:\\Users\\Cris_Bao\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlogApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mobil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cris_Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,8 +106,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj": {
-                "projectPath": "F:\\Hoc Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj"
+              "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj": {
+                "projectPath": "D:\\Hoc_Tap\\C_Shape\\API\\1_Project\\Blog Website\\BBlog\\BBlog.Models\\BBlog.Models.csproj"
               }
             }
           }
@@ -109,6 +116,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -171,7 +183,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
